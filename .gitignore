@@ -1,0 +1,25 @@
+# Entorno Virtual y Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secretos y Configuración Local
+.env
+.DS_Store
+Thumbs.db
+
+# Carpetas de Trabajo Internas del Agente y del IDE
+.vscode/
+.agents/
+artifacts/
+
+# Cuadernos y Fuentes de Referencia del Curso Antiguo
+FULL_COURSE_CSIC/
+FULL_COURSE_USE/
+
+# Scripts Temporales de Construcción
+NOTEBOOKS/WIP/DAY1/build_*.py
+NOTEBOOKS/WIP/DAY1/update_*.py
+NOTEBOOKS/WIP/DAY1/mylib.py
