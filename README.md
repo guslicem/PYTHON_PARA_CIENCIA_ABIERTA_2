@@ -11,10 +11,10 @@ Bienvenid@ al repositorio oficial del curso **Python para Ciencia Abierta**, dis
 ## 👨‍🏫 Información del Curso e Impartición
 
 - **Denominación del Curso:** Iniciación a Python para Ciencia Abierta (Edición CSIC)
-- **Fechas Oficiales:** 5 a 8 de Octubre de 2026
+- **Fechas Oficiales:** 5 a 8 de Octubre de 2026, Aula SGAI, C/Pinar 19, Madrid.
 - **Profesor y Autor:** Gustavo Liñán Cembrano  
 - **Afiliación:** Instituto de Microelectrónica de Sevilla (IMSE-CNM / CSIC-Universidad de Sevilla)
-- **Correo de Contacto:** `glinan@us.es` | `linan@imse-cnm.csic.es`
+- **Correo de Contacto:** `gustavo.linan@csic.es` | `guslicem@us.es`
 
 ---
 

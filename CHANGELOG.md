@@ -92,3 +92,17 @@
 - **Limpieza Pedagógica de Cuadernos (`00`, `01`, `02`, `03`):**
   - Eliminación total de declaraciones `assert` de las celdas de código de los estudiantes, reemplazándolas por salidas limpias formateadas con `print(f"...")` seguras y sin saltos de línea erróneos.
   - Verificación estricta de sintaxis en el 100% de las celdas de código.
+
+## [Módulo 06: Creación del Cuaderno de Introducción a Pandas para Ciencia Abierta] - 2026-08-17
+
+### Añadido
+- **Creación y adaptación de [06_Intro_Pandas.ipynb](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/NOTEBOOKS/06_Intro_Pandas.ipynb):**
+  - Construcción del cuaderno del Módulo 06 a partir de `5_Intro_Pandas.ipynb` del curso CSIC, manteniendo el tono pedagógico de Gustavo Liñán Cembrano.
+  - Implementación de la cabecera uniforme obligatoria (Celda 0) con imagen `![Logo Curso](../assets/LogoCurso_gemini.png)`, metadatos y objetivos de aprendizaje de Ciencia Abierta.
+  - Explicación y ejercitación de importación (`import pandas as pd`), `Series`, `DataFrames`, indización explícita (`.loc`) y posicional (`.iloc`).
+  - Carga e inspección de datasets reales con `vivienda.csv` (`read_csv`, `shape`, `head`, `tail`, `info`, `dtypes`).
+  - Limpieza de datos: tratamiento de nulos (`dropna`, imputación con `fillna` mediante media/mediana/moda, `isnull().sum()`), conversión de fechas (`pd.to_datetime`, `.dt.year`), eliminación de duplicados (`duplicated`, `drop_duplicates`) y comparación de DataFrames (`equals`, `compare`).
+  - Análisis de correlación (`.corr()`) entre variables numéricas.
+  - Exportación a formatos abiertos y de publicación: LaTeX (`to_latex`), CSV (`to_csv`), Excel (`to_excel`), HTML (`to_html`) y JSON (`to_json`).
+  - Incorporación de dependencias `openpyxl` y `jinja2` en `requirements.txt` e instalación en `./venv`.
+  - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de ejecución.
