@@ -119,3 +119,16 @@
   - Exportación del dataset curado final a `DATASETS/digital_csic_curated_100.csv`.
   - Instalación de la dependencia `lxml` en `./venv` y adición a `requirements.txt`.
   - Validación programática completa con `nbclient` en `./venv` obteniendo 0 errores y guardado 100% limpio de salidas.
+
+## [Módulo 08: Visualización de Datos Científicos con Matplotlib y Pandas] - 2026-08-18
+
+### Añadido
+- **Creación y adaptación didáctica de [08_Intro_Matplotlib.ipynb](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/NOTEBOOKS/08_Intro_Matplotlib.ipynb):**
+  - Implementación de la cabecera uniforme obligatoria (Celda 0) con imagen `![Logo Curso](../assets/LogoCurso_gemini.png)`, metadatos y objetivos de aprendizaje de visualización científica.
+  - Explicación de la arquitectura de Matplotlib: comparación didáctica entre la interfaz funcional (`pyplot`) y la interfaz orientada a objetos (`fig, ax = plt.subplots()`), destacando esta última como estándar para publicaciones de investigación.
+  - Ejercitación de la tipología principal de gráficos: líneas (`plot`), barras verticales y horizontales (`bar`/`barh`), dispersión (`scatter` con escalas de color `cmap` y tamaño de punto) e histogramas/diagramas de caja (`hist`/`boxplot`).
+  - Integración nativa con DataFrames de Pandas (`df.plot()`) conectando directamente con el dataset curado de `Digital.CSIC`.
+  - Composición avanzada de subplots y paneles multi-figura mediante matrices `plt.subplots(2, 2)` y trazados asimétricos con `subplot2grid()`.
+  - Exportación de gráficos con calidad de publicación científica: formatos de alta resolución (`PNG` a 300 DPI) y formatos vectoriales (`PDF`), aplicando ajuste de márgenes con `bbox_inches='tight'`.
+  - Inclusión de ejercicios prácticos con autoevaluación y recursos de apoyo con Modelos de Lenguaje (IA).
+  - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.

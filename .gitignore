@@ -19,7 +19,3 @@ artifacts/
 FULL_COURSE_CSIC/
 FULL_COURSE_USE/
 
-# Scripts Temporales de Construcción
-NOTEBOOKS/WIP/DAY1/build_*.py
-NOTEBOOKS/WIP/DAY1/update_*.py
-NOTEBOOKS/WIP/DAY1/mylib.py
