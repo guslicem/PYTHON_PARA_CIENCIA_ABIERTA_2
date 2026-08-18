@@ -106,3 +106,16 @@
   - Exportación a formatos abiertos y de publicación: LaTeX (`to_latex`), CSV (`to_csv`), Excel (`to_excel`), HTML (`to_html`) y JSON (`to_json`).
   - Incorporación de dependencias `openpyxl` y `jinja2` en `requirements.txt` e instalación en `./venv`.
   - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de ejecución.
+
+## [Módulo 07: Creación del Cuaderno de EDA y Curación de Metadatos de Digital.CSIC] - 2026-08-17
+
+### Añadido
+- **Creación y adaptación de [07_EDA_con_Pandas.ipynb](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/NOTEBOOKS/07_EDA_con_Pandas.ipynb):**
+  - Ingesta de 100 Handles aleatorios desde `DATASETS/FROM_DIGITALCSIC/input_handles.csv` mediante la librería `digital_csic` (`dcsic.fetch_records_batch`) aplicando 1s de cortesía de red entre peticiones OAI-PMH.
+  - Inyección pedagógica de errores en celdas consecutivas: fechas multiplicadas por 10 (ej. `20210`), duplicación aleatoria de 5 registros, Handles malformados con sufijos alfabéticos y resúmenes nulos.
+  - Flujo discursivo de EDA e inspección inicial (`shape`, `head`, `tail`, `info`, `describe`).
+  - Pipeline de curación celda a celda: eliminación de duplicados por Handle (`drop_duplicates`), **validación de Handles mediante consulta directa de existencia al API/OAI-PMH de Digital.CSIC** (explicando pedagógicamente por qué la verificación real es superior a regex en producción), corrección de fechas fuera de rango (`year // 10`) e imputación de textos faltantes.
+  - Análisis de producción científica por año y revistas más frecuentes.
+  - Exportación del dataset curado final a `DATASETS/digital_csic_curated_100.csv`.
+  - Instalación de la dependencia `lxml` en `./venv` y adición a `requirements.txt`.
+  - Validación programática completa con `nbclient` en `./venv` obteniendo 0 errores y guardado 100% limpio de salidas.
