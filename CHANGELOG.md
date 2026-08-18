@@ -144,4 +144,5 @@
   - Configuración paso a paso de la API de Kaggle mediante tokens de autenticación (`kaggle.json`), permisos del sistema (`chmod 600`) y descarga programática de conjuntos de datos.
   - Ingesta y Análisis Exploratorio de Datos (EDA) sobre el dataset clínico de cáncer de tiroides (`Thyroid_Diff.csv`), incluyendo traducción de columnas, normalización de metadatos al español, simulación de inclusión de datos y exportación a `DATASETS/Thyroid_Diff_ES.csv`.
   - Visualización avanzada de patrones clínicos con Seaborn y Matplotlib: boxplots de edad por estadio tumoral, histogramas con KDE y diagramas de violín por categoría de riesgo.
+  - Anexo interactivo de 15 minutos con formularios nativos `#@param` y controles dinámicos de `ipywidgets` (`@interact` y `@interact_manual`) anexados al final del cuaderno.
   - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de ejecución.

@@ -4,7 +4,7 @@
 ![Python Version](https://img.shields.io/badge/Python-3.10%2B-green.svg)
 ![IDE](https://img.shields.io/badge/IDE-Antigravity--IDE-orange.svg)
 
-Bienvenid@ al repositorio oficial del curso **Python para Ciencia Abierta**, diseñado e impartido específicamente para el personal investigador, técnico y personal de apoyo a la investigación del **Consejo Superior de Investigaciones Científicas (CSIC)**.
+Bienvenid@ al repositorio oficial del curso **Python para Ciencia Abierta**, diseñado e impartido específicamente para el personal investigador, técnico y de apoyo a la investigación del **Consejo Superior de Investigaciones Científicas (CSIC)**.
 
 ---
 
@@ -20,24 +20,45 @@ Bienvenid@ al repositorio oficial del curso **Python para Ciencia Abierta**, dis
 
 ## 🎯 Descripción y Objetivos
 
-Este curso proporciona una formación sólida e interactiva desde cero en el lenguaje de programación **Python**, orientada específicamente al tratamiento de datos científicos, reproducibilidad y prácticas de **Ciencia Abierta**.
+Este curso proporciona una formación sólida e interactiva desde cero en el lenguaje de programación **Python**, orientada al tratamiento de datos científicos, la reproducibilidad y las prácticas de **Ciencia Abierta**.
 
-A lo largo del temario se cubren los siguientes bloques:
-1. **Entorno de Trabajo Científico:** Configuración de entornos virtuales (`venv`), Jupyter Notebooks y asistencia inteligente por IA.
-2. **Tipos Primitivos y Colecciones:** Cadenas de texto, listas, tuplas, conjuntos (`set`) y diccionarios (`dict`).
-3. **Scripts, Modularización y Funciones:** Funciones, bibliotecas personalizadas e ingesta de argumentos.
+A lo largo del temario se cubren los siguientes bloques docentes:
+
+1. **Entorno de Trabajo Científico:** Configuración de entornos virtuales (`venv`), Jupyter Notebooks y asistencia inteligente con **Antigravity-IDE**.
+2. **Tipos Primitivos y Colecciones:** Cadenas de texto, números, listas, tuplas, conjuntos (`set`) y diccionarios (`dict`).
+3. **Scripts, Modularización y Funciones:** Funciones (`def`), expresiones `lambda`, documentación con docstrings y módulos reutilizables (`lib/`).
 4. **Control de Flujo y Manejo de Excepciones:** Condicionales, bucles (`for`, `while`, `enumerate`, `zip`) y gestión defensiva de errores (`try-except`).
-5. **Introducción a la POO:** Clases, objetos, composición y funciones hash para el modelado de repositorios científicos.
-6. **Ciencia de Datos y Análisis Exploratorio:** Manipulación de conjuntos de datos masivos con **Pandas**, matrices con **NumPy** y visualización de datos con **Matplotlib / Seaborn**.
+5. **Introducción a la POO:** Clases, objetos, herencia, métodos dunder y modelado de entidades científicas (`Persona`, `Registro`).
+6. **Ciencia de Datos y Análisis Exploratorio (EDA):** Manipulación de metadatos y datasets masivos con **Pandas** y **NumPy**.
+7. **Curación de Datos Científicos y OAI-PMH:** Descarga programática de repositorios abiertos (**Digital.CSIC**), verificación de Handles e imputación de nulos.
+8. **Visualización de Datos Científicos:** Gráficos estáticos y vectoriales de calidad de publicación con **Matplotlib** y **Seaborn**.
+9. **Computación en la Nube e Interactividad:** Uso de **Google Colab**, aceleración por GPU/TPU, integración con la API de **Kaggle** y formularios/widgets interactivos (`ipywidgets` / `#@param`).
+
+---
+
+## 📚 Estructura de Cuadernos (`NOTEBOOKS/`)
+
+Todos los cuadernos han sido validados programáticamente y se encuentran guardados 100% limpios de salidas para la realización de los ejercicios:
+
+- **`00_Setup_y_Ejemplo_Inicial_Titanic.ipynb`**: Demostración inicial de análisis de datos con el dataset Titanic.
+- **`01_Intro_Tipos_Datos.ipynb`**: Variables, tipos primitivos, mutabilidad y conversión de tipos.
+- **`02_Estructuras_de_Datos.ipynb`**: Colecciones avanzadas (listas, tuplas, diccionarios y conjuntos).
+- **`03_Scripts_y_Funciones.ipynb`**: Creación de scripts `.py`, paso de parámetros, retorno de tuplas y modularidad.
+- **`04_Control_de_Flujo.ipynb`**: Estructuras de control, iteradores y captura de excepciones.
+- **`05_Intro_a_POO.ipynb`**: Programación Orientada a Objetos aplicada a investigación.
+- **`06_Intro_Pandas.ipynb`**: Ingesta de datos, filtrado, estadísticas y exportación a formatos abiertos (LaTeX, CSV, Excel, HTML, JSON).
+- **`07_EDA_con_Pandas.ipynb`**: Exploración y curación de metadatos reales descargados de **Digital.CSIC** vía OAI-PMH.
+- **`08_Intro_Matplotlib.ipynb`**: Arquitectura orientada a objetos (`fig, ax`), composición de subplots y exportación a alta resolución (PNG 300 DPI / PDF).
+- **`09_INTRO_GOOGLE_COLAB.ipynb`**: Computación en la nube con Colab, API de Kaggle, GPUs/TPUs, EDA biomédico y anexo de **Widgets interactivos** (`ipywidgets` / `#@param`).
 
 ---
 
 ## 🚀 Entorno Recomendado: Antigravity-IDE
 
-Este curso ha sido optimizado y configurado para ser ejecutado con **Antigravity-IDE**, el entorno de desarrollo nativo asistido por Inteligencia Artificial de Google.
+Este curso ha sido optimizado y configurado para ser ejecutado con **Antigravity-IDE**, el entorno de desarrollo nativo asistido por IA.
 
 ### 📥 Enlace de Descarga Oficial
-Puedes descargar gratis la versión oficial de **Antigravity-IDE** desde el siguiente enlace oficial:  
+Puedes descargar gratis la versión oficial de **Antigravity-IDE** desde:  
 👉 **[Descargar Antigravity-IDE](https://antigravity.google)**
 
 ---
@@ -46,8 +67,8 @@ Puedes descargar gratis la versión oficial de **Antigravity-IDE** desde el sigu
 
 ### 1. Clonar el Repositorio
 ```bash
-git clone https://github.com/tu-usuario/PythonParaCienciaAbierta_2.git
-cd PythonParaCienciaAbierta_2
+git clone https://github.com/guslicem/PYTHON_PARA_CIENCIA_ABIERTA_2.git
+cd PYTHON_PARA_CIENCIA_ABIERTA_2
 ```
 
 ### 2. Crear y Activar el Entorno Virtual de Python
@@ -69,20 +90,20 @@ pip install -r requirements.txt
 ```
 
 ### 4. Extensiones Recomendadas en Antigravity-IDE / VS Code
-Para disfrutar de la mejor experiencia docente y autocompletado inteligente, instala las siguientes extensiones en tu IDE:
-
-- **Python (`ms-python.python`):** Soporte nativo para Python y gestión de `venv`.
-- **Pylance (`ms-python.vscode-pylance`):** Autocompletado rápido e inspección estática de tipos.
-- **Jupyter (`ms-toolsai.jupyter`):** Edición y ejecución interactiva de cuadernos `.ipynb`.
-- **Rainbow CSV (`mechatroner.rainbow-csv`):** Coloreado sintáctico de datasets `.csv`.
+- **Python (`ms-python.python`):** Soporte oficial para lenguaje Python y `venv`.
+- **Pylance (`ms-python.vscode-pylance`):** Autocompletado e inspección estática de tipos.
+- **Jupyter (`ms-toolsai.jupyter`):** Visualización y ejecución interactiva de cuadernos `.ipynb`.
+- **Rainbow CSV (`mechatroner.rainbow-csv`):** Coloreado sintáctico de archivos `.csv`.
 
 ---
 
-## 📁 Estructura del Repositorio
+## 📁 Estructura del Proyecto
 
-- **`NOTEBOOKS/`**: Contiene las lecciones del curso organizadas en cuadernos interactivos de Jupyter (`.ipynb`) listos y limpios para la realización de ejercicios.
-- **`DATASETS/`**: Archivos de datos reales (`.csv`, `.xlsx`, `.json`) utilizados en las prácticas de investigación y análisis exploratorio (EDA).
-- **`requirements.txt`**: Lista completa de librerías y dependencias en Python necesarias para el seguimiento del curso.
+- **`NOTEBOOKS/`**: Cuadernos del curso en formato Jupyter Notebook (`.ipynb`).
+- **`DATASETS/`**: Conjuntos de datos reales (`.csv`, `.xlsx`, `.pdf`) para ejercicios prácticos (`digital_csic_curated.csv`, `Thyroid_Diff_ES.csv`, `vivienda.csv`, etc.).
+- **`lib/`**: Librería personalizada del curso con utilidades de descarga OAI-PMH (`digital_csic.py`) y formato (`mylib.py`).
+- **`artifacts/`**: Documentación técnica del repositorio y changelog histórico (`artifacts/changelog.md`).
+- **`CHANGELOG.md`**: Registro cronológico de cambios y versiones del curso.
 
 ---
 
