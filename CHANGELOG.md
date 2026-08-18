@@ -132,3 +132,16 @@
   - Exportación de gráficos con calidad de publicación científica: formatos de alta resolución (`PNG` a 300 DPI) y formatos vectoriales (`PDF`), aplicando ajuste de márgenes con `bbox_inches='tight'`.
   - Inclusión de ejercicios prácticos con autoevaluación y recursos de apoyo con Modelos de Lenguaje (IA).
   - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.
+
+## [Módulo 09: Introducción a Google Colab y Computación en la Nube] - 2026-08-18
+
+### Añadido
+- **Creación y adaptación didáctica de [09_INTRO_GOOGLE_COLAB.ipynb](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/NOTEBOOKS/09_INTRO_GOOGLE_COLAB.ipynb) y [09_Intro_Google_Colab.ipynb](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/NOTEBOOKS/09_Intro_Google_Colab.ipynb):**
+  - Implementación de la cabecera uniforme obligatoria (Celda 0) con imagen `![Logo Curso](../assets/LogoCurso_gemini.png)`, metadatos y objetivos de aprendizaje de computación en la nube.
+  - Explicación detallada de la arquitectura de Google Colaboratory sobre máquinas virtuales Linux, aceleración gratuita con GPUs (NVIDIA T4/L4) y TPUs, trabajo colaborativo en tiempo real e integración con Gemini AI, Google Drive y GitHub.
+  - Análisis de pros y contras (sesiones efímeras, desconexión por inactividad y políticas de confidencialidad de datos).
+  - Tabla comparativa estructurada entre Google Colab (nube) y entornos locales de desarrollo (Antigravity-IDE / VS Code / Jupyter Local).
+  - Configuración paso a paso de la API de Kaggle mediante tokens de autenticación (`kaggle.json`), permisos del sistema (`chmod 600`) y descarga programática de conjuntos de datos.
+  - Ingesta y Análisis Exploratorio de Datos (EDA) sobre el dataset clínico de cáncer de tiroides (`Thyroid_Diff.csv`), incluyendo traducción de columnas, normalización de metadatos al español, simulación de inclusión de datos y exportación a `DATASETS/Thyroid_Diff_ES.csv`.
+  - Visualización avanzada de patrones clínicos con Seaborn y Matplotlib: boxplots de edad por estadio tumoral, histogramas con KDE y diagramas de violín por categoría de riesgo.
+  - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de ejecución.

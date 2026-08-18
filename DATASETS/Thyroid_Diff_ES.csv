@@ -1,0 +1,385 @@
+Edad,Género,Fumador,H. tabaquismo,H. radioterapia,Función tiroidea,Examen físico,Adenopatía,Patología,Focalidad,Riesgo,Tumor,Ganglio Linfático,Metastasis,Estadio,Respuesta,Recurrente
+27,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Indeterminada,n
+34,F,n,s,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+30,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+62,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+62,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Micro-papilar,Multi-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+52,M,s,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Micro-papilar,Multi-Focal,Bajo,T1a,N0,M0,I,Indeterminada,n
+41,F,n,s,n,Hipertiroidismo Clínico,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+46,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+51,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+40,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+75,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+59,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+49,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+50,F,n,n,n,Hipertiroidismo Clínico,Bocio multinodular,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+76,F,n,n,n,Hipotiroidismo Clínico,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+42,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Indeterminada,n
+40,F,n,s,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+44,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Indeterminada,n
+43,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+52,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Micro-papilar,Multi-Focal,Bajo,T1a,N0,M0,I,Indeterminada,n
+41,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+44,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+36,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+70,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+60,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Micro-papilar,Multi-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+33,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+43,M,n,n,n,Hipertiroidismo Subclínico,Bocio nodular único - izq.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+26,M,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+41,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+37,F,n,s,n,Hipotiroidismo Subclínico,Normal,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+37,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+30,F,n,n,n,Hipertiroidismo Clínico,Normal,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+36,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+55,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+52,M,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+37,F,n,n,n,Hipotiroidismo Subclínico,Bocio nodular único - izq.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+31,F,n,n,n,Hipertiroidismo Clínico,Bocio difuso,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+43,M,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Micro-papilar,Multi-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+40,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+34,F,n,n,n,Eutiroidismo,Bocio difuso,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+51,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+45,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+20,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+38,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+38,F,n,n,n,Hipertiroidismo Clínico,Bocio difuso,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+33,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1a,N0,M0,I,Excelente,n
+31,F,n,n,n,Hipotiroidismo Clínico,Bocio multinodular,Sin Adenopatía,Micro-papilar,Uni-Focal,Intermedio,T1a,N0,M0,I,Excelente,n
+31,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Multi-Focal,Intermedio,T1a,N1b,M0,I,Excelente,n
+26,F,n,n,n,Eutiroidismo,Normal,Extensa y Generalizada,Papilar,Uni-Focal,Intermedio,T1a,N1b,M0,I,Incompleta Estructural,s
+29,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Folicular,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+43,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Micro-papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+30,F,n,n,n,Hipertiroidismo Subclínico,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+25,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+27,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+25,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+21,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Indeterminada,n
+43,F,n,s,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+23,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+23,F,n,n,n,Hipertiroidismo Clínico,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+43,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Indeterminada,n
+24,M,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+35,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+54,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+54,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Indeterminada,n
+22,F,n,n,n,Hipertiroidismo Subclínico,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+38,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+35,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+51,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+22,M,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+51,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+40,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+69,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+31,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+29,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+30,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+28,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+22,F,n,n,n,Hipotiroidismo Clínico,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+29,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+35,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+50,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+27,F,n,n,n,Hipertiroidismo Clínico,Bocio difuso,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+17,F,n,s,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+27,F,n,n,n,Hipertiroidismo Subclínico,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+40,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Intermedio,T1b,N0,M0,I,Excelente,n
+33,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Intermedio,T1b,N1b,M0,I,Indeterminada,n
+25,F,n,s,s,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+73,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T1b,N0,M0,I,Excelente,n
+36,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T1b,N0,M0,I,Indeterminada,s
+35,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Multi-Focal,Intermedio,T1b,N1b,M0,I,Incompleta Estructural,s
+31,M,s,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Multi-Focal,Intermedio,T1b,N1b,M0,I,Incompleta Estructural,s
+18,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Intermedio,T1b,N1b,M0,I,Incompleta Estructural,s
+62,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Folicular,Multi-Focal,Intermedio,T1b,N0,M0,I,Incompleta Estructural,s
+62,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Células de Hurthle,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+39,F,n,n,n,Eutiroidismo,Bocio difuso,Sin Adenopatía,Células de Hurthle,Uni-Focal,Bajo,T2,N0,M0,I,Indeterminada,n
+37,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Células de Hurthle,Multi-Focal,Bajo,T2,N0,M0,I,Excelente,n
+26,F,n,s,n,Hipertiroidismo Subclínico,Bocio nodular único - der.,Sin Adenopatía,Células de Hurthle,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+31,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Células de Hurthle,Uni-Focal,Bajo,T2,N0,M0,I,Indeterminada,n
+24,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Folicular,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+57,F,s,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Folicular,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+28,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Folicular,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+44,M,s,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Folicular,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+42,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Folicular,Uni-Focal,Bajo,T2,N0,M0,I,Indeterminada,n
+27,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Folicular,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+51,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+33,F,n,n,n,Hipotiroidismo Clínico,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+42,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+26,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+24,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+60,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N0,M0,I,Excelente,n
+60,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Incompleta Bioquímica,n
+31,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+66,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+44,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+32,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+26,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N0,M0,I,Excelente,n
+37,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+33,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+23,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N0,M0,I,Indeterminada,n
+47,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+28,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+37,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+26,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+28,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+28,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+44,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+31,F,n,s,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+27,F,n,n,n,Hipotiroidismo Clínico,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+56,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Incompleta Bioquímica,n
+63,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+24,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Incompleta Bioquímica,n
+30,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+31,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+32,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+28,F,n,n,n,Hipertiroidismo Clínico,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N0,M0,I,Excelente,n
+51,F,n,s,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+20,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+21,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+32,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+26,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+42,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Incompleta Bioquímica,n
+28,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+41,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+42,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+49,F,n,s,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+29,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+29,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+25,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Indeterminada,n
+41,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Indeterminada,n
+33,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+27,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+50,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+19,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+35,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+63,F,n,n,n,Eutiroidismo,Normal,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Incompleta Bioquímica,n
+24,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+36,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+31,M,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+24,M,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+33,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+24,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+28,F,n,n,n,Hipotiroidismo Clínico,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+22,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+27,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+28,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Indeterminada,n
+29,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N0,M0,I,Excelente,n
+40,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N0,M0,I,Excelente,n
+31,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+55,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+21,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+40,M,s,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+38,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+21,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+31,M,s,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+30,F,n,n,n,Eutiroidismo,Normal,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Indeterminada,n
+50,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Indeterminada,n
+34,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+45,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+52,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+38,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+67,M,s,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N0,M0,I,Excelente,n
+72,F,n,n,n,Hipotiroidismo Subclínico,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Indeterminada,n
+45,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N0,M0,I,Excelente,n
+45,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N0,M0,I,Incompleta Bioquímica,n
+26,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+67,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+56,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+30,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+34,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+50,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+42,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+35,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N0,M0,I,Excelente,n
+23,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N0,M0,I,Excelente,n
+44,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N0,M0,I,Excelente,n
+23,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+26,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+61,M,n,n,n,Hipotiroidismo Subclínico,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+22,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+31,F,n,n,n,Hipertiroidismo Clínico,Bocio difuso,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+68,F,n,n,n,Hipertiroidismo Clínico,Bocio difuso,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+57,M,n,n,n,Hipertiroidismo Clínico,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Excelente,n
+27,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T2,N1b,M0,I,Excelente,n
+25,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Multi-Focal,Bajo,T2,N1b,M0,I,Excelente,n
+20,M,n,n,n,Hipotiroidismo Subclínico,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Intermedio,T2,N1b,M0,I,Excelente,n
+33,M,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N1b,M0,I,Excelente,n
+36,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Bajo,T2,N1b,M0,I,Excelente,n
+36,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Bajo,T2,N1b,M0,I,Indeterminada,n
+40,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Izquierdo,Papilar,Uni-Focal,Intermedio,T2,N1b,M0,I,Indeterminada,n
+17,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Uni-Focal,Intermedio,T2,N1b,M0,I,Indeterminada,n
+24,F,n,n,n,Hipotiroidismo Clínico,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T2,N1b,M0,I,Excelente,n
+38,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Multi-Focal,Intermedio,T2,N1b,M0,I,Excelente,n
+28,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Uni-Focal,Intermedio,T2,N1b,M0,I,Excelente,n
+36,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Intermedio,T2,N1b,M0,I,Indeterminada,n
+50,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Intermedio,T2,N1b,M0,I,Indeterminada,n
+51,M,n,n,n,Hipertiroidismo Clínico,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Intermedio,T2,N1b,M0,I,Indeterminada,n
+55,F,n,n,n,Hipotiroidismo Subclínico,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T2,N1b,M0,II,Indeterminada,n
+31,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N1a,M0,I,Excelente,n
+33,F,n,n,n,Hipotiroidismo Clínico,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N1a,M0,I,Indeterminada,n
+28,F,s,n,n,Hipertiroidismo Clínico,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N1a,M0,I,Indeterminada,n
+48,M,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Uni-Focal,Intermedio,T2,N1a,M0,I,Indeterminada,n
+40,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N1a,M0,I,Excelente,n
+29,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N1a,M0,I,Indeterminada,n
+20,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Intermedio,T2,N1a,M0,I,Excelente,n
+35,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Indeterminada,n
+56,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Incompleta Estructural,s
+20,M,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Incompleta Estructural,s
+62,F,n,n,n,Hipotiroidismo Clínico,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Incompleta Bioquímica,s
+17,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Alto,T2,N0,M0,I,Incompleta Estructural,s
+21,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Bajo,T2,N1b,M0,I,Incompleta Estructural,s
+20,M,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Intermedio,T2,N1b,M0,I,Incompleta Estructural,s
+40,M,s,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T2,N1b,M0,I,Incompleta Estructural,s
+38,M,s,s,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Multi-Focal,Intermedio,T2,N1b,M0,I,Incompleta Estructural,s
+21,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Uni-Focal,Intermedio,T2,N1b,M0,I,Incompleta Estructural,s
+31,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Uni-Focal,Intermedio,T2,N1b,M0,I,Incompleta Estructural,s
+34,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Intermedio,T2,N1b,M0,I,Incompleta Estructural,s
+60,F,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T2,N1b,M0,I,Incompleta Estructural,s
+60,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Multi-Focal,Intermedio,T2,N1b,M0,II,Incompleta Estructural,s
+62,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Multi-Focal,Intermedio,T2,N1b,M0,II,Incompleta Estructural,s
+36,M,n,n,n,Hipertiroidismo Clínico,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Intermedio,T2,N1a,M0,I,Indeterminada,s
+29,F,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Folicular,Uni-Focal,Bajo,T2,N0,M0,I,Incompleta Estructural,s
+33,M,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Incompleta Estructural,s
+75,M,s,n,s,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Folicular,Multi-Focal,Alto,T2,N0,M1,IVB,Incompleta Estructural,s
+62,M,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Incompleta Estructural,s
+56,M,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2,N0,M0,I,Incompleta Bioquímica,s
+52,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Folicular,Uni-Focal,Bajo,T3a,N0,M0,I,Incompleta Bioquímica,n
+35,F,n,n,n,Hipertiroidismo Clínico,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+34,F,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Uni-Focal,Intermedio,T3a,N1b,M0,I,Indeterminada,n
+32,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Células de Hurthle,Multi-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+27,F,n,n,n,Hipotiroidismo Clínico,Bocio nodular único - der.,Sin Adenopatía,Células de Hurthle,Multi-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+52,F,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Bilateral,Células de Hurthle,Multi-Focal,Bajo,T3a,N0,M0,I,Incompleta Estructural,n
+46,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Células de Hurthle,Multi-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+30,F,n,n,n,Hipotiroidismo Subclínico,Normal,Lado Derecho,Folicular,Uni-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+32,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Folicular,Multi-Focal,Bajo,T3a,N0,M0,I,Indeterminada,n
+25,F,n,n,n,Hipertiroidismo Clínico,Bocio multinodular,Sin Adenopatía,Folicular,Multi-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+38,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Folicular,Multi-Focal,Bajo,T3a,N0,M0,I,Incompleta Bioquímica,n
+31,M,s,s,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Folicular,Uni-Focal,Bajo,T3a,N0,M0,I,Indeterminada,n
+37,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+21,M,s,s,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T3a,N0,M0,I,Incompleta Bioquímica,n
+34,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+30,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Incompleta Bioquímica,n
+48,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Indeterminada,n
+31,M,s,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+52,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Indeterminada,n
+38,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+41,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+41,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Incompleta Bioquímica,n
+70,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Indeterminada,n
+19,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+41,M,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+32,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+35,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Indeterminada,n
+39,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T3a,N0,M0,I,Indeterminada,n
+45,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T3a,N0,M0,I,Excelente,n
+46,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Indeterminada,n
+45,F,n,n,n,Hipotiroidismo Clínico,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Indeterminada,n
+28,M,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T3a,N0,M0,I,Indeterminada,n
+31,M,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T3a,N0,M0,I,Indeterminada,n
+81,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,II,Excelente,n
+41,M,s,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Células de Hurthle,Multi-Focal,Intermedio,T3a,N0,M0,I,Excelente,n
+56,M,s,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Células de Hurthle,Multi-Focal,Intermedio,T3a,N0,M0,I,Indeterminada,n
+47,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Folicular,Uni-Focal,Intermedio,T3a,N0,M0,I,Indeterminada,n
+37,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Folicular,Uni-Focal,Intermedio,T3a,N0,M0,I,Excelente,n
+32,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Intermedio,T3a,N0,M0,I,Incompleta Bioquímica,n
+53,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Intermedio,T3a,N0,M0,I,Indeterminada,n
+30,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Multi-Focal,Intermedio,T3a,N0,M0,I,Excelente,n
+34,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Intermedio,T3a,N0,M0,I,Excelente,n
+62,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Células de Hurthle,Multi-Focal,Intermedio,T3a,N0,M0,II,Indeterminada,n
+58,F,n,n,n,Hipertiroidismo Clínico,Bocio multinodular,Sin Adenopatía,Folicular,Multi-Focal,Intermedio,T3a,N0,M0,II,Indeterminada,n
+55,M,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Intermedio,T3a,N0,M0,II,Indeterminada,n
+21,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Derecho,Papilar,Multi-Focal,Bajo,T3a,N1b,M0,I,Excelente,n
+27,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Excelente,n
+46,F,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Indeterminada,n
+44,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Excelente,n
+29,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Uni-Focal,Bajo,T3a,N1a,M0,I,Excelente,n
+26,F,n,n,n,Hipotiroidismo Subclínico,Bocio multinodular,Lado Derecho,Papilar,Uni-Focal,Intermedio,T3a,N1a,M0,I,Indeterminada,n
+42,M,n,n,n,Hipotiroidismo Subclínico,Bocio nodular único - der.,Sin Adenopatía,Papilar,Multi-Focal,Intermedio,T3a,N1a,M0,I,Indeterminada,n
+56,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Multi-Focal,Intermedio,T3a,N1a,M0,II,Excelente,n
+51,F,n,s,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Células de Hurthle,Uni-Focal,Bajo,T3a,N0,M0,I,Indeterminada,n
+61,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Intermedio,T3a,N0,M0,II,Excelente,n
+42,M,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Multi-Focal,Bajo,T3a,N0,M0,I,Incompleta Estructural,s
+34,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T3a,N0,M0,I,Incompleta Estructural,s
+67,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Células de Hurthle,Uni-Focal,Intermedio,T3a,N0,M0,II,Indeterminada,s
+63,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Folicular,Uni-Focal,Intermedio,T3a,N0,M0,II,Indeterminada,s
+67,M,s,s,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Uni-Focal,Intermedio,T3a,N0,M0,II,Incompleta Bioquímica,s
+73,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Uni-Focal,Intermedio,T3a,N0,M0,II,Incompleta Estructural,s
+26,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Uni-Focal,Intermedio,T3a,N1b,M1,I,Incompleta Estructural,s
+30,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Uni-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+36,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Indeterminada,s
+31,F,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+40,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+49,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+38,M,s,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Uni-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+27,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Bilateral,Papilar,Uni-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+27,M,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+33,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Bioquímica,s
+32,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+29,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+37,M,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+48,F,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+30,F,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+33,M,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Uni-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+80,F,s,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,II,Incompleta Estructural,s
+62,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,II,Incompleta Estructural,s
+63,M,s,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,II,Incompleta Estructural,s
+60,M,n,n,n,Eutiroidismo,Bocio nodular único - der.,Bilateral,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,II,Incompleta Estructural,s
+79,M,s,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,II,Indeterminada,s
+65,F,n,s,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,II,Incompleta Bioquímica,s
+35,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Multi-Focal,Intermedio,T3a,N1a,M0,I,Incompleta Bioquímica,s
+58,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Intermedio,T3a,N1a,M0,II,Indeterminada,s
+34,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Alto,T3a,N1a,M0,I,Incompleta Bioquímica,s
+56,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Folicular,Multi-Focal,Bajo,T3a,N0,M0,I,Incompleta Estructural,s
+52,M,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Derecho,Folicular,Multi-Focal,Intermedio,T3a,N0,M0,I,Incompleta Bioquímica,s
+51,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Folicular,Uni-Focal,Intermedio,T3a,N0,M0,I,Incompleta Estructural,s
+31,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Folicular,Uni-Focal,Intermedio,T3a,N1a,M0,I,Incompleta Bioquímica,s
+44,M,s,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Multi-Focal,Alto,T3a,N1b,M1,II,Incompleta Estructural,s
+15,F,n,n,n,Eutiroidismo,Normal,Bilateral,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+29,M,n,n,n,Eutiroidismo,Bocio multinodular,Extensa y Generalizada,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+53,M,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+45,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Multi-Focal,Intermedio,T3a,N1b,M0,I,Incompleta Estructural,s
+38,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Posterior,Papilar,Multi-Focal,Alto,T3a,N1b,M1,II,Incompleta Estructural,s
+48,F,n,n,n,Hipertiroidismo Clínico,Bocio multinodular,Lado Izquierdo,Células de Hurthle,Multi-Focal,Intermedio,T3b,N1a,M0,I,Incompleta Estructural,n
+42,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Intermedio,T3b,N0,M0,I,Indeterminada,n
+23,F,n,s,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Intermedio,T3b,N1a,M0,I,Incompleta Estructural,s
+22,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Multi-Focal,Intermedio,T3b,N1a,M0,I,Incompleta Estructural,s
+44,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Multi-Focal,Intermedio,T3b,N1b,M0,I,Incompleta Estructural,s
+31,F,n,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Uni-Focal,Intermedio,T3b,N1b,M0,I,Excelente,s
+25,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Izquierdo,Papilar,Multi-Focal,Intermedio,T3b,N1b,M0,I,Incompleta Estructural,s
+32,M,n,s,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Intermedio,T3b,N1b,M0,I,Incompleta Estructural,s
+82,M,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Uni-Focal,Intermedio,T3b,N1b,M0,II,Incompleta Estructural,s
+58,F,n,n,n,Hipotiroidismo Subclínico,Bocio multinodular,Extensa y Generalizada,Papilar,Multi-Focal,Intermedio,T3b,N1b,M0,II,Incompleta Estructural,s
+68,M,s,s,n,Hipotiroidismo Subclínico,Bocio nodular único - izq.,Bilateral,Papilar,Multi-Focal,Intermedio,T3b,N1b,M0,III,Incompleta Estructural,s
+37,F,n,n,n,Hipotiroidismo Subclínico,Bocio nodular único - izq.,Sin Adenopatía,Papilar,Multi-Focal,Intermedio,T3b,N1a,M1,II,Incompleta Estructural,s
+59,M,s,s,n,Hipotiroidismo Clínico,Bocio multinodular,Sin Adenopatía,Células de Hurthle,Multi-Focal,Intermedio,T3b,N0,M0,I,Incompleta Estructural,s
+21,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Multi-Focal,Intermedio,T3b,N0,M0,I,Incompleta Estructural,s
+73,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Multi-Focal,Alto,T3b,N1a,M1,IVB,Incompleta Estructural,s
+35,M,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Multi-Focal,Alto,T3b,N1b,M1,II,Incompleta Estructural,s
+32,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Multi-Focal,Intermedio,T4a,N0,M0,I,Excelente,n
+54,M,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Derecho,Células de Hurthle,Multi-Focal,Intermedio,T4a,N1b,M0,II,Incompleta Estructural,s
+26,F,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Bilateral,Células de Hurthle,Multi-Focal,Alto,T4a,N1b,M0,I,Incompleta Estructural,s
+53,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Uni-Focal,Alto,T4a,N1b,M0,I,Incompleta Estructural,s
+35,F,n,n,n,Eutiroidismo,Bocio multinodular,Extensa y Generalizada,Papilar,Multi-Focal,Alto,T4a,N1b,M0,I,Incompleta Estructural,s
+49,M,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Alto,T4a,N1b,M0,I,Incompleta Estructural,s
+34,F,n,n,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Uni-Focal,Alto,T4a,N1b,M0,I,Incompleta Estructural,s
+80,F,s,s,n,Eutiroidismo,Bocio multinodular,Lado Derecho,Papilar,Uni-Focal,Alto,T4a,N1b,M0,III,Incompleta Estructural,s
+67,F,n,n,n,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Multi-Focal,Alto,T4a,N1b,M0,III,Incompleta Estructural,s
+68,F,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Alto,T4a,N1b,M1,IVB,Incompleta Estructural,s
+71,F,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Folicular,Multi-Focal,Alto,T4a,N0,M1,IVB,Incompleta Estructural,s
+64,F,n,s,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Folicular,Multi-Focal,Alto,T4a,N0,M1,IVB,Incompleta Estructural,s
+80,M,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Sin Adenopatía,Células de Hurthle,Multi-Focal,Intermedio,T4a,N0,M0,II,Incompleta Estructural,s
+56,F,n,n,n,Eutiroidismo,Bocio multinodular,Posterior,Papilar,Multi-Focal,Alto,T4a,N1b,M0,II,Incompleta Estructural,s
+71,M,s,s,n,Hipotiroidismo Subclínico,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Alto,T4a,N1b,M0,III,Incompleta Estructural,s
+78,M,s,s,s,Hipertiroidismo Clínico,Bocio multinodular,Sin Adenopatía,Folicular,Multi-Focal,Alto,T4a,N0,M1,IVB,Incompleta Estructural,s
+51,F,n,n,n,Eutiroidismo,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Alto,T4a,N1a,M1,II,Incompleta Estructural,s
+67,F,s,n,n,Hipotiroidismo Subclínico,Bocio multinodular,Sin Adenopatía,Papilar,Multi-Focal,Alto,T4a,N0,M0,IVA,Incompleta Bioquímica,s
+31,M,s,n,s,Eutiroidismo,Bocio nodular único - izq.,Extensa y Generalizada,Papilar,Multi-Focal,Alto,T4a,N1b,M1,II,Incompleta Estructural,s
+62,M,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Lado Izquierdo,Papilar,Multi-Focal,Alto,T4a,N1b,M1,IVB,Incompleta Estructural,s
+59,F,n,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Alto,T4b,N1b,M0,IVB,Incompleta Estructural,s
+40,M,s,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Alto,T4b,N1b,M0,I,Incompleta Estructural,s
+46,M,s,n,n,Eutiroidismo,Bocio nodular único - izq.,Bilateral,Folicular,Uni-Focal,Alto,T4b,N1b,M1,II,Incompleta Estructural,s
+72,M,s,s,s,Eutiroidismo,Bocio nodular único - der.,Lado Derecho,Papilar,Uni-Focal,Alto,T4b,N1b,M1,IVB,Incompleta Bioquímica,s
+81,M,s,n,s,Eutiroidismo,Bocio multinodular,Extensa y Generalizada,Papilar,Multi-Focal,Alto,T4b,N1b,M1,IVB,Incompleta Estructural,s
+72,M,s,s,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Alto,T4b,N1b,M1,IVB,Incompleta Estructural,s
+61,M,s,s,s,Hipertiroidismo Clínico,Bocio multinodular,Extensa y Generalizada,Células de Hurthle,Multi-Focal,Alto,T4b,N1b,M0,IVA,Incompleta Estructural,s
+67,M,s,n,n,Eutiroidismo,Bocio multinodular,Bilateral,Papilar,Multi-Focal,Alto,T4b,N1b,M0,IVA,Incompleta Estructural,s
+47,M,n,n,n,Eutiroidismo,Bocio nodular único - der.,Sin Adenopatía,Papilar,Uni-Focal,Bajo,T2a,N0,M0,II,Excelente,n
