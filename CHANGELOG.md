@@ -174,3 +174,16 @@
   - Ejercicios prácticos con incorporación de nuevos centros del CSIC y validación de atributos mediante `@property` y setters.
   - Auditoría integral de importaciones en todos los cuadernos (`00` al `11`) y actualización de [requirements.txt](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/requirements.txt) estructurado por categorías (`requests`, `beautifulsoup4`, `scikit-learn`, `ipywidgets`, `pytest`, `copier`, `hatch`).
   - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.
+
+## [Módulo 12: Control de Versiones en la Nube, Colaboración en GitHub y CI/CD con GitHub Actions] - 2026-08-19
+
+### Añadido
+- **Creación y adaptación didáctica de [12_INTRO_GITHUB.ipynb](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/NOTEBOOKS/12_INTRO_GITHUB.ipynb):**
+  - Implementación de la cabecera uniforme obligatoria (Celda 0) con imagen `![Logo Curso](../assets/LogoCurso_gemini.png)`, metadatos oficiales del CSIC y objetivos pedagógicos (sin referencia a sesión).
+  - Explicación de la importancia de GitHub para la Ciencia Abierta, diferencias entre repositorios Públicos vs. Privados y protección de secretos (`.env`, credenciales) mediante `.gitignore`.
+  - Guía didáctica para seleccionar licencias de software abierto (MIT, Apache 2.0, GPL).
+  - Pasos guiados para crear repositorios remotos con el nombre del usuario (`<user_name>_PYTHON_CIENCIA_ABIERTA_2`) y vincular el paquete estandarizado local (`PYTHON_CIENCIA_ABIERTA_2`).
+  - Explicación del flujo de trabajo con ramas (*Feature Branch Workflow*), comandos de Git (`git checkout -b`, `git commit`, `git push`) y creación de Pull Requests (PR) en la interfaz web de GitHub.
+  - Introducción a la Integración Continua (CI/CD) analizando el flujo de automatización `.github/workflows/test.yml` proporcionado por pyOpenSci para ejecutar `pytest` automáticamente en la nube.
+  - Ejercicios prácticos con verificación interactiva en Python del estado de seguridad del archivo `.gitignore`.
+  - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.
