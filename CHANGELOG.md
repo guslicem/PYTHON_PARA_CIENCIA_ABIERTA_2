@@ -146,3 +146,17 @@
   - Visualización avanzada de patrones clínicos con Seaborn y Matplotlib: boxplots de edad por estadio tumoral, histogramas con KDE y diagramas de violín por categoría de riesgo.
   - Anexo interactivo de 15 minutos con formularios nativos `#@param` y controles dinámicos de `ipywidgets` (`@interact` y `@interact_manual`) anexados al final del cuaderno.
   - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de ejecución.
+
+## [Módulo 10: Acceso a Datos Repositoriales vía APIs y Protocolo OAI-PMH] - 2026-08-18
+
+### Añadido
+- **Creación y adaptación didáctica de [10_USANDO_API.ipynb](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/NOTEBOOKS/10_USANDO_API.ipynb) y [10_Usando_API.ipynb](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/NOTEBOOKS/10_Usando_API.ipynb):**
+  - Implementación de la cabecera uniforme obligatoria (Celda 0) con imagen `![Logo Curso](../assets/LogoCurso_gemini.png)`, metadatos y objetivos de aprendizaje de APIs repositoriales.
+  - Explicación comparativa estructurada entre arquitecturas de APIs RESTful modernas (JSON, endpoints por recurso, autenticación) y el protocolo internacional **OAI-PMH** (*Open Archives Initiative — Protocol for Metadata Harvesting*).
+  - Análisis detallado del estándar de metadatos **Dublin Core** (`oai_dc`) y sus 15 elementos fundamentales (`dc:title`, `dc:creator`, `dc:date`, `dc:identifier`, etc.).
+  - Peticiones HTTP reales al servidor de **Digital.CSIC** (`https://digital.csic.es/dspace-oai/request`) utilizando los verbos OAI-PMH `Identify` y `ListRecords`.
+  - Parseo de respuestas XML con **BeautifulSoup** (`xml` parser) para la extracción de metadatos institucionales y el número total de publicaciones custodiadas mediante `resumptionToken` / `completeListSize`.
+  - Búsqueda programática por palabras clave en títulos, extracción limpia de Handles (`10261/...`) y formateo de listas de autores con sus índices `[1], [2]`.
+  - Conexión con la librería del curso (`lib/digital_csic.py`) demostrando la integración de funciones reutilizables (`dcsic.fetch_digital_csic_record`).
+  - Inclusión de ejercicios prácticos con construcción de DataFrames de Pandas a partir del parseo de XML.
+  - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.

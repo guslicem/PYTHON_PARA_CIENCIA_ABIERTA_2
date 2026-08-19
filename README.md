@@ -50,6 +50,7 @@ Todos los cuadernos han sido validados programáticamente y se encuentran guarda
 - **`07_EDA_con_Pandas.ipynb`**: Exploración y curación de metadatos reales descargados de **Digital.CSIC** vía OAI-PMH.
 - **`08_Intro_Matplotlib.ipynb`**: Arquitectura orientada a objetos (`fig, ax`), composición de subplots y exportación a alta resolución (PNG 300 DPI / PDF).
 - **`09_INTRO_GOOGLE_COLAB.ipynb`**: Computación en la nube con Colab, API de Kaggle, GPUs/TPUs, EDA biomédico y anexo de **Widgets interactivos** (`ipywidgets` / `#@param`).
+- **`10_USANDO_API.ipynb`**: Acceso a datos repositoriales en **Digital.CSIC** mediante el protocolo **OAI-PMH**, parseo de respuestas XML con BeautifulSoup, extracción de esquema Dublin Core (`oai_dc`) e integración con `lib/digital_csic.py`.
 
 ---
 

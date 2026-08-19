@@ -448,6 +448,67 @@ def export_records_to_csv(df: pd.DataFrame, output_path: str, index: bool = Fals
     return abs_path
 
 
+def GeneraAPA(response: Union[requests.Response, str, BeautifulSoup]) -> str:
+    """
+    Pequeña función para generar una cita bibliográfica tipo formato APA a partir
+    de autores, título, revista/fuente, DOI e identificador Handle.
+
+    Uso:
+    >>> APA_TEXT = dcsic.GeneraAPA(response)
+
+    Argumentos:
+        response (Union[requests.Response, str, BeautifulSoup]):
+            Objeto respuesta HTTP de requests, cadena XML o BeautifulSoup devuelto tras consultar
+            params = {"verb": "GetRecord", "metadataPrefix": "oai_dc", "identifier": oai_id}
+
+    Autor: Gustavo.Linan@csic.es
+    """
+    if isinstance(response, BeautifulSoup):
+        r = response
+    elif hasattr(response, "text"):
+        r = BeautifulSoup(response.text, "xml")
+    elif isinstance(response, str):
+        r = BeautifulSoup(response, "xml")
+    else:
+        raise ValueError("Se esperaba un objeto Response de requests, BeautifulSoup o texto XML.")
+
+    # --- Título ---
+    titulo_tag = r.find("dc:title")
+    titulo = titulo_tag.text.strip() if titulo_tag else "Sin título"
+
+    # --- Autores ---
+    autores = r.find_all("dc:creator")
+    autores_lista = ", ".join([a.text.strip() for a in autores]) if autores else "Autor desconocido"
+
+    # --- Identificadores ---
+    identifier_tags = r.find_all("identifier")
+    journal = None
+    doi = "No disponible"
+    handle = "No disponible"
+
+    for tag in identifier_tags:
+        texto = tag.text.strip()
+        lower = texto.lower()
+
+        if texto.startswith("oai:"):
+            continue  # saltar el identificador OAI, no nos interesa
+
+        if "doi.org" in lower:
+            doi = texto
+        elif lower.startswith("10."):
+            doi = f"https://doi.org/{texto}"
+        elif "hdl.handle.net" in lower:
+            handle = texto
+        elif not journal and ("(" in texto and ")" in texto):
+            # heurística: probable referencia bibliográfica
+            journal = texto
+
+    if journal is None:
+        journal = "No disponible"
+
+    return f"{autores_lista}, {titulo}, {journal}, {doi}, {handle}"
+
+
 # --- Bloque de Demostración / Ejemplo de Uso ---
 if __name__ == "__main__":
     print("=" * 70)
