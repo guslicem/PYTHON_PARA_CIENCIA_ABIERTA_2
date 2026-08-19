@@ -448,10 +448,20 @@ def export_records_to_csv(df: pd.DataFrame, output_path: str, index: bool = Fals
     return abs_path
 
 
+def format_author_apa(author_str: str) -> str:
+    """Helper para formatear un nombre de autor en formato APA (Apellido, Iniciales.)."""
+    parts = [p.strip() for p in author_str.split(",")]
+    if len(parts) == 2 and parts[1]:
+        surname, first_names = parts[0], parts[1]
+        initials = ". ".join([name[0].upper() for name in first_names.split() if name]) + "."
+        return f"{surname}, {initials}"
+    return author_str
+
+
 def GeneraAPA(response: Union[requests.Response, str, BeautifulSoup]) -> str:
     """
-    Pequeña función para generar una cita bibliográfica tipo formato APA a partir
-    de autores, título, revista/fuente, DOI e identificador Handle.
+    Genera una cita bibliográfica en formato estándar APA a partir de un registro de Digital.CSIC:
+    Plantilla: Autores (Año). Título. Revista, Editorial o Contenedor. URL/DOI
 
     Uso:
     >>> APA_TEXT = dcsic.GeneraAPA(response)
@@ -472,41 +482,70 @@ def GeneraAPA(response: Union[requests.Response, str, BeautifulSoup]) -> str:
     else:
         raise ValueError("Se esperaba un objeto Response de requests, BeautifulSoup o texto XML.")
 
-    # --- Título ---
+    # --- 1. Autores (Apellido, Inicial.) ---
+    creators = r.find_all("dc:creator")
+    if creators:
+        formatted_authors = [format_author_apa(c.text.strip()) for c in creators if c.text.strip()]
+        if len(formatted_authors) == 1:
+            autores_str = formatted_authors[0]
+        elif len(formatted_authors) == 2:
+            autores_str = f"{formatted_authors[0]} & {formatted_authors[1]}"
+        else:
+            autores_str = ", ".join(formatted_authors[:-1]) + f", & {formatted_authors[-1]}"
+    else:
+        autores_str = "Autor desconocido"
+
+    # --- 2. Año de Publicación ---
+    date_tag = r.find("dc:date")
+    year = "s.f."
+    if date_tag:
+        y_match = re.search(r'\b(19\d\d|20\d\d)\b', date_tag.text)
+        if y_match:
+            year = y_match.group(1)
+
+    # --- 3. Título ---
     titulo_tag = r.find("dc:title")
-    titulo = titulo_tag.text.strip() if titulo_tag else "Sin título"
+    titulo = titulo_tag.text.strip().rstrip(".") + "." if titulo_tag else "Sin título."
 
-    # --- Autores ---
-    autores = r.find_all("dc:creator")
-    autores_lista = ", ".join([a.text.strip() for a in autores]) if autores else "Autor desconocido"
-
-    # --- Identificadores ---
+    # --- 4. Revista / Editorial / Contenedor & Identificadores ---
     identifier_tags = r.find_all("identifier")
     journal = None
-    doi = "No disponible"
-    handle = "No disponible"
+    doi = None
+    handle = None
 
     for tag in identifier_tags:
         texto = tag.text.strip()
         lower = texto.lower()
 
         if texto.startswith("oai:"):
-            continue  # saltar el identificador OAI, no nos interesa
+            continue
 
         if "doi.org" in lower:
             doi = texto
-        elif lower.startswith("10."):
+        elif lower.startswith("10.") and not doi:
             doi = f"https://doi.org/{texto}"
         elif "hdl.handle.net" in lower:
             handle = texto
         elif not journal and ("(" in texto and ")" in texto):
-            # heurística: probable referencia bibliográfica
             journal = texto
 
-    if journal is None:
-        journal = "No disponible"
+    if not journal:
+        pub_tag = r.find("dc:publisher") or r.find("dc:source")
+        if pub_tag:
+            journal = pub_tag.text.strip()
 
-    return f"{autores_lista}, {titulo}, {journal}, {doi}, {handle}"
+    contenedor = journal.rstrip(".") + "." if journal else ""
+    link = doi or handle or ""
+
+    # --- Ensamblado de Cita APA ---
+    apa_citation = f"{autores_str} ({year}). {titulo}"
+    if contenedor:
+        apa_citation += f" {contenedor}"
+    if link:
+        apa_citation += f" {link}"
+
+    return apa_citation
+
 
 
 # --- Bloque de Demostración / Ejemplo de Uso ---

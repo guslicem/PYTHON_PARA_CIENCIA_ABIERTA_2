@@ -160,3 +160,16 @@
   - Conexión con la librería del curso (`lib/digital_csic.py`) demostrando la integración de funciones reutilizables (`dcsic.fetch_digital_csic_record`).
   - Inclusión de ejercicios prácticos con construcción de DataFrames de Pandas a partir del parseo de XML.
   - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.
+
+## [Módulo 11: Modularización, Creación y Empaquetado de Librerías Reutilizables en Python] - 2026-08-19
+
+### Añadido
+- **Creación y adaptación didáctica de [11_Creacion_y_Empaquetado_de_Librerias_Python.ipynb](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/NOTEBOOKS/11_Creacion_y_Empaquetado_de_Librerias_Python.ipynb) y [11_Empaquetado_de_Librerias_Python.ipynb](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/NOTEBOOKS/11_Empaquetado_de_Librerias_Python.ipynb):**
+  - Implementación de la cabecera uniforme obligatoria (Celda 0) con imagen `![Logo Curso](../assets/LogoCurso_gemini.png)`, metadatos oficiales del CSIC y objetivos pedagógicos (sin referencia a sesión).
+  - Explicación accesible sobre por qué empaquetar código científico en Ciencia Abierta (reutilización sin copiar-pegar, reproducibilidad e integración con `pip`).
+  - Guía práctica paso a paso de la estructura estandarizada `src/` recomendada por **pyOpenSci** mediante `copier` y `hatch`.
+  - Análisis detallado del archivo `pyproject.toml` como corazón del empaquetado moderno (PEP 517 / PEP 621), especificando dependencias, autores y URLs.
+  - Explicación del funcionamiento de la instalación en modo editable (`pip install -e .`) utilizando enlaces simbólicos para desarrollo interactivo continuo.
+  - Ejemplificación modular con funciones matemáticas recursivas (`my_factorial`) y la clase de dominio `Persona` adaptada con listas estáticas de validación para institutos (IMSE, IMB, EBD, etc.) y servicios del CSIC (Biblioteca, Informática, Heladería, etc.).
+  - Ejercicios prácticos con incorporación de nuevos centros del CSIC y validación de atributos mediante `@property` y setters.
+  - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.
