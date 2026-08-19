@@ -13,7 +13,6 @@ Thumbs.db
 # Carpetas de Trabajo Internas del Agente y del IDE
 .vscode/
 .agents/
-artifacts/
 
 # Cuadernos y Fuentes de Referencia del Curso Antiguo
 FULL_COURSE_CSIC/
