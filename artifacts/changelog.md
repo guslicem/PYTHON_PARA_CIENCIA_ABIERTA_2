@@ -166,5 +166,6 @@
   - Explicación del funcionamiento de la instalación en modo editable (`pip install -e .`) utilizando enlaces simbólicos para desarrollo interactivo continuo.
   - Ejemplificación modular con funciones matemáticas recursivas (`my_factorial`) y la clase de dominio `Persona` adaptada con listas estáticas de validación para institutos (IMSE, IMB, EBD, etc.) y servicios del CSIC (Biblioteca, Informática, Heladería, etc.).
   - Ejercicios prácticos con incorporación de nuevos centros del CSIC y validación de atributos mediante `@property` y setters.
+  - Auditoría integral de importaciones en todos los cuadernos (`00` al `11`) y actualización de [requirements.txt](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/requirements.txt) estructurado por categorías (`requests`, `beautifulsoup4`, `scikit-learn`, `ipywidgets`, `pytest`, `copier`, `hatch`).
   - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.
 
