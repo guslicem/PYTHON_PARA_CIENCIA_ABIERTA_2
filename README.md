@@ -53,6 +53,7 @@ Todos los cuadernos han sido validados programáticamente y se encuentran guarda
 - **`10_USANDO_API.ipynb`**: Acceso a datos repositoriales en **Digital.CSIC** mediante el protocolo **OAI-PMH**, parseo de respuestas XML con BeautifulSoup, extracción de esquema Dublin Core (`oai_dc`) e integración con `lib/digital_csic.py`.
 - **`11_CREACION_Y_EMPAQUETADO_LIBRERIAS.ipynb`**: Modularización, creación y empaquetado de librerías reusables en Python, estándar `src/`, `pyproject.toml`, mejores prácticas de **pyOpenSci** e instalación en modo editable (`pip install -e .`).
 - **`12_INTRO_GITHUB.ipynb`**: Control de versiones en la nube con GitHub, repositorios `<user_name>_PYTHON_CIENCIA_ABIERTA_2`, privacidad/licencias, *Feature Branch Workflow*, Pull Requests y **CI/CD con GitHub Actions** (`pytest` en la nube).
+- **`13_INTRO_DESARROLLO_AGENTES_ANTIGRAVITY.ipynb`**: Paradigma de desarrollo asistido por Agentes IA en **Antigravity-IDE**, bucle Percepción-Acción-Verificación (PAV), directivas del proyecto (`AGENTS.md`), habilidades (`Skills`) y creación de `OpenScienceAgent` en Python con integración del SDK oficial de **Gemini (`google-genai`)**, **Function Calling / Tool Calling**, peticiones OAI-PMH en vivo a **Digital.CSIC**, gestión defensiva de claves (`.env`) y mecanismo de respaldo automático (*fallback*) ante límites de cuota.
 
 ---
 

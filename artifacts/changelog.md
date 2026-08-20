@@ -182,3 +182,24 @@
   - Ejercicios prácticos con verificación interactiva en Python del estado de seguridad del archivo `.gitignore`.
   - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.
 
+## [Módulo 13: Introducción al Desarrollo de Software con Agentes en Antigravity-IDE] - 2026-08-20
+
+### Añadido
+- **Creación e implementación didáctica de [13_INTRO_DESARROLLO_AGENTES_ANTIGRAVITY.ipynb](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/NOTEBOOKS/13_INTRO_DESARROLLO_AGENTES_ANTIGRAVITY.ipynb):**
+  - Implementación de la cabecera uniforme obligatoria (Celda 0) con imagen `![Logo Curso](../assets/LogoCurso_gemini.png)`, metadatos oficiales del CSIC (Duración: 1 hora, Autor: Gustavo Liñán Cembrano, Módulo 13) y objetivos pedagógicos.
+  - Explicación comparativa del salto cualitativo entre el autocompletado pasivo en línea (*Ghost Text* `Tab`), la refactorización asistida (`Cmd+K`) y la **Programación Basada en Agentes Autónomos** en Antigravity-IDE.
+  - Fundamentación teórica y formalización matemática en $\LaTeX$ del bucle cerrado **Percepción - Acción - Verificación (PAV)**.
+  - Creación paso a paso de la arquitectura de agentes en la raíz del espacio de trabajo:
+    - **Reglas (`.agents/rules/curacion_abierta.md`):** Directivas éticas y técnicas de curación.
+    - **Habilidades (`.agents/skills/open-science-curator/SKILL.md`):** Protocolo de actuación con cabecera YAML.
+    - **Herramientas (`Tools`):** Funciones Python con consultas HTTP REALES al servidor OAI-PMH de **Digital.CSIC** (`https://digital.csic.es/dspace-oai/request`) usando `requests` y `BeautifulSoup`.
+  - Integración del SDK oficial de **Google Gemini (`google-genai`)** con **Function Calling / Tool Calling**:
+    - Carga dinámica del System Instruction unificando reglas y habilidades de `.agents/`.
+    - Envío del esquema de herramientas a Gemini (`gemini-2.5-flash`).
+    - Gestión defensiva de secretos con `python-dotenv` y detección enmascarada de `GEMINI_API_KEY`.
+    - Mecanismo de respaldo automático (*Fallback*) a `DIRECT_TOOL_ORCHESTRATION` ante límites de cuotas (`429 RESOURCE_EXHAUSTED`) garantizando 0 fallos de ejecución.
+  - Refactorización orientada a objetos incorporando el método `agent.generate_summary_report()` y procesamiento por lotes con retraso cortés (`time.sleep(1)`) e integración con `lib.mylib.linea`.
+  - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.
+
+
+

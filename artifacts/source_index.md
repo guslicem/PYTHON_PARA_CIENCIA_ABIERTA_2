@@ -44,7 +44,8 @@ NOTEBOOKS/WIP/
 ├── DAY4/
 │   ├── 09_Visualizacion_APIs_y_DigitalCSIC.ipynb     [Día 4 - Bloque 1 Notebook]
 │   ├── 15_asistencia_ia_modulo.py                    [Día 4 - Módulo Asistencia IA]
-│   └── 16_agentes_autonomos_modulo.py                [Día 4 - Módulo Agentes IA]
+│   ├── 12_INTRO_GITHUB.ipynb                         [Control de Versiones y CI/CD]
+│   └── 13_INTRO_DESARROLLO_AGENTES_ANTIGRAVITY.ipynb [Desarrollo Asistido por Agentes IA]
 └── DAY5/
     ├── 10_Proyecto_Colaborativo_GitHub.ipynb         [Día 5 - Notebook de Proyecto]
     └── PROJECT_GUIDE.md                              [Día 5 - Guía de Trabajo en Equipos]
