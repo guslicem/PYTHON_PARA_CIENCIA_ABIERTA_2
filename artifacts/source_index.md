@@ -47,9 +47,10 @@ NOTEBOOKS/WIP/
 │   ├── 12_INTRO_GITHUB.ipynb                         [Control de Versiones y CI/CD]
 │   └── 13_INTRO_DESARROLLO_AGENTES_ANTIGRAVITY.ipynb [Desarrollo Asistido por Agentes IA]
 └── DAY5/
-    ├── 10_Proyecto_Colaborativo_GitHub.ipynb         [Día 5 - Notebook de Proyecto]
+    ├── 14_PROYECTO_FINAL_GITHUB.ipynb                 [Día 5 - Proyecto Final Integrador GitHub]
     └── PROJECT_GUIDE.md                              [Día 5 - Guía de Trabajo en Equipos]
 ```
+
 
 ---
 

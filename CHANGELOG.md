@@ -207,4 +207,21 @@
   - Refactorización orientada a objetos incorporando el método `agent.generate_summary_report()` y procesamiento por lotes con retraso cortés (`time.sleep(1)`) e integración con `lib.mylib.linea`.
   - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.
 
+## [Módulo 14: Proyecto Final Integrador en GitHub] - 2026-08-21
+
+### Añadido
+- **Creación e implementación didáctica de [14_PROYECTO_FINAL_GITHUB.ipynb](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/NOTEBOOKS/14_PROYECTO_FINAL_GITHUB.ipynb):**
+  - Implementación de la cabecera uniforme obligatoria (Celda 0) con la imagen `![Logo Curso](../assets/LogoCurso_gemini.png)`, metadatos oficiales del CSIC (Duración: 2 horas, Autor: Gustavo Liñán Cembrano, Módulo 14) y objetivos pedagógicos.
+  - Diseño de la práctica integradora colaborativa basada en el proyecto `CSIC-ClimateWatch` ([https://github.com/guslicem/proyecto_final_curso_python_2026](https://github.com/guslicem/proyecto_final_curso_python_2026)) con 13.056 observaciones climáticas mensuales reales (1961 - 2024).
+  - Plan de Acción por Equipos (~45 min):
+    - **Equipo 1 (Backend):** Función `get_hottest_and_coldest_year(df, start_year, end_year, comunidades)`.
+    - **Equipo 2 (Frontend):** Visualización de días en ola de calor, alerta dinámica si $> 20$ y comparativa vs media nacional en Streamlit (`app.py`).
+    - **Equipo 3 (Docs FAIR):** Glosario de columnas en `README.md`, archivo `CITATION.cff` y edición activa de `CHANGELOG.md` durante la revisión de PRs.
+    - **Equipo 4 (Testing & CI):** Ampliación de `tests/test_metrics.py` y creación de `tests/test_data_loader.py`.
+  - Guía detallada del flujo Git/GitHub (Fork, Clone, rama `feature/`, Commit, Push, Pull Request y *Peer Review*).
+  - Protocolo de integración y publicación de la **Release v1.0.0** en GitHub por parte del profesor.
+  - Arreglo de pruebas unitarias en `PROYECTO_FINAL/tests/test_data_loader.py` con **7/7 PASADAS ✅**.
+  - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.
+
+
 
