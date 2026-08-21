@@ -28,3 +28,6 @@ PROYECTO_FINAL/
 # Directorios de creacion del Curso
 utils/
 scratch/
+
+# Cualquier html
+*.html
