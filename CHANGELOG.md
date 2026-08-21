@@ -223,5 +223,13 @@
   - Arreglo de pruebas unitarias en `PROYECTO_FINAL/tests/test_data_loader.py` con **7/7 PASADAS ✅**.
   - Validación programática mediante `nbclient` en `./venv` con 0 errores y guardado 100% limpio de salidas de celda.
 
+## [Directorio Documentación y Exportación PDF] - 2026-08-21
+
+### Añadido
+- **Incorporación del directorio `doc/`:** Estructura oficial `doc/PDFS/NOTEBOOKS/` y `doc/DOC_DE_INTERES/` para organizar la documentación de referencia y exportaciones impresas.
+- **Herramienta de automatización [`utils/export_notebooks_to_pdf.py`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/utils/export_notebooks_to_pdf.py):** Script en Python para escanear `NOTEBOOKS/` y generar automáticamente los PDFs vectorizados de los 15 cuadernos del curso (15/15 generados con éxito).
+- **Gestión de Exclusiones en `.gitignore`:** Exclusión explícita de `utils/` y `scratch/` para mantener limpio el repositorio remoto de GitHub.
+
+
 
 

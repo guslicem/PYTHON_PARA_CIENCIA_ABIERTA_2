@@ -59,6 +59,17 @@ Todos los cuadernos han sido validados programáticamente y se encuentran guarda
 
 ---
 
+## 📄 Documentación y Exportaciones PDF (`doc/`)
+
+El repositorio incluye la carpeta **`doc/`** organizada para el acceso a materiales complementarios y versiones listas para imprimir:
+
+- **`doc/PDFS/NOTEBOOKS/`**: Contiene la versión compilada en PDF vectorizado de alta calidad de los 15 cuadernos docentes del curso (`00_SETUP_Y_EJEMPLO_INICIAL.pdf` hasta `14_PROYECTO_FINAL_GITHUB.pdf`).
+- **`doc/DOC_DE_INTERES/`**: Documentación científica de referencia y guías complementarias.
+- **Herramienta de Automatización:** El script `utils/export_notebooks_to_pdf.py` permite regenerar automáticamente las versiones imprimibles en PDF escaneando la carpeta `NOTEBOOKS/`.
+
+---
+
+
 ## 🚀 Entorno Recomendado: Antigravity-IDE
 
 Este curso ha sido optimizado y configurado para ser ejecutado con **Antigravity-IDE**, el entorno de desarrollo nativo asistido por IA.
