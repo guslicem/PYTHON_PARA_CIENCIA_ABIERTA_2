@@ -87,11 +87,10 @@ Todos los cuadernos han sido validados programáticamente y se encuentran guarda
 
 ## 📄 Documentación y Exportaciones PDF (`doc/`)
 
-El repositorio incluye la carpeta **`doc/`** organizada para el acceso a materiales complementarios y versiones listas para imprimir:
+El repositorio incluye la carpeta **`doc/`** organizada para el acceso a materiales complementarios, diapositivas y versiones listas para imprimir:
 
 - **`doc/PDFS/NOTEBOOKS/`**: Contiene la versión compilada en PDF vectorizado de alta calidad de los cuadernos docentes del curso.
-
-
+- **`doc/PDFS/SLIDES/`**: Presentaciones teóricas del curso en formato PDF para lectura, consulta e impresión.
 - **`doc/DOC_DE_INTERES/`**: Documentación científica de referencia y guías complementarias.
 - **Herramienta de Automatización:** El script `utils/export_notebooks_to_pdf.py` permite regenerar automáticamente las versiones imprimibles en PDF escaneando la carpeta `NOTEBOOKS/`.
 
@@ -153,7 +152,7 @@ pip install -r requirements.txt
 
 - **`NOTEBOOKS/`**: Cuadernos docentes interactivos en formato Jupyter Notebook (`.ipynb`).
 - **`SLIDES/`**: Diapositivas y presentaciones teóricas del curso en formato PowerPoint (`.pptx`) y PDF.
-- **`doc/`**: Documentación complementaria de referencia y compilación en PDF vectorizado de los cuadernos docentes (`doc/PDFS/NOTEBOOKS/`).
+- **`doc/`**: Documentación complementaria de referencia, presentaciones en PDF (`doc/PDFS/SLIDES/`) y compilación en PDF vectorizado de los cuadernos docentes (`doc/PDFS/NOTEBOOKS/`).
 - **`DATASETS/`**: Datasets científicos reales (`.csv`, `.xlsx`) para ejercicios prácticos (`digital_csic_curated.csv`, `Thyroid_Diff_ES.csv`, `vivienda.csv`, etc.).
 - **`lib/`**: Librería personalizada del curso con utilidades de descarga OAI-PMH (`digital_csic.py`) y funciones auxiliares (`mylib.py`).
 - **`artifacts/`**: Documentación técnica del repositorio, índice de fuentes y changelog detallado.

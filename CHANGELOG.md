@@ -230,6 +230,12 @@
 - **Herramienta de automatización [`utils/export_notebooks_to_pdf.py`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/utils/export_notebooks_to_pdf.py):** Script en Python para escanear `NOTEBOOKS/` y generar automáticamente los PDFs vectorizados de los 15 cuadernos del curso (15/15 generados con éxito).
 - **Gestión de Exclusiones en `.gitignore`:** Exclusión explícita de `utils/` y `scratch/` para mantener limpio el repositorio remoto de GitHub.
 
+## [Documentación - Presentaciones PDF en doc/PDFS/SLIDES/] - 2026-08-24
+
+### Añadido
+- Actualización del archivo `README.md` documentando la existencia del directorio `doc/PDFS/SLIDES/` con las presentaciones teóricas del curso en formato PDF (`Modulo_1_Introduccion.pdf`, `Modulo_2_Fundamentos_de_python.pdf`).
+
+
 
 
 
