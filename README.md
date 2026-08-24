@@ -149,16 +149,30 @@ pip install -r requirements.txt
 
 ## 📁 Estructura del Proyecto
 
-- **`NOTEBOOKS/`**: Cuadernos interactivos del curso en formato Jupyter Notebook (`.ipynb`).
-- **`SLIDES/`**: Presentaciones y diapositivas teóricas del curso en formato PowerPoint (`.pptx`) y PDF.
-- **`doc/`**: Documentación complementaria y versiones compiladas en PDF vectorizado de los cuadernos docentes (`doc/PDFS/NOTEBOOKS/`).
-- **`DATASETS/`**: Conjuntos de datos reales (`.csv`, `.xlsx`) para ejercicios prácticos (`digital_csic_curated.csv`, `Thyroid_Diff_ES.csv`, `vivienda.csv`, etc.).
+### 📦 Materiales Públicos en GitHub (Sincronizados)
+
+- **`NOTEBOOKS/`**: Cuadernos docentes interactivos en formato Jupyter Notebook (`.ipynb`).
+- **`SLIDES/`**: Diapositivas y presentaciones teóricas del curso en formato PowerPoint (`.pptx`) y PDF.
+- **`doc/`**: Documentación complementaria de referencia y compilación en PDF vectorizado de los cuadernos docentes (`doc/PDFS/NOTEBOOKS/`).
+- **`DATASETS/`**: Datasets científicos reales (`.csv`, `.xlsx`) para ejercicios prácticos (`digital_csic_curated.csv`, `Thyroid_Diff_ES.csv`, `vivienda.csv`, etc.).
 - **`lib/`**: Librería personalizada del curso con utilidades de descarga OAI-PMH (`digital_csic.py`) y funciones auxiliares (`mylib.py`).
-- **`utils/`**: Herramientas de automatización interna y scripts de exportación (`export_notebooks_to_pdf.py`).
-- **`artifacts/`**: Documentación técnica interna, índice de fuentes y changelog detallado.
-- **`CHANGELOG.md`**: Registro cronológico de cambios y versiones del curso.
+- **`artifacts/`**: Documentación técnica del repositorio, índice de fuentes y changelog detallado.
+- **`CHANGELOG.md`**: Registro cronológico de versiones y cambios del curso.
 
 ---
+
+### 🔒 Recursos y Carpetas de Trabajo Local (Excluidos en `.gitignore`)
+
+Para mantener el repositorio de GitHub limpio, ligero y seguro, los siguientes directorios se gestionan en local y están excluidos del control de versiones:
+
+- **`PROYECTO_FINAL/` & `PROYECTO_FINAL_SOLVED/`**: Repositorios independientes del proyecto final integrador (taller práctico de Git/GitHub).
+- **`utils/` & `scratch/`**: Scripts de automatización interna y herramientas de mantenimiento docente.
+- **`venv/` & `.env`**: Entorno virtual local de Python y claves de API enmascaradas.
+- **`.vscode/` & `.agents/`**: Configuración local del IDE y directivas/habilidades del Asistente de IA.
+- **`FULL_COURSE_CSIC/` & `FULL_COURSE_USE/`**: Archivos y fuentes de referencia históricas.
+
+---
+
 
 
 ## 📜 Licencia
