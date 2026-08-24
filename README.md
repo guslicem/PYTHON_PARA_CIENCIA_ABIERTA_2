@@ -14,7 +14,7 @@ Bienvenid@ al repositorio oficial del curso **Python para la Ciencia Abierta -- 
 - **Fechas Oficiales:** 5 a 8 de Octubre de 2026, Aula SGAI, C/Pinar 19, Madrid.
 - **Instructor y autor de materiales:** Gustavo Liñán Cembrano
 - **Afiliación:** Instituto de Microelectrónica de Sevilla (IMSE-CNM / CSIC-Universidad de Sevilla)
-- **Correo de Contacto:** `gustavo.linan@csic.es` | `guslicem@us.es`
+- **Correo de Contacto:** `gustavo.linan@csic.es`
 
 ---
 
