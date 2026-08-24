@@ -229,6 +229,13 @@
 ### Añadido
 - Actualización del archivo `README.md` documentando la existencia del directorio `doc/PDFS/SLIDES/` con las presentaciones teóricas del curso en formato PDF (`Modulo_1_Introduccion.pdf`, `Modulo_2_Fundamentos_de_python.pdf`).
 
+## [Git - Exclusión de Skills Locales en .gitignore] - 2026-08-24
+
+### Cambiado
+- Exclusión de los directorios `.agents/skills/ai-coding-assistant-module/` y `.agents/skills/course_learner/` en `.gitignore`.
+- Eliminación de la copia remota de estos skills en el seguimiento de Git para mantenerlos exclusivamente en local.
+
+
 
 
 
