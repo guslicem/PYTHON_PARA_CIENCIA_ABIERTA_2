@@ -33,3 +33,14 @@ scratch/
 
 # Cualquier html
 *.html
+
+#cualquier powerpoint
+/doc/PPTX/
+
+*.pptx
+*.ppt
+*.docx
+*.text
+
+
+
