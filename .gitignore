@@ -53,3 +53,7 @@ scratch/
 #cualquier carpeta de work in progress
 */WIP/
 
+#Carpeta de artefactos interna de IA 
+
+artifacts/
+

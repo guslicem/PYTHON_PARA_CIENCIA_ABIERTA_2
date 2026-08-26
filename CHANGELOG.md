@@ -260,6 +260,20 @@
 - **Preprocesamiento de rutas de imagen en [`utils/export_notebooks_to_pdf.py`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/utils/export_notebooks_to_pdf.py):** Implementada resolución automática de rutas relativas de imagen (`![...](src)` y `<img src="...">`) a URIs absolutas de archivo (`file://...`) antes de ejecutar `nbconvert`. Esto soluciona la pérdida de imágenes/logo al compilar PDFs desde carpetas de destino anidadas como `doc/PDFS/NOTEBOOKS_PDFs/`.
 - **Re-exportación total de PDFs (15/15):** Regenerados con éxito los 15 cuadernos en PDF vectorizado con la imagen del logo del curso e imágenes incrustadas correctamente en alta calidad.
 
+## [Actualización README.md - Alineación con .gitignore] - 2026-08-26
+
+### Corregido
+- **Alineación de rutas y exclusiones en [`README.md`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/README.md):** Corregidas las rutas del directorio `doc/` a `doc/PDFS/NOTEBOOKS_PDFs/`, `doc/PDFS/SLIDES/` y `doc/PDFS/DOC_DE_INTERES/`.
+- **Clarificación de recursos locales excluidos:** Trasladadas las referencias a `CUESTIONARIOS/WIP/`, `utils/`, `/doc/PPTX/` y fuentes editables `.pptx` a la sección de recursos locales excluidos en `.gitignore`, asegurando una coincidencia del 100% con los archivos efectivamente sincronizados en el repositorio público de GitHub.
+
+## [Git - Exclusión de la Carpeta artifacts/ en .gitignore] - 2026-08-26
+
+### Cambiado
+- **Exclusión de `artifacts/` en `.gitignore`:** Inclusión de la carpeta de artefactos de IA `artifacts/` en `.gitignore` para mantener la documentación interna fuera del seguimiento de Git.
+- **Limpieza del seguimiento remoto:** Eliminación de `artifacts/` del índice de seguimiento de Git (`git rm -r --cached artifacts/`) y sincronización en remoto mediante commit y push.
+
+
+
 
 
 

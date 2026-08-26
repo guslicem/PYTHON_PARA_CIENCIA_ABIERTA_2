@@ -89,10 +89,9 @@ Todos los cuadernos han sido validados programáticamente y se encuentran guarda
 
 El repositorio incluye la carpeta **`doc/`** organizada para el acceso a materiales complementarios, diapositivas y versiones listas para imprimir:
 
-- **`doc/PDFS/NOTEBOOKS/`**: Contiene la versión compilada en PDF vectorizado de alta calidad de los cuadernos docentes del curso.
-- **`doc/PDFS/SLIDES/`**: Presentaciones teóricas del curso en formato PDF para lectura, consulta e impresión.
-- **`doc/DOC_DE_INTERES/`**: Documentación científica de referencia y guías complementarias.
-- **Herramienta de Automatización:** El script `utils/export_notebooks_to_pdf.py` permite regenerar automáticamente las versiones imprimibles en PDF escaneando la carpeta `NOTEBOOKS/`.
+- **`doc/PDFS/NOTEBOOKS_PDFs/`**: Contiene la versión compilada en PDF vectorizado de alta calidad de los 15 cuadernos docentes del curso.
+- **`doc/PDFS/SLIDES/`**: Presentaciones teóricas del curso en formato PDF (`1_Introduccion.pdf` a `7_Intro_a_Github.pdf`) para lectura, consulta e impresión.
+- **`doc/PDFS/DOC_DE_INTERES/`**: Documentación científica de referencia y guías complementarias (UNESCO Ciencia Abierta, ENCA, Hojas de Atajos de Pandas y Matplotlib).
 
 ---
 
@@ -150,26 +149,16 @@ pip install -r requirements.txt
 
 ### 📦 Materiales Públicos en GitHub (Sincronizados)
 
-- **`NOTEBOOKS/`**: Cuadernos docentes interactivos en formato Jupyter Notebook (`.ipynb`).
-- **`SLIDES/`**: Diapositivas y presentaciones teóricas del curso en formato PowerPoint (`.pptx`) y PDF.
-- **`doc/`**: Documentación complementaria de referencia, presentaciones en PDF (`doc/PDFS/SLIDES/`) y compilación en PDF vectorizado de los cuadernos docentes (`doc/PDFS/NOTEBOOKS/`).
-- **`DATASETS/`**: Datasets científicos reales (`.csv`, `.xlsx`) para ejercicios prácticos (`digital_csic_curated.csv`, `Thyroid_Diff_ES.csv`, `vivienda.csv`, etc.).
-- **`lib/`**: Librería personalizada del curso con utilidades de descarga OAI-PMH (`digital_csic.py`) y funciones auxiliares (`mylib.py`).
-- **`CUESTIONARIOS/WIP/`**: Cuestionarios interactivos de auto-evaluación en formato Markdown por cada cuaderno docente para su importación a herramientas como Google Forms o Microsoft Forms.
-- **`artifacts/`**: Documentación técnica del repositorio, índice de fuentes y changelog detallado.
+- **`NOTEBOOKS/`**: Cuadernos docentes interactivos en formato Jupyter Notebook (`.ipynb`) del `00` al `14` y guía de instalación de Antigravity-IDE en PDF.
+- **`doc/`**: Documentación complementaria de referencia organizada en:
+  - **`doc/PDFS/NOTEBOOKS_PDFs/`**: Cuadernos docentes compilados a PDF vectorizado.
+  - **`doc/PDFS/SLIDES/`**: Diapositivas y presentaciones teóricas del curso en formato PDF.
+  - **`doc/PDFS/DOC_DE_INTERES/`**: Guías y hojas de atajos (*Cheat Sheets*) en PDF.
+- **`DATASETS/`**: Datasets científicos reales (`.csv`) para ejercicios prácticos (`digital_csic_curated.csv`, `Thyroid_Diff_ES.csv`, `vivienda.csv`, etc.).
+- **`lib/`**: Librería personalizada del curso con utilidades de descarga OAI-PMH (`digital_csic.py`), funciones auxiliares (`mylib.py`) y generadores de datos de prueba (`generate_test_csv.py`).
 - **`CHANGELOG.md`**: Registro cronológico de versiones y cambios del curso.
-
----
-
-### 🔒 Recursos y Carpetas de Trabajo Local (Excluidos en `.gitignore`)
-
-Para mantener el repositorio de GitHub limpio, ligero y seguro, los siguientes directorios se gestionan en local y están excluidos del control de versiones:
-
-- **`PROYECTO_FINAL/` & `PROYECTO_FINAL_SOLVED/`**: Repositorios independientes del proyecto final integrador (taller práctico de Git/GitHub).
-- **`utils/` & `scratch/`**: Scripts de automatización interna y herramientas de mantenimiento docente.
-- **`venv/` & `.env`**: Entorno virtual local de Python y claves de API enmascaradas.
-- **`.vscode/` & `.agents/`**: Configuración local del IDE y directivas/habilidades del Asistente de IA.
-- **`FULL_COURSE_CSIC/` & `FULL_COURSE_USE/`**: Archivos y fuentes de referencia históricas.
+- **`requirements.txt`**: Lista de dependencias del entorno de Python.
+- **`LICENSE`**: Licencia MIT del proyecto.
 
 ---
 
