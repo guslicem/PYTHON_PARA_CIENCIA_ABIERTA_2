@@ -248,6 +248,13 @@
 - Inserción automatizada de los banners con enlaces públicos de respuesta de Google Forms al final de los 15 cuadernos interactivos de Jupyter (`NOTEBOOKS/00` al `14`), preservando íntegramente todo el contenido previo de los cuadernos.
 - Re-exportación completa de los 15 cuadernos a formato PDF vectorizado en `doc/PDFS/NOTEBOOKS_PDFs/`.
 
+## [Corrección Exportación PDF - Enlace de Logo e Imágenes] - 2026-08-26
+
+### Corregido
+- **Preprocesamiento de rutas de imagen en [`utils/export_notebooks_to_pdf.py`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/utils/export_notebooks_to_pdf.py):** Implementada resolución automática de rutas relativas de imagen (`![...](src)` y `<img src="...">`) a URIs absolutas de archivo (`file://...`) antes de ejecutar `nbconvert`. Esto soluciona la pérdida de imágenes/logo al compilar PDFs desde carpetas de destino anidadas como `doc/PDFS/NOTEBOOKS_PDFs/`.
+- **Re-exportación total de PDFs (15/15):** Regenerados con éxito los 15 cuadernos en PDF vectorizado con la imagen del logo del curso e imágenes incrustadas correctamente en alta calidad.
+
+
 
 
 
