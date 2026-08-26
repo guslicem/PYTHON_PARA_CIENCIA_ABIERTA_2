@@ -33,6 +33,7 @@ PROYECTO_FINAL_SOLVED/
 # Directorios de creacion del Curso
 utils/
 scratch/
+artifacts/
 
 # Cualquier html
 *.html
@@ -53,7 +54,5 @@ scratch/
 #cualquier carpeta de work in progress
 */WIP/
 
-#Carpeta de artefactos interna de IA 
 
-artifacts/
 
