@@ -235,6 +235,22 @@
 - Exclusión de los directorios `.agents/skills/ai-coding-assistant-module/` y `.agents/skills/course_learner/` en `.gitignore`.
 - Eliminación de la copia remota de estos skills en el seguimiento de Git para mantenerlos exclusivamente en local.
 
+## [Cuestionarios Didácticos en CUESTIONARIOS/WIP/] - 2026-08-26
+
+### Añadido
+- Creación de 16 cuestionarios didácticos de auto-evaluación en formato Markdown dentro de `CUESTIONARIOS/WIP/`, correspondientes al test de ideas previas y a los 15 cuadernos docentes (`00` al `14`).
+- Generación de `google_apps_scripts.js` y `utils/generate_google_forms_scripts.py` con la función maestra `crearTodosLosCuestionarios()` para crear los 16 formularios de Google Forms en 1 clic.
+- Documentación completa en [`CUESTIONARIOS/WIP/README.md`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/CUESTIONARIOS/WIP/README.md) detallando el listado de cuestionarios y los pasos de automatización en Google Drive.
+
+## [Inserción de Cuestionarios en Notebooks y Exportación PDF] - 2026-08-26
+
+### Cambiado
+- Inserción automatizada de los banners con enlaces públicos de respuesta de Google Forms al final de los 15 cuadernos interactivos de Jupyter (`NOTEBOOKS/00` al `14`), preservando íntegramente todo el contenido previo de los cuadernos.
+- Re-exportación completa de los 15 cuadernos a formato PDF vectorizado en `doc/PDFS/NOTEBOOKS_PDFs/`.
+
+
+
+
 
 
 

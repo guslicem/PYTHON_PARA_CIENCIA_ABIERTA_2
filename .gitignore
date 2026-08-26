@@ -40,6 +40,7 @@ scratch/
 #cualquier powerpoint
 /doc/PPTX/
 
+#cualquier archivo de word o powerpoint o .text
 *.pptx
 *.ppt
 *.docx
@@ -49,6 +50,6 @@ scratch/
 .agents/skills/ai-coding-assistant-module/
 .agents/skills/course_learner/
 
-
-
+#cualquier carpeta de work in progress
+*/WIP/
 

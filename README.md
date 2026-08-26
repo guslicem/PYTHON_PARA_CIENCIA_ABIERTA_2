@@ -155,6 +155,7 @@ pip install -r requirements.txt
 - **`doc/`**: Documentación complementaria de referencia, presentaciones en PDF (`doc/PDFS/SLIDES/`) y compilación en PDF vectorizado de los cuadernos docentes (`doc/PDFS/NOTEBOOKS/`).
 - **`DATASETS/`**: Datasets científicos reales (`.csv`, `.xlsx`) para ejercicios prácticos (`digital_csic_curated.csv`, `Thyroid_Diff_ES.csv`, `vivienda.csv`, etc.).
 - **`lib/`**: Librería personalizada del curso con utilidades de descarga OAI-PMH (`digital_csic.py`) y funciones auxiliares (`mylib.py`).
+- **`CUESTIONARIOS/WIP/`**: Cuestionarios interactivos de auto-evaluación en formato Markdown por cada cuaderno docente para su importación a herramientas como Google Forms o Microsoft Forms.
 - **`artifacts/`**: Documentación técnica del repositorio, índice de fuentes y changelog detallado.
 - **`CHANGELOG.md`**: Registro cronológico de versiones y cambios del curso.
 
