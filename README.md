@@ -95,6 +95,25 @@ El repositorio incluye la carpeta **`doc/`** organizada para el acceso a materia
 
 ---
 
+## 🛡️ Auditoría de Calidad y Viabilidad Docente (`@auditor_curso`)
+
+El repositorio cuenta con un **Agente Autónomo Auditor de Calidad** (`CourseAuditorAgent`), ubicado en [`lib/course_auditor_agent.py`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/lib/course_auditor_agent.py), configurado con reglas de dominio ([`.agents/rules/auditor_curso.md`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/.agents/rules/auditor_curso.md)) y tres habilidades (*skills*) en `.agents/skills/`.
+
+### 📊 ¿Qué es el Documento de Auditoría?
+El **Informe de Auditoría de Calidad, Viabilidad y Análisis DAFO** es un informe exhaustivo de evaluación técnica e instruccional que audita de forma transparente y automatizada los materiales del curso, garantizando:
+
+1. **Correctitud de Código y Sintaxis:** Verificación sintáctica estática de **279 celdas de código** en los 15 cuadernos Jupyter (**100.0% de éxito sintáctico**).
+2. **Integridad de Enlaces e Hipervínculos:** Comprobación de 56 enlaces activos, 16 formularios de evaluación de Google Forms y resolutores Handles de Digital.CSIC (`10261/XXX`).
+3. **Calidad Gráfica y Consistencia Visual:** Inspección del logo oficial en la Celda 0 del 100% de cuadernos y presencia de los 15 PDFs vectorizados.
+4. **Informe de Viabilidad Horaria Desglosado Módulo por Módulo:** Matriz detallada de temporización que distribuye los 15 cuadernos en **20 horas lectivas (4 sesiones intensivas de 5 horas)** para personal del CSIC, con diagrama de Gantt interactivo en Mermaid.
+5. **Análisis DAFO (SWOT) Estratégico de 1 Página:** Evaluación de Debilidades, Amenazas, Fortalezas y Oportunidades del curso para la formación de personal científico del CSIC.
+
+📄 **Acceso al Documento Completo en PDF:**  
+Puedes consultar y descargar el informe oficial en PDF en el enlace relativo del repositorio:  
+👉 [`./doc/PDFS/informe_auditoria_calidad_curso.pdf`](./doc/PDFS/informe_auditoria_calidad_curso.pdf)
+
+---
+
 
 ## 🚀 Entorno Recomendado: Antigravity-IDE
 

@@ -272,6 +272,20 @@
 - **Exclusión de `artifacts/` en `.gitignore`:** Inclusión de la carpeta de artefactos de IA `artifacts/` en `.gitignore` para mantener la documentación interna fuera del seguimiento de Git.
 - **Limpieza del seguimiento remoto:** Eliminación de `artifacts/` del índice de seguimiento de Git (`git rm -r --cached artifacts/`) y sincronización en remoto mediante commit y push.
 
+## [Agente Auditor de Calidad y Viabilidad Docente] - 2026-08-27
+
+### Añadido
+- **Agente Autónomo Auditor (`CourseAuditorAgent`):** Implementada la clase [`lib/course_auditor_agent.py`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/lib/course_auditor_agent.py) para auditar automáticamente el contenido del curso, sintaxis Python en celdas Jupyter, integridad de enlaces, calidad gráfica e imprimibilidad PDF.
+- **Regla de Auditoría:** Creación del archivo de directivas [`.agents/rules/auditor_curso.md`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/.agents/rules/auditor_curso.md).
+- **Skills del Agente Auditor:**
+  - [`course-content-auditor`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/.agents/skills/course-content-auditor/SKILL.md): Protocolo de auditoría estática de sintaxis de celdas y verificación de enlaces HTTP/Handles.
+  - [`course-schedule-viability-evaluator`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/.agents/skills/course-schedule-viability-evaluator/SKILL.md): Desglose del informe de viabilidad horaria módulo por módulo (Módulos 00 al 14) para 20h lectivas (4 sesiones x 5h) y matriz DAFO.
+  - [`graphic-visual-quality-inspector`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/.agents/skills/graphic-visual-quality-inspector/SKILL.md): Verificación visual de cabeceras Celda 0 y resoluciones de figura DPI/PDF.
+- **Informe de Auditoría PDF y Markdown:**
+  - Generación del informe completo [`artifacts/informe_auditoria_calidad_curso.md`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/artifacts/informe_auditoria_calidad_curso.md) y exportación a PDF vectorizado en [`./doc/PDFS/informe_auditoria_calidad_curso.pdf`](./doc/PDFS/informe_auditoria_calidad_curso.pdf) incorporando el diagrama de Gantt en Mermaid, el desglose de viabilidad módulo por módulo y el análisis DAFO de 1 página.
+- **Sección dedicada en README.md:** Incorporación de la sección *"🛡️ Auditoría de Calidad y Viabilidad Docente (`@auditor_curso`)"* con la explicación del documento de auditoría y su enlace relativo `./doc/PDFS/informe_auditoria_calidad_curso.pdf`.
+
+
 
 
 
