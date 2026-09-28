@@ -1,5 +1,15 @@
 # Changelog del Curso
 
+## [Guía de Configuración e Email de Bienvenida a Alumnos] - 2026-09-28
+
+### Añadido y Actualizado
+- **Sección de Extensiones Recomendadas en Guía de Configuración (`GUIA_DE_CONFIGURACION.pdf`):**
+  - Incorporada la **Sección 4.1** con una ilustración visual generada en `assets/extensions_icon.png` que muestra el icono de los 4 cuadritos de la barra lateral, la barra de búsqueda por ID y el botón azul de instalación.
+  - Reemplazada la instalación por consola por una guía visual explicada paso a paso desde el menú del editor.
+  - Re-compilación del PDF final manteniendo estrictamente 2 páginas en [GUIA_DE_CONFIGURACION.pdf](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/doc/PDFS/GUIA_DE_CONFIGURACION.pdf).
+- **Cuerpo del Email de Bienvenida e Instrucciones para Alumnos:**
+  - Creado el artefacto de plantilla [email_bienvenida_alumnos.md](file:///Users/linan/.gemini/antigravity-ide/brain/aa747d57-4cd8-4cf8-8f24-981d46a265cf/email_bienvenida_alumnos.md) con la presentación de Gustavo Liñán Cembrano (gustavo.linan@csic.es), fechas (5-8 Octubre 2026, 09:00-14:00 h), ubicación (Aula SGAI - CSIC, C/ Pinar 19, Madrid), requerimientos obligatorios, petición de correo Gmail para acceso al repositorio de GitHub, aviso de notificación de incidencias técnicas antes del jueves, tabla de atajos de teclado IA y despedida afectuosa.
+
 ## [Actualización de Informe de Auditoría: Eliminación de Sección de Costes] - 2026-09-28
 
 ### Cambiado y Eliminado

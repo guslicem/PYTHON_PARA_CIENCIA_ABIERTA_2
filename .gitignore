@@ -9,6 +9,7 @@ __pycache__/
 .env
 .DS_Store
 Thumbs.db
+DOC_OFICIAL
 
 # Carpetas de Trabajo Internas del Agente y del IDE
 .vscode/
@@ -34,8 +35,6 @@ PROYECTO_FINAL_SOLVED/
 utils/
 scratch/
 artifacts/
-artifacts/dossier_tecnico_curso_imse.pdf
-artifacts/dossier_tecnico_curso_imse.md
 
 
 # Cualquier html
@@ -56,6 +55,7 @@ artifacts/dossier_tecnico_curso_imse.md
 
 #cualquier carpeta de work in progress
 */WIP/
-
-
+# Clics/Clonados anidados accidentales
+PYTHON_PARA_CIENCIA_ABIERTA_2/
+PDF/
 

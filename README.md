@@ -127,6 +127,10 @@ Puedes descargar gratis la versión oficial de **Antigravity-IDE** desde:
 
 ## 🛠️ Guía Rápida de Instalación y Configuración
 
+> 📄 **Guía Completa de Configuración Multiplataforma en PDF:**  
+> Para consultar el manual completo paso a paso (macOS, Windows y Linux) con enlaces directos a GitHub Desktop, autenticación en GitHub, clonado del repositorio e instalación limpia de Antigravity-IDE, consulta:  
+> 👉 [`./doc/PDFS/GUIA_DE_CONFIGURACION.pdf`](./doc/PDFS/GUIA_DE_CONFIGURACION.pdf)
+
 ### 1. Clonar el Repositorio
 ```bash
 git clone https://github.com/guslicem/PYTHON_PARA_CIENCIA_ABIERTA_2.git
