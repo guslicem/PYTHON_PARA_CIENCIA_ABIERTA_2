@@ -1,8 +1,62 @@
 # Changelog del Curso
 
+## [Informe de Auditoría Completo: DAFO y Presupuesto de Formación Presencial] - 2026-09-17
+
+### Añadido y Actualizado
+- Re-generación del **Informe Integral de Auditoría de Calidad, Viabilidad, DAFO y Estimación Económica del Curso** en PDF y Markdown:
+  - [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/doc/PDFS/informe_auditoria_calidad_curso.pdf) y .
+  - Réplicas en [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/PDFS/) y [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/artifacts/).
+- **Análisis DAFO (SWOT) Estratégico:** Matriz de 4 cuadrantes (Debilidades, Amenazas, Fortalezas y Oportunidades) para el perfil del personal científico del CSIC.
+- **Estimación Económica Realista (Formación Presencial):** Presupuesto detallado para 20h lectivas (4 sesiones x 5h) con formador presencial:
+  - Honorarios docentes (20h lectivas + 30h preparación): 1.800,00 €.
+  - Cómputo nube, APIs de IA y licencias: 250,00 €.
+  - Diseño pedagógico, guías PDF, cuestionarios y videopodcasts: 450,00 €.
+  - Logística, desplazamientos y dietas oficial (4 días): 500,00 €.
+  - **Coste Total Estimado:** 3.000,00 € (Neto) | **Coste medio por alumno (18 al.):** ~166,67 €.
+  - Análisis de eficiencia económica y retorno de inversión (ROI) con > 60% de ahorro frente a formación comercial privada.
+
+## [Re-ejecución de Auditoría de Calidad y Generación de Informes] - 2026-09-17
+
+### Añadido y Actualizado
+- Re-ejecución completa del agente auditor de calidad sobre los 15 cuadernos en NOTEBOOKS/.
+- Actualización y generación de los informes de calidad en formato Markdown y PDF:
+  - doc/PDFS/informe_auditoria_calidad_curso.pdf y doc/PDFS/informe_auditoria_calidad_curso.md.
+  - Réplica idéntica disponible en el directorio ./PDFS/ y en artifacts/.
+- Verificación de conformidad estática (AST), cabeceras oficiales CSIC 2026, ausencia de credenciales expuestas y recursos multimedia al 100%.
+
+## [Regeneración Completa de PDFs de Cuadernos] - 2026-09-16
+
+### Añadido y Actualizado
+- Conversión y regeneración en lote del 100% de los cuadernos Jupyter (Módulos 00 a 14) a documentos PDF vectoriales.
+- Ubicación oficial de los 15 PDFs generados: [`doc/PDFS/NOTEBOOKS_PDFs/`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/doc/PDFS/NOTEBOOKS_PDFs).
+- Incorporación en la compilación PDF de todas las mejoras pedagógicas recientes (mapas conceptuales, callouts multimedia para videopodcasts `.mp4`, cuestionarios Google Forms y enlaces de estudio de NotebookLM).
+
+## [Guía Completa de Configuración Multiplataforma - Refactorización] - 2026-09-16
+
+### Cambiado y Corregido
+- **Imágenes y Aspect Ratio:** Corrección de la relación de aspecto original (3268x1280) en el banner del logo para evitar cualquier distorsión visual.
+- **Requisitos de Cuenta:** Eliminación de la mención a Google Workspace CSIC. Especificación exclusiva de cuenta Gmail personal.
+- **Conectividad Eduroam:** Incorporación del enlace oficial a la Intranet del CSIC para la configuración de la red Wi-Fi Eduroam.
+- **Marca de Entorno:** Nomenclatura explícita de **Antigravity-IDE** en toda la sección 4 y comandos asociados.
+- **Pie de Página:** Actualización del copyright en el canvas a `Python para la Ciencia Abierta (2026) (c) Gustavo Liñán Cembrano`.
+
+## [Guía Completa de Configuración Multiplataforma] - 2026-09-16
+
+### Añadido
+- Generación de la `GUIA_DE_CONFIGURACION.pdf` oficial en `doc/PDFS/` con la nueva cabecera visual del CSIC 2026 (`assets/LogoCurso_gemini.png`).
+- Manual de configuración multiplataforma paso a paso para macOS, Windows y Linux:
+  1. Cuentas de usuario requeridas: Google Workspace/Gmail y alta/configuración en GitHub.
+  2. Instalación de Git y GitHub CLI (`gh`) en local con comandos nativos por sistema operativo y autenticación inicial.
+  3. Instalación de Python 3.12+ multiplataforma con verificación de PATH y entorno virtual (`venv`).
+  4. Descarga e instalación limpia de Antigravity-IDE (sin herencia de VS Code), SDK de Google y vinculación de cuenta.
+  5. Configuración de entorno virtual (`venv`), instalación de dependencias `requirements.txt` y registro del kernel `curso_ciencia_abierta`.
+  6. Tabla comparativa de atajos de teclado imprescindibles para autocompletado y refactorización IA (macOS vs Windows/Linux).
+- Auditoría visual de calidad gráfica en `artifacts/pdf_preview/` verificando renderizado armónico de 2 páginas con 0 errores de compilación de fuentes.
+
 ## [Inicialización] - 2026-08-05
 
 ### Añadido
+
 - Configuración inicial de entorno y directivas de agente `.agents/AGENTS.md`.
 - Especificación de la carpeta `NOTEBOOKS/` en la raíz para alojar los cuadernos del curso.
 - Estructuración de directorio de artefactos (`artifacts/`) y directorio de skills (`.agents/skills/`).
@@ -13,6 +67,7 @@
 ## [WIP - Módulo IA y Agentes] - 2026-08-05
 
 ### Añadido
+
 - Creación de la habilidad `ai-coding-assistant-module` en `.agents/skills/ai-coding-assistant-module/SKILL.md`.
 - Generación de cuadernos interactivos etiquetados como Trabajo en Progreso en `NOTEBOOKS/WIP/`:
   - `NOTEBOOKS/WIP/15_Autocompletado_Inteligente_con_IA.ipynb`: Guía práctica e interactiva paso a paso (*Comment-to-Code*, atajos `Tab`/`Ghost Text`, generación automática de docstrings con `"""`, refactorización con `Cmd+K` y depuración asistida "Fix with AI").
@@ -84,14 +139,6 @@
   - Preservación íntegra de las ediciones del usuario en los docstrings y comentarios didácticos del cuaderno.
   - Actualización del método `resumen_repositorio()` para mostrar los metadatos completos del administrador/a responsable del repositorio (ejemplo: `Persona("Margarita", "Salas", "Centro de Biología Molecular Severo Ochoa (CSIC)")`).
   - Re-ejecución automatizada en `venv` y guardado del cuaderno **100% limpio (0 salidas retenidas)**.
-
-## [Regeneración Completa Día 1: PDFs con Logo a Ancho Completo y Cuadernos Sin Asserts] - 2026-08-06
-
-### Cambiado
-- **Ajuste de PDFs (`00_guia_instalacion_antigravity_ide.pdf` y `01_dia1_fundamentos_guia.pdf`):** El logo del curso (`assets/LogoCurso_gemini.png`) se muestra ahora en la cabecera ocupando el **ancho completo de página (190 mm)** en el encabezado principal de la primera página.
-- **Limpieza Pedagógica de Cuadernos (`00`, `01`, `02`, `03`):**
-  - Eliminación total de declaraciones `assert` de las celdas de código de los estudiantes, reemplazándolas por salidas limpias formateadas con `print(f"...")` seguras y sin saltos de línea erróneos.
-  - Verificación estricta de sintaxis en el 100% de las celdas de código.
 
 ## [Módulo 06: Creación del Cuaderno de Introducción a Pandas para Ciencia Abierta] - 2026-08-17
 
@@ -284,6 +331,7 @@
 - **Informe de Auditoría PDF y Markdown:**
   - Generación del informe completo [`artifacts/informe_auditoria_calidad_curso.md`](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/artifacts/informe_auditoria_calidad_curso.md) y exportación a PDF vectorizado en [`./doc/PDFS/informe_auditoria_calidad_curso.pdf`](./doc/PDFS/informe_auditoria_calidad_curso.pdf) incorporando el diagrama de Gantt en Mermaid, el desglose de viabilidad módulo por módulo y el análisis DAFO de 1 página.
 - **Sección dedicada en README.md:** Incorporación de la sección *"🛡️ Auditoría de Calidad y Viabilidad Docente (`@auditor_curso`)"* con la explicación del documento de auditoría y su enlace relativo `./doc/PDFS/informe_auditoria_calidad_curso.pdf`.
+
 
 
 
