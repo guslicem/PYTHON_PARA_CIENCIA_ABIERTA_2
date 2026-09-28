@@ -1,5 +1,7 @@
 # Regla de Dominio: Auditoría de Calidad y Viabilidad Docente del Curso
 
+> **Aplicación:** Esta regla establece las directivas y restricciones de dominio obligatorias para la ejecución de la habilidad docente [`course-content-auditor`](../skills/course-content-auditor/SKILL.md).
+
 ## Directivas Principales de Auditoría:
 
 1. **Auditoría de Correctitud de Contenidos y Código:**
