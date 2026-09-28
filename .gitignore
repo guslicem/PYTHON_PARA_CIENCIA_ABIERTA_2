@@ -23,7 +23,6 @@ NOTEBOOKS/PYTHON_CIENCIA_ABIERTA_2/
 # PROYECTO FINAL INTEGRADOR DE GITHUB (REPOSITORIO INDEPENDIENTE)
 
 PROYECTO_FINAL/
-
 PROYECTO_FINAL_SOLVED/
 
 
@@ -33,8 +32,9 @@ scratch/
 artifacts/
 
 
-# Cualquier html
+# Cualquier html salvo la carpeta de documentación doc/HTML/
 *.html
+!doc/HTML/*.html
 
 #cualquier powerpoint
 /doc/PPTX/
