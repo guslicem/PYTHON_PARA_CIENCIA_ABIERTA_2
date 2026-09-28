@@ -15,6 +15,13 @@ DOC_OFICIAL/
 # Carpetas de Trabajo Internas del Agente y del IDE
 .vscode/
 .agents/
+!.agents/rules/curacion_abierta.md
+!.agents/rules/auditor_curso.md
+!.agents/skills/open-science-curator/
+!.agents/skills/course-content-auditor/
+
+
+
 
 # PAQUETE DE PYOPENSCI
 
@@ -44,7 +51,7 @@ artifacts/
 *.ppt
 *.docx
 *.text
-
+*.graffle
 
 #cualquier carpeta de work in progress
 */WIP/
