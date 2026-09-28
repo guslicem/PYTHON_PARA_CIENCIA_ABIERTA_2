@@ -66,32 +66,36 @@ A lo largo del temario se cubren los siguientes bloques docentes:
 
 Todos los cuadernos han sido validados programáticamente y se encuentran guardados 100% limpios de salidas para la realización de los ejercicios:
 
-- **`00_Setup_y_Ejemplo_Inicial_Titanic.ipynb`**: Demostración inicial de análisis de datos con el dataset Titanic.
+- **`00_SETUP_Y_EJEMPLO_INICIAL.ipynb`**: Demostración inicial de análisis de datos con el dataset Titanic y configuración del entorno.
 - **`01_Intro_Tipos_Datos.ipynb`**: Variables, tipos primitivos, mutabilidad y conversión de tipos.
-- **`02_Estructuras_de_Datos.ipynb`**: Colecciones avanzadas (listas, tuplas, diccionarios y conjuntos).
-- **`03_Scripts_y_Funciones.ipynb`**: Creación de scripts `.py`, paso de parámetros, retorno de tuplas y modularidad.
-- **`04_Control_de_Flujo.ipynb`**: Estructuras de control, iteradores y captura de excepciones.
-- **`05_Intro_a_POO.ipynb`**: Programación Orientada a Objetos aplicada a investigación.
-- **`06_Intro_Pandas.ipynb`**: Ingesta de datos, filtrado, estadísticas y exportación a formatos abiertos (LaTeX, CSV, Excel, HTML, JSON).
-- **`07_EDA_con_Pandas.ipynb`**: Exploración y curación de metadatos reales descargados de **Digital.CSIC** vía OAI-PMH.
-- **`08_Intro_Matplotlib.ipynb`**: Arquitectura orientada a objetos (`fig, ax`), composición de subplots y exportación a alta resolución (PNG 300 DPI / PDF).
+- **`02_ESTRUCTURAS_DATOS.ipynb`**: Colecciones avanzadas (listas, tuplas, diccionarios y conjuntos).
+- **`03_SCRIPTS_Y_FUNCIONES.ipynb`**: Creación de scripts `.py`, paso de parámetros, retorno de tuplas y modularidad.
+- **`04_CONTROL_DEL_FLUJO.ipynb`**: Estructuras de control, iteradores y captura de excepciones.
+- **`05_INTRO_A_POO.ipynb`**: Programación Orientada a Objetos aplicada a investigación.
+- **`06_INTRO_A_PANDAS.ipynb`**: Ingesta de datos, filtrado, estadísticas y exportación a formatos abiertos (LaTeX, CSV, Excel, HTML, JSON).
+- **`07_EDA_CON_PANDAS.ipynb`**: Exploración y curación de metadatos reales descargados de **Digital.CSIC** vía OAI-PMH.
+- **`08_INTRO_MATPLOTLIB.ipynb`**: Arquitectura orientada a objetos (`fig, ax`), composición de subplots y exportación a alta resolución (PNG 300 DPI / PDF).
 - **`09_INTRO_GOOGLE_COLAB.ipynb`**: Computación en la nube con Colab, API de Kaggle, GPUs/TPUs, EDA biomédico y anexo de **Widgets interactivos** (`ipywidgets` / `#@param`).
 - **`10_USANDO_API.ipynb`**: Acceso a datos repositoriales en **Digital.CSIC** mediante el protocolo **OAI-PMH**, parseo de respuestas XML con BeautifulSoup, extracción de esquema Dublin Core (`oai_dc`) e integración con `lib/digital_csic.py`.
 - **`11_CREACION_Y_EMPAQUETADO_LIBRERIAS.ipynb`**: Modularización, creación y empaquetado de librerías reusables en Python, estándar `src/`, `pyproject.toml`, mejores prácticas de **pyOpenSci** e instalación en modo editable (`pip install -e .`).
 - **`12_INTRO_GITHUB.ipynb`**: Control de versiones en la nube con GitHub, repositorios `<user_name>_PYTHON_CIENCIA_ABIERTA_2`, privacidad/licencias, *Feature Branch Workflow*, Pull Requests y **CI/CD con GitHub Actions** (`pytest` en la nube).
-- **`13_INTRO_DESARROLLO_AGENTES_ANTIGRAVITY.ipynb`**: Paradigma de desarrollo asistido por Agentes IA en **Antigravity-IDE**, bucle Percepción-Acción-Verificación (PAV), directivas del proyecto (`AGENTS.md`), habilidades (`Skills`) y creación de `OpenScienceAgent` en Python con integración del SDK oficial de **Gemini (`google-genai`)**, **Function Calling / Tool Calling**, peticiones OAI-PMH en vivo a **Digital.CSIC**, gestión defensiva de claves (`.env`) y mecanismo de respaldo automático (*fallback*) ante límites de cuota.
+- **`13_DEMO_DESARROLLO_AGENTES_ANTIGRAVITY.ipynb`**: Paradigma de desarrollo asistido por Agentes IA en **Antigravity-IDE**, bucle Percepción-Acción-Verificación (PAV), directivas del proyecto (`AGENTS.md`), habilidades (`Skills`) y creación de `OpenScienceAgent` en Python con integración del SDK oficial de **Gemini (`google-genai`)**, **Function Calling / Tool Calling**, peticiones OAI-PMH en vivo a **Digital.CSIC**, gestión defensiva de claves (`.env`) y mecanismo de respaldo automático (*fallback*) ante límites de cuota.
 - **`14_PROYECTO_FINAL_GITHUB.ipynb`**: Proyecto final integrador y desarrollo colaborativo en GitHub. Simulación de un entorno científico real dividido en 4 grupos (Backend, Frontend, Docs FAIR y Testing/CI), flujo completo Git (Fork, Branch, Commit, Push, PR, Peer Review) y publicación de la **Release Oficial v1.0.0** en GitHub ([https://github.com/guslicem/proyecto_final_curso_python_2026](https://github.com/guslicem/proyecto_final_curso_python_2026)).
 
 
 ---
 
-## 📄 Documentación y Exportaciones PDF (`doc/`)
+## 📄 Documentación y Exportaciones (`doc/` y `CUESTIONARIOS/`)
 
-El repositorio incluye la carpeta **`doc/`** organizada para el acceso a materiales complementarios, diapositivas y versiones listas para imprimir:
+El repositorio incluye organizadas las exportaciones docentes, diapositivas y guías para el alumnado:
 
-- **`doc/PDFS/NOTEBOOKS_PDFs/`**: Contiene la versión compilada en PDF vectorizado de alta calidad de los 15 cuadernos docentes del curso.
+- **`doc/HTML/`**: Los 15 cuadernos del curso exportados a formato HTML web interactivo con enlaces e imágenes del logo corregidas.
+- **`doc/PDFS/NOTEBOOKS_PDFs/`**: Versiones compiladas en PDF vectorizado de los 15 cuadernos docentes del curso.
+- **`doc/PDFS/CUESTIONARIOS_PDFs/`** y **`CUESTIONARIOS/PDFs/`**: Los 16 cuestionarios de autoevaluación (módulos 00 a 14 + test de ideas previas) compilados a PDF vectorizado con respuestas correctas destacadas e iconografía visual.
+- **`CUESTIONARIOS/WIP/`**: Fuentes en Markdown (`.md`) de los 16 cuestionarios de autoevaluación.
 - **`doc/PDFS/SLIDES/`**: Presentaciones teóricas del curso en formato PDF (`1_Introduccion.pdf` a `7_Intro_a_Github.pdf`) para lectura, consulta e impresión.
 - **`doc/PDFS/DOC_DE_INTERES/`**: Documentación científica de referencia y guías complementarias (UNESCO Ciencia Abierta, ENCA, Hojas de Atajos de Pandas y Matplotlib).
+- **`doc/PDFS/GUIA_INSTALACION_ANTIGRAVITY_IDE.pdf`**: Guía rápida dedicada a la instalación limpia de Antigravity-IDE.
 
 ---
 
@@ -172,11 +176,18 @@ pip install -r requirements.txt
 
 ### 📦 Materiales Públicos en GitHub (Sincronizados)
 
-- **`NOTEBOOKS/`**: Cuadernos docentes interactivos en formato Jupyter Notebook (`.ipynb`) del `00` al `14` y guía de instalación de Antigravity-IDE en PDF.
+- **`NOTEBOOKS/`**: Cuadernos docentes interactivos en formato Jupyter Notebook (`.ipynb`) del `00` al `14`.
 - **`doc/`**: Documentación complementaria de referencia organizada en:
+  - **`doc/HTML/`**: Exportación en HTML web interactivo de los 15 cuadernos docentes con rutas de imágenes verificadas.
   - **`doc/PDFS/NOTEBOOKS_PDFs/`**: Cuadernos docentes compilados a PDF vectorizado.
+  - **`doc/PDFS/CUESTIONARIOS_PDFs/`**: PDFs vectorizados de los 16 cuestionarios de autoevaluación.
   - **`doc/PDFS/SLIDES/`**: Diapositivas y presentaciones teóricas del curso en formato PDF.
   - **`doc/PDFS/DOC_DE_INTERES/`**: Guías y hojas de atajos (*Cheat Sheets*) en PDF.
+  - **`doc/PDFS/GUIA_INSTALACION_ANTIGRAVITY_IDE.pdf`**: Guía de instalación limpia de Antigravity-IDE.
+- **`CUESTIONARIOS/`**: Módulos de evaluación continua:
+  - **`CUESTIONARIOS/WIP/`**: Fuentes Markdown (`.md`) de los 16 cuestionarios.
+  - **`CUESTIONARIOS/PDFs/`**: PDFs compilados con respuestas destacadas e iconografía.
+
 - **`DATASETS/`**: Datasets científicos reales (`.csv`) para ejercicios prácticos (`digital_csic_curated.csv`, `Thyroid_Diff_ES.csv`, `vivienda.csv`, etc.).
 - **`lib/`**: Librería personalizada del curso con utilidades de descarga OAI-PMH (`digital_csic.py`), funciones auxiliares (`mylib.py`) y generadores de datos de prueba (`generate_test_csv.py`).
 - **`CHANGELOG.md`**: Registro cronológico de versiones y cambios del curso.

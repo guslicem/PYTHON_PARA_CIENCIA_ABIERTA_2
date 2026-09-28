@@ -1,5 +1,17 @@
 # Changelog del Curso
 
+## [Exportación HTML de Cuadernos, PDFs de Cuestionarios y Actualización de README] - 2026-09-28
+
+### Añadido y Actualizado
+- **Exportación HTML Web de Cuadernos (`doc/HTML/`):**
+  - Generados los 15 archivos HTML interactivos (`00_SETUP_Y_EJEMPLO_INICIAL.html` a `14_PROYECTO_FINAL_GITHUB.html`).
+  - Corregidas todas las referencias relativas del logo oficial a `../../assets/LogoCurso_gemini.png` para visualización nativa en navegadores.
+- **Exportación a PDF de Cuestionarios (`CUESTIONARIOS/PDFs/` y `doc/PDFS/CUESTIONARIOS_PDFs/`):**
+  - Compilados a PDF los 16 cuestionarios de autoevaluación desde `CUESTIONARIOS/WIP/*.md` utilizando ReportLab.
+  - Formateados con cabecera de logo, tabla de metadatos, casillas de verificación e indicación destacada en verde con icono `[✓]` para respuestas correctas.
+- **Actualización del README.md:**
+  - Actualizada la estructura de carpetas docentes con los accesos a `doc/HTML/`, `CUESTIONARIOS/` (`WIP/` y `PDFs/`) y `doc/PDFS/CUESTIONARIOS_PDFs/`.
+
 ## [Guía de Configuración e Email de Bienvenida a Alumnos] - 2026-09-28
 
 ### Añadido y Actualizado

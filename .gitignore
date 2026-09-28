@@ -9,23 +9,19 @@ __pycache__/
 .env
 .DS_Store
 Thumbs.db
-DOC_OFICIAL
+DOC_OFICIAL/
+
 
 # Carpetas de Trabajo Internas del Agente y del IDE
 .vscode/
 .agents/
 
-# Cuadernos y Fuentes de Referencia del Curso Antiguo
-
-FULL_COURSE_CSIC/
-
-FULL_COURSE_USE/
-
-
 # PAQUETE DE PYOPENSCI
+
 NOTEBOOKS/PYTHON_CIENCIA_ABIERTA_2/
 
 # PROYECTO FINAL INTEGRADOR DE GITHUB (REPOSITORIO INDEPENDIENTE)
+
 PROYECTO_FINAL/
 
 PROYECTO_FINAL_SOLVED/
@@ -58,4 +54,6 @@ artifacts/
 # Clics/Clonados anidados accidentales
 PYTHON_PARA_CIENCIA_ABIERTA_2/
 PDF/
+CUESTIONARIOS/
+
 
