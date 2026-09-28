@@ -45,9 +45,6 @@ artifacts/
 *.docx
 *.text
 
-#agentes que no voy a subir
-.agents/skills/ai-coding-assistant-module/
-.agents/skills/course_learner/
 
 #cualquier carpeta de work in progress
 */WIP/
