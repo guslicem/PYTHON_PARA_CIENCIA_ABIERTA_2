@@ -1,5 +1,34 @@
 # Changelog del Curso
 
+## [Actualización de Informe de Auditoría: Eliminación de Sección de Costes] - 2026-09-28
+
+### Cambiado y Eliminado
+- **Eliminación de la Sección de Costes:** Eliminada la Sección 5 (Estimación Económica y Análisis de Presupuesto) del Informe de Auditoría de Calidad y Viabilidad del Curso a petición explícita.
+- **Re-generación del Informe de Auditoría:**
+  - Versión PDF vectorizada ajustada a un formato de **2 páginas exactas**: [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/doc/PDFS/informe_auditoria_calidad_curso.pdf), [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/PDFS/) y [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/artifacts/).
+  - Versión Markdown actualizada en [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/doc/PDFS/informe_auditoria_calidad_curso.md).
+- **Mantenimiento de Bloques Principales:** Preservadas intactas las secciones de Auditoría Sintáctica AST (100% éxito en 282 celdas), Auditoría de Hipervínculos/Formularios, Temporización Horaria (20h / 4 sesiones x 5h) y Análisis DAFO Estratégico.
+
+## [Guía de Configuración: Clonado de Repositorio y Clientes de GitHub] - 2026-09-28
+
+### Añadido y Actualizado
+- **Integración de Clonado de Repositorio en :**
+  - Incorporación de la Sección 2.1 con la instrucción explícita de clonado del repositorio oficial ( y ) inmediatamente tras la instalación de Git.
+  - Explicación de la conexión necesaria entre la carpeta clonada y la presencia del archivo  para la creación del entorno virtual .
+- **Enlaces a Clientes Oficiales de GitHub:**
+  - Adición de enlaces directos a **GitHub Desktop** () y **GitHub CLI** ().
+- **Formato PDF:** Optimización de maquetación en 2 páginas en [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/doc/PDFS/GUIA_DE_CONFIGURACION.pdf).
+
+## [Re-exportación Total de PDFs por Actualización de Logo] - 2026-09-28
+
+### Cambiado y Corregido
+- **Actualización de Logo Oficial:** Incorporación del archivo  actualizado en disco (sin errata tipográfica).
+- **Re-exportación en lote (100% PDFs):**
+  - **15/15 Cuadernos Jupyter:** Regenerados en [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/doc/PDFS/NOTEBOOKS_PDFs).
+  - **Guía de Configuración Multiplataforma:** Regenerada en [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/doc/PDFS/GUIA_DE_CONFIGURACION.pdf).
+  - **Informe de Auditoría Integral:** Regenerado en [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/doc/PDFS/informe_auditoria_calidad_curso.pdf), [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/PDFS/) y [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/artifacts/).
+  - **Dossier Técnico IMSE:** Regenerado en [](file:///Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/artifacts/dossier_tecnico_curso_imse.pdf).
+
 ## [Informe de Auditoría Completo: DAFO y Presupuesto de Formación Presencial] - 2026-09-17
 
 ### Añadido y Actualizado

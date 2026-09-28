@@ -1,13 +1,13 @@
-# 📊 Informe Integral de Auditoría de Calidad, Viabilidad, DAFO y Estimación Económica del Curso
+# 📊 Informe Integral de Auditoría de Calidad, Viabilidad y Análisis DAFO del Curso
 
 **Curso:** Python para la Ciencia Abierta (CSIC 2026)  
 **Autor:** Gustavo Liñán Cembrano  
-**Fecha de Auditoría:** 17 de Septiembre de 2026  
+**Fecha de Auditoría:** 28 de Septiembre de 2026  
 **Cuadernos Evaluados:** 15 (`NOTEBOOKS/00` al `14`)  
 
 > [!TIP]
 > **VERDICTO DEL AGENTE AUDITOR (`@auditor_curso`):**  
-> **APROBADO CON EXCELENCIA — CURSO 100% VIABLE, SINTÁCTICAMENTE VERIFICADO Y ALTAMENTE EFICIENTE EN COSTES.**
+> **APROBADO CON EXCELENCIA — CURSO 100% VIABLE, SINTÁCTICAMENTE VERIFICADO Y TOTALMENTE AUDITADO.**
 
 ---
 
@@ -121,27 +121,3 @@ gantt
 - 🚀 **Capacitación del Personal Científico:** Modernización de los flujos de trabajo de análisis de datos y publicación FAIR en institutos del CSIC.
 - 🚀 **Automatización Repositorial:** Capacidad de consultar y curar metadatos de Digital.CSIC programáticamente sin scraping manual.
 - 🚀 **Reutilización del Material:** Repositorio estructurado y listo para ser replicado en futuros cursos de postgrado, talleres o seminarios.
-
----
-
-## 💰 5. Estimación Económica Realista del Curso (Formación Presencial)
-
-### Desglose Presupuestario para un Grupo de 15–20 Alumnos (20 Horas Lectivas)
-
-| Partida / Concepto | Descripción Detallada | Unidades / Carga | Tarifa Aplicada | Importe Total |
-|---|---|:---:|:---:|:---:|
-| **Honorarios Formador Principal (Impartición Presencial)** | 20 horas lectivas presenciales (4 sesiones x 5h) + 30h dedicadas a preparación personalizada de cuadernos, resolución de dudas y tutoría | 20h lectivas | 90,00 € / h | **1.800,00 €** |
-| **Infraestructura Técnica, Cómputo Nube y Licencias IA** | Entornos Google Colab Pro, cuotas de API para pruebas de agentes autónomos (Gemini / GenAI SDK) y hosting de repositorios GitHub | Global curso | 250,00 € | **250,00 €** |
-| **Diseño Pedagógico, Materiales y Recursos Multimedia** | Elaboración de 15 cuadernos Jupyter (.ipynb), 15 guías PDF vectorizadas, 16 cuestionarios de autoevaluación en Google Forms y 15 videopodcasts (.mp4) | Global curso | 450,00 € | **450,00 €** |
-| **Logística, Desplazamiento y Dietas Oficiales del Formador** | Desplazamiento a la sede del instituto del CSIC, 3-4 noches de alojamiento y dietas según estipulaciones de formación pública | 4 días | 125,00 € / día | **500,00 €** |
-| **COSTE TOTAL ESTIMADO (NETO)** | **Impartición presencial completa con materiales y tutoría** | **20h lectivas** | — | **3.000,00 €** |
-| **COSTE POR ALUMNO (18 al.)** | **Aproximación por participante** | **18 alumnos** | — | **~166,67 € / alumno** |
-
-### Análisis de Eficiencia Económica y Retorno Institucional
-
-1. **Comparativa con el Mercado Comercial:**  
-   - Cursos comerciales equivalentes de Python científico / Data Science de 20 horas en el sector privado oscilan entre **450 € y 650 € por alumno** (coste total de 8.000 € – 11.000 € por grupo).  
-   - Esta propuesta formativa presencial representa un **ahorro de más del 60%** para el organismo comprador (CSIC), ofreciendo contenidos hiper-especializados en sus propias fuentes (Digital.CSIC).
-
-2. **Retorno de Inversión (ROI) para la Ciencia Abierta:**  
-   - El material desarrollado (cuadernos, guías PDF, scripts y pipeline de agentes) queda depositado en abierto en el repositorio del CSIC, permitiendo su reutilización perpetua por otros investigadores sin costes adicionales de licencias.
