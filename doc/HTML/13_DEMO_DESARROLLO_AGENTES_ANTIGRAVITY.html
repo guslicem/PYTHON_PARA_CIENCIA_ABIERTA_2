@@ -7802,7 +7802,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img alt="Logo Curso" src="../../assets/LogoCurso_gemini.png"/></p>
+<p><img alt="Logo Curso" src="../assets/LogoCurso_gemini.png"/></p>
 <h1 id="M%C3%93DULO-13:-Introducci%C3%B3n-al-Desarrollo-de-Software-con-Agentes-en-Antigravity-IDE">MÓDULO 13: Introducción al Desarrollo de Software con Agentes en Antigravity-IDE<a class="anchor-link" href="#M%C3%93DULO-13:-Introducci%C3%B3n-al-Desarrollo-de-Software-con-Agentes-en-Antigravity-IDE">¶</a></h1><p><strong>Curso:</strong> Python para Ciencia Abierta (CSIC)<br/>
 <strong>Autor:</strong> Gustavo Liñán Cembrano<br/>
 <strong>Fechas:</strong> 5 a 8 de Octubre de 2026<br/>
@@ -7810,7 +7810,7 @@ a.anchor-link {
 <strong>Módulo:</strong> 13 - Paradigma de Desarrollo con Agentes IA, SDK de Gemini (<code>google-genai</code>), Bucle Percepción-Acción-Verificación (PAV), Reglas (<code>AGENTS.md</code>), Habilidades (<code>Skills</code>) y Function Calling con Gemini</p>
 <hr/>
 <h2 id="1.-Objetivos-de-Aprendizaje">1. Objetivos de Aprendizaje<a class="anchor-link" href="#1.-Objetivos-de-Aprendizaje">¶</a></h2><ul>
-<li><strong>Evolución del Desarrollo Asistido por IA:</strong> Comprender la transición desde la asistencia pasiva (<em>Ghost Text</em> <code>Tab</code>) y la refactorización (<code>Cmd+K</code>) hacia la <strong>Programación Basada en Agentes Autónomos</strong> (<em>Agentic Coding</em>).</li>
+<li><strong>Evolución del Desarrollo Asistido por IA:</strong> Comprender la transición desde la asistencia pasiva (<em>Ghost Text</em>) y la refactorización hacia la <strong>Programación Basada en Agentes Autónomos</strong> (<em>Agentic Coding</em>).</li>
 <li><strong>El Bucle Percepción - Acción - Verificación (PAV):</strong> Analizar la arquitectura formal de agentes de código bajo el patrón ReAct (<em>Reasoning &amp; Acting</em>).</li>
 <li><strong>Construcción Paso a Paso de un Agente con Gemini LLM:</strong><ul>
 <li><strong>Paso 1:</strong> Definición de Reglas y Directivas de Comportamiento en la <strong>raíz del proyecto</strong> (<code>.agents/rules/</code>).</li>
@@ -7893,12 +7893,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=4449785c">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4449785c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
@@ -7932,6 +7932,19 @@ a.anchor-link {
 </div>
 </div>
 </div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>✅ PASO 1 Completado: Regla creada en la RAÍZ del proyecto: '/Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/.agents/rules/curacion_abierta.md'
+</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=43e9b849">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7944,12 +7957,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=faa765a4">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=faa765a4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Definir la ruta en la raíz del proyecto: .agents/skills/open-science-curator/</span>
@@ -7982,6 +7995,19 @@ a.anchor-link {
 </div>
 </div>
 </div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>✅ PASO 2 Completado: Habilidad de curación creada en la RAÍZ del proyecto: '/Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/.agents/skills/open-science-curator/SKILL.md'
+</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bbae5773">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7989,175 +8015,54 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="%F0%9F%93%8C-PASO-3:-Definir-las-Herramientas-Ejecutables-(Tools)-con-Consulta-REAL-a-Digital.CSIC">📌 PASO 3: Definir las Herramientas Ejecutables (<code>Tools</code>) con Consulta REAL a Digital.CSIC<a class="anchor-link" href="#%F0%9F%93%8C-PASO-3:-Definir-las-Herramientas-Ejecutables-(Tools)-con-Consulta-REAL-a-Digital.CSIC">¶</a></h3><p>Las <strong>Herramientas (<em>Tools</em>)</strong> son las funciones Python que el modelo <strong>Gemini</strong> invocará dinámicamente mediante <strong>Function Calling</strong>.</p>
-<p>Utilizaremos <code>requests</code> y <code>BeautifulSoup</code> (<code>xml</code> parser) para realizar una <strong>CONSULTA REAL</strong> al servidor OAI-PMH de Digital.CSIC (<code>https://digital.csic.es/dspace-oai/request</code>), tal como se aprendió en el <strong>Módulo 10 (<code>10_USANDO_API.ipynb</code>)</strong>:</p>
+<h3 id="%F0%9F%93%8C-PASO-3:-Herramientas-Ejecutables-(Tools)-y-M%C3%B3dulos-de-Python-(lib/agent_tools.py)">📌 PASO 3: Herramientas Ejecutables (<code>Tools</code>) y Módulos de Python (<code>lib/agent_tools.py</code>)<a class="anchor-link" href="#%F0%9F%93%8C-PASO-3:-Herramientas-Ejecutables-(Tools)-y-M%C3%B3dulos-de-Python-(lib/agent_tools.py)">¶</a></h3><blockquote>
+<p>💡 <strong>NOTA ARQUITECTÓNICA SOBRE AGENTES E INTELIGENCIA ARTIFICIAL:</strong></p>
+<p>En un sistema de agentes profesional como <strong>Antigravity-IDE</strong>, la arquitectura consta de 3 capas claramente diferenciadas:</p>
+<ol>
+<li><strong>Directivas y Reglas (<code>.agents/rules/*.md</code>)</strong>: Establecen restricciones éticas y de dominio en lenguaje natural (creadas en el <strong>Paso 1</strong>).</li>
+<li><strong>Habilidades Contextuales (<code>.agents/skills/&lt;skill&gt;/SKILL.md</code>)</strong>: Definen el protocolo de actuación en lenguaje natural y metadatos YAML (creadas en el <strong>Paso 2</strong>).</li>
+<li><strong>Herramientas Ejecutables (<code>Tools</code> / Módulos de Python / Servidores MCP)</strong>: Código ejecutable real (<code>requests</code>, <code>bs4</code>, <code>pandas</code>) que realiza las operaciones (consultar servidores OAI-PMH, parsear XML, formatear BibTeX).</li>
+</ol>
+<p><strong>Formalización de Producción:</strong> Las herramientas ejecutables se formalizan en la librería reutilizable del proyecto (<code>lib/agent_tools.py</code>) y en el directorio de la habilidad (<code>.agents/skills/open-science-curator/scripts/agent_tools.py</code>), importándolas para que el modelo <strong>Gemini</strong> las invoque mediante <strong>Function Calling</strong>.</p>
+</blockquote>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=38a4f235">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=38a4f235">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">re</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">bs4</span><span class="w"> </span><span class="kn">import</span> <span class="n">BeautifulSoup</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Any</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Optional</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 
-<span class="c1"># --- HERRAMIENTA 1: Validación Sintáctica de Identificadores (DOI / Handle) ---</span>
-<span class="k">def</span><span class="w"> </span><span class="nf">tool_validate_identifier</span><span class="p">(</span><span class="n">identifier</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-<span class="w">    </span><span class="sd">"""</span>
-<span class="sd">    Valida si la cadena ingresada es un DOI estándar o un Handle de Digital.CSIC.</span>
-<span class="sd">    """</span>
-    <span class="n">clean_id</span> <span class="o">=</span> <span class="n">identifier</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
-    
-    <span class="c1"># Patrón DOI estándar (ej. 10.1038/s41586-024-00001-x)</span>
-    <span class="c1"># Expresión regular que valida la norma ISO 26324 para DOIs:</span>
-    <span class="c1"># ^10.       -&gt; Empieza obligatoriamente por el prefijo internacional '10.'</span>
-    <span class="c1"># \d{4,9}/   -&gt; Entre 4 y 9 dígitos del emisor (ej. 1038=Nature, 1016=Elsevier) seguidos de '/'</span>
-    <span class="c1"># [-._;()/:A-Za-z0-9]+$    -&gt; Sufijo del artículo con caracteres alfanuméricos y signos permitidos hasta el final ($)</span>
-    <span class="n">doi_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">"^10\.\d{4,9}/[-._;()/:A-Za-z0-9]+$"</span>
-    <span class="c1"># Patrón Handle de Digital.CSIC (ej. 10261/280145 o 10261/2008)</span>
-    <span class="c1"># Empieza por 10261, le sigue la /, y luego un numero. </span>
-    <span class="n">handle_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">"^10261/\d+$"</span>
-    
-    <span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">handle_pattern</span><span class="p">,</span> <span class="n">clean_id</span><span class="p">):</span>
-        <span class="k">return</span> <span class="p">{</span>
-            <span class="s2">"valid"</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
-            <span class="s2">"type"</span><span class="p">:</span> <span class="s2">"Handle (Digital.CSIC)"</span><span class="p">,</span>
-            <span class="s2">"handle"</span><span class="p">:</span> <span class="n">clean_id</span><span class="p">,</span>
-            <span class="s2">"oai_identifier"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"oai:digital.csic.es:</span><span class="si">{</span><span class="n">clean_id</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
-            <span class="s2">"url"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"https://hdl.handle.net/</span><span class="si">{</span><span class="n">clean_id</span><span class="si">}</span><span class="s2">"</span>
-        <span class="p">}</span>
-    <span class="k">elif</span> <span class="n">re</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">doi_pattern</span><span class="p">,</span> <span class="n">clean_id</span><span class="p">):</span>
-        <span class="k">return</span> <span class="p">{</span>
-            <span class="s2">"valid"</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
-            <span class="s2">"type"</span><span class="p">:</span> <span class="s2">"DOI"</span><span class="p">,</span>
-            <span class="s2">"doi"</span><span class="p">:</span> <span class="n">clean_id</span><span class="p">,</span>
-            <span class="s2">"url"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"https://doi.org/</span><span class="si">{</span><span class="n">clean_id</span><span class="si">}</span><span class="s2">"</span>
-        <span class="p">}</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="p">{</span>
-            <span class="s2">"valid"</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
-            <span class="s2">"type"</span><span class="p">:</span> <span class="s2">"Desconocido"</span><span class="p">,</span>
-            <span class="s2">"error"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"El identificador '</span><span class="si">{</span><span class="n">clean_id</span><span class="si">}</span><span class="s2">' no cumple la sintaxis de Handle (10261/XXX) ni DOI."</span>
-        <span class="p">}</span>
+<span class="c1"># Importar las herramientas ejecutables formalizadas en lib/agent_tools.py</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">(),</span> <span class="s2">".."</span><span class="p">)))</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">lib.agent_tools</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
+    <span class="n">tool_validate_identifier</span><span class="p">,</span>
+    <span class="n">tool_fetch_digital_csic_real</span><span class="p">,</span>
+    <span class="n">tool_audit_open_access</span> <span class="k">as</span> <span class="n">tool_audit_open_license</span><span class="p">,</span>
+    <span class="n">tool_format_bibtex</span> <span class="k">as</span> <span class="n">tool_generate_bibtex</span>
+<span class="p">)</span>
 
-
-<span class="c1"># --- HERRAMIENTA 2: Consulta REAL al Servidor OAI-PMH de Digital.CSIC ---</span>
-<span class="k">def</span><span class="w"> </span><span class="nf">tool_fetch_digital_csic_real</span><span class="p">(</span><span class="n">handle_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">timeout</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">15</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-<span class="w">    </span><span class="sd">"""</span>
-<span class="sd">    Realiza una consulta HTTP REAL al protocolo OAI-PMH de Digital.CSIC para un Handle dado.</span>
-<span class="sd">    Utiliza BeautifulSoup para parsear el XML Dublin Core (oai_dc).</span>
-<span class="sd">    """</span>
-    <span class="n">clean_handle</span> <span class="o">=</span> <span class="n">handle_id</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">"https://hdl.handle.net/"</span><span class="p">,</span> <span class="s2">""</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">"http://hdl.handle.net/"</span><span class="p">,</span> <span class="s2">""</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">clean_handle</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">"10261/"</span><span class="p">):</span>
-        <span class="n">clean_handle</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"10261/</span><span class="si">{</span><span class="n">clean_handle</span><span class="si">}</span><span class="s2">"</span>
-    
-    <span class="n">oai_url</span> <span class="o">=</span> <span class="s2">"https://digital.csic.es/dspace-oai/request"</span>
-    <span class="n">oai_identifier</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"oai:digital.csic.es:</span><span class="si">{</span><span class="n">clean_handle</span><span class="si">}</span><span class="s2">"</span>
-    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="s2">"verb"</span><span class="p">:</span> <span class="s2">"GetRecord"</span><span class="p">,</span>
-        <span class="s2">"metadataPrefix"</span><span class="p">:</span> <span class="s2">"oai_dc"</span><span class="p">,</span>
-        <span class="s2">"identifier"</span><span class="p">:</span> <span class="n">oai_identifier</span>
-    <span class="p">}</span>
-    
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">oai_url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">!=</span> <span class="mi">200</span><span class="p">:</span>
-            <span class="k">return</span> <span class="p">{</span><span class="s2">"found"</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">"error"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"Error HTTP </span><span class="si">{</span><span class="n">response</span><span class="o">.</span><span class="n">status_code</span><span class="si">}</span><span class="s2"> desde Digital.CSIC"</span><span class="p">}</span>
-        
-        <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="s2">"xml"</span><span class="p">)</span>
-        
-        <span class="n">error_tag</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">"error"</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">error_tag</span><span class="p">:</span>
-            <span class="k">return</span> <span class="p">{</span><span class="s2">"found"</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">"error"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"Digital.CSIC OAI-PMH Error: </span><span class="si">{</span><span class="n">error_tag</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">}</span>
-        
-        <span class="n">title_tag</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">"dc:title"</span><span class="p">)</span>
-        <span class="n">title</span> <span class="o">=</span> <span class="n">title_tag</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">if</span> <span class="n">title_tag</span> <span class="k">else</span> <span class="s2">"Sin título declarado"</span>
-        
-        <span class="n">creators</span> <span class="o">=</span> <span class="p">[</span><span class="n">c</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">soup</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">"dc:creator"</span><span class="p">)]</span>
-        <span class="n">dates</span> <span class="o">=</span> <span class="p">[</span><span class="n">d</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">soup</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">"dc:date"</span><span class="p">)]</span>
-        <span class="n">rights</span> <span class="o">=</span> <span class="p">[</span><span class="n">r</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">soup</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">"dc:rights"</span><span class="p">)]</span>
-        <span class="n">subjects</span> <span class="o">=</span> <span class="p">[</span><span class="n">s</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">soup</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">"dc:subject"</span><span class="p">)]</span>
-        <span class="n">publishers</span> <span class="o">=</span> <span class="p">[</span><span class="n">p</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">soup</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">"dc:publisher"</span><span class="p">)]</span>
-        
-        <span class="n">year</span> <span class="o">=</span> <span class="n">dates</span><span class="p">[</span><span class="mi">0</span><span class="p">][:</span><span class="mi">4</span><span class="p">]</span> <span class="k">if</span> <span class="n">dates</span> <span class="k">else</span> <span class="s2">"2026"</span>
-        
-        <span class="k">return</span> <span class="p">{</span>
-            <span class="s2">"found"</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
-            <span class="s2">"data"</span><span class="p">:</span> <span class="p">{</span>
-                <span class="s2">"handle"</span><span class="p">:</span> <span class="n">clean_handle</span><span class="p">,</span>
-                <span class="s2">"title"</span><span class="p">:</span> <span class="n">title</span><span class="p">,</span>
-                <span class="s2">"authors"</span><span class="p">:</span> <span class="n">creators</span> <span class="k">if</span> <span class="n">creators</span> <span class="k">else</span> <span class="p">[</span><span class="s2">"Autor Institucional CSIC"</span><span class="p">],</span>
-                <span class="s2">"year"</span><span class="p">:</span> <span class="n">year</span><span class="p">,</span>
-                <span class="s2">"publisher"</span><span class="p">:</span> <span class="n">publishers</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="n">publishers</span> <span class="k">else</span> <span class="s2">"Digital.CSIC"</span><span class="p">,</span>
-                <span class="s2">"rights"</span><span class="p">:</span> <span class="n">rights</span><span class="p">,</span>
-                <span class="s2">"subjects"</span><span class="p">:</span> <span class="n">subjects</span><span class="p">[:</span><span class="mi">5</span><span class="p">],</span>
-                <span class="s2">"url"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"https://hdl.handle.net/</span><span class="si">{</span><span class="n">clean_handle</span><span class="si">}</span><span class="s2">"</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
-    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-        <span class="k">return</span> <span class="p">{</span><span class="s2">"found"</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">"error"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"Excepción de conexión HTTP: </span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">}</span>
-
-
-<span class="c1"># --- HERRAMIENTA 3: Auditoría de Licencia de Acceso Abierto ---</span>
-<span class="k">def</span><span class="w"> </span><span class="nf">tool_audit_open_license</span><span class="p">(</span><span class="n">rights_list</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
-<span class="w">    </span><span class="sd">"""</span>
-<span class="sd">    Audita la lista de elementos dc:rights declarados en el registro OAI-PMH.</span>
-<span class="sd">    """</span>
-    <span class="n">rights_str</span> <span class="o">=</span> <span class="s2">" "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">rights_list</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
-    
-    <span class="n">is_open</span> <span class="o">=</span> <span class="kc">False</span>
-    <span class="n">status_msg</span> <span class="o">=</span> <span class="s2">"Licencia no identificada"</span>
-    
-    <span class="k">if</span> <span class="s2">"openaccess"</span> <span class="ow">in</span> <span class="n">rights_str</span> <span class="ow">or</span> <span class="s2">"open access"</span> <span class="ow">in</span> <span class="n">rights_str</span> <span class="ow">or</span> <span class="s2">"info:eu-repo/semantics/openaccess"</span> <span class="ow">in</span> <span class="n">rights_str</span><span class="p">:</span>
-        <span class="n">is_open</span> <span class="o">=</span> <span class="kc">True</span>
-        <span class="n">status_msg</span> <span class="o">=</span> <span class="s2">"Acceso Abierto Confirmado (EU Semantics / Open Access)"</span>
-    <span class="k">elif</span> <span class="s2">"creative commons"</span> <span class="ow">in</span> <span class="n">rights_str</span> <span class="ow">or</span> <span class="s2">"by"</span> <span class="ow">in</span> <span class="n">rights_str</span><span class="p">:</span>
-        <span class="n">is_open</span> <span class="o">=</span> <span class="kc">True</span>
-        <span class="n">status_msg</span> <span class="o">=</span> <span class="s2">"Acceso Abierto (Licencia Creative Commons)"</span>
-    <span class="k">elif</span> <span class="s2">"restricted"</span> <span class="ow">in</span> <span class="n">rights_str</span> <span class="ow">or</span> <span class="s2">"closed"</span> <span class="ow">in</span> <span class="n">rights_str</span><span class="p">:</span>
-        <span class="n">is_open</span> <span class="o">=</span> <span class="kc">False</span>
-        <span class="n">status_msg</span> <span class="o">=</span> <span class="s2">"Acceso Restringido o Embargado"</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">is_open</span> <span class="o">=</span> <span class="kc">True</span>
-        <span class="n">status_msg</span> <span class="o">=</span> <span class="s2">"Depositado en Digital.CSIC (Consulta Institucional)"</span>
-        
-    <span class="k">return</span> <span class="p">{</span>
-        <span class="s2">"is_open_access"</span><span class="p">:</span> <span class="n">is_open</span><span class="p">,</span>
-        <span class="s2">"rights_declared"</span><span class="p">:</span> <span class="n">rights_list</span><span class="p">,</span>
-        <span class="s2">"status_summary"</span><span class="p">:</span> <span class="n">status_msg</span>
-    <span class="p">}</span>
-
-
-<span class="c1"># --- HERRAMIENTA 4: Generador de Citas BibTeX para LaTeX ---</span>
-<span class="k">def</span><span class="w"> </span><span class="nf">tool_generate_bibtex</span><span class="p">(</span><span class="n">metadata</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">"""</span>
-<span class="sd">    Genera una cita estructurada BibTeX a partir de metadatos reales de Digital.CSIC.</span>
-<span class="sd">    """</span>
-    <span class="n">data</span> <span class="o">=</span> <span class="n">metadata</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"data"</span><span class="p">,</span> <span class="n">metadata</span><span class="p">)</span>
-    <span class="n">authors</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"authors"</span><span class="p">,</span> <span class="p">[</span><span class="s2">"CSIC"</span><span class="p">])</span>
-    <span class="n">authors_formatted</span> <span class="o">=</span> <span class="s2">" and "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">authors</span><span class="p">)</span>
-    
-    <span class="n">first_author_clean</span> <span class="o">=</span> <span class="n">authors</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">","</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">" "</span><span class="p">,</span> <span class="s2">""</span><span class="p">)</span> <span class="k">if</span> <span class="n">authors</span> <span class="k">else</span> <span class="s2">"csic"</span>
-    <span class="n">year</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"year"</span><span class="p">,</span> <span class="s2">"2026"</span><span class="p">)</span>
-    <span class="n">cite_key</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">first_author_clean</span><span class="si">}{</span><span class="n">year</span><span class="si">}</span><span class="s2">csic"</span>
-    
-    <span class="n">bibtex</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"""@article</span><span class="se">{{</span><span class="si">{</span><span class="n">cite_key</span><span class="si">}</span><span class="s2">,</span>
-<span class="s2">  author    = </span><span class="se">{{</span><span class="si">{</span><span class="n">authors_formatted</span><span class="si">}</span><span class="se">}}</span><span class="s2">,</span>
-<span class="s2">  title     = </span><span class="se">{{</span><span class="si">{</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'title'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Sin título'</span><span class="p">)</span><span class="si">}</span><span class="se">}}</span><span class="s2">,</span>
-<span class="s2">  journal   = </span><span class="se">{{</span><span class="si">{</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'publisher'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Digital.CSIC Repository'</span><span class="p">)</span><span class="si">}</span><span class="se">}}</span><span class="s2">,</span>
-<span class="s2">  year      = </span><span class="se">{{</span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="se">}}</span><span class="s2">,</span>
-<span class="s2">  url       = </span><span class="se">{{</span><span class="si">{</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'url'</span><span class="p">,</span><span class="w"> </span><span class="s1">''</span><span class="p">)</span><span class="si">}</span><span class="se">}}</span>
-<span class="se">}}</span><span class="s2">"""</span>
-    <span class="k">return</span> <span class="n">bibtex</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"✅ PASO 3 Completado: 4 Herramientas ejecutable registradas para Function Calling con Gemini."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"✅ PASO 3 Completado: 4 Herramientas ejecutables cargadas desde 'lib/agent_tools.py' para Function Calling con Gemini."</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>✅ PASO 3 Completado: 4 Herramientas ejecutable registradas para Function Calling con Gemini.
+</pre>
 </div>
 </div>
 </div>
