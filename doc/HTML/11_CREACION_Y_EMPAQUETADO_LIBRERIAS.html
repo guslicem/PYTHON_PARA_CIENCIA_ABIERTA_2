@@ -7802,12 +7802,33 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img alt="Logo Curso" src="../../assets/LogoCurso_gemini.png"/></p>
+<p><img alt="Logo Curso" src="../assets/LogoCurso_gemini.png"/></p>
 <h1 id="M%C3%93DULO-11:-Modularizaci%C3%B3n,-Creaci%C3%B3n-y-Empaquetado-de-Librer%C3%ADas-Reutilizables-en-Python">MÓDULO 11: Modularización, Creación y Empaquetado de Librerías Reutilizables en Python<a class="anchor-link" href="#M%C3%93DULO-11:-Modularizaci%C3%B3n,-Creaci%C3%B3n-y-Empaquetado-de-Librer%C3%ADas-Reutilizables-en-Python">¶</a></h1><p><strong>Curso:</strong> Python para Ciencia Abierta (CSIC)<br/>
 <strong>Autor:</strong> Gustavo Liñán Cembrano<br/>
 <strong>Fechas:</strong> 5 a 8 de Octubre de 2026<br/>
 <strong>Tiempo Estimado de Impartición:</strong> 1 hora<br/>
 <strong>Módulo:</strong> 11 - Python Packaging, Standard Project Layout (<code>src/</code>), <code>pyproject.toml</code>, <code>pip install -e .</code> &amp; pyOpenSci Best Practices</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d67955ef">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a href="../doc/PDFS/SLIDES/6_Empaquetando_tu_libreria.pdf">Empaquetando tu libreria con PyOpenScie</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7cb34565">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <hr/>
 <h2 id="1.-Objetivos-de-Aprendizaje">1. Objetivos de Aprendizaje<a class="anchor-link" href="#1.-Objetivos-de-Aprendizaje">¶</a></h2><ul>
 <li><p><strong>Estructura Estándar de Proyectos Python:</strong> Comprender el diseño moderno de paquetes en Python utilizando la arquitectura con directorio de código fuente <code>src/</code> y archivos de inicialización <code>__init__.py</code>.</p>
@@ -7873,7 +7894,7 @@ hatch<span class="w"> </span>--version
 </pre></div>
 <ol>
 <li>Elige la configuracion <strong>MINIMAL</strong></li>
-<li>PROJECT NAME: <strong>PYTHON_CIENCIA_ABIERTA_2</strong></li>
+<li>PROJECT NAME: <strong>TUNOMBRE_PYTHON_CIENCIA_ABIERTA_2</strong></li>
 <li>Descripción:
 Librería de ejemplo para el empaquetado de código en el Curso Python para la Ciencia Abierta .
 Pulsa ESC y ENTER</li>
@@ -7882,7 +7903,7 @@ Pulsa ESC y ENTER</li>
 <li>Github username: <strong>Tu nombre de usuario en GitHub</strong></li>
 </ol>
 <hr/>
-<h3 id="%F0%9F%93%82-Estructura-Estandarizada-Generada:">📂 Estructura Estandarizada Generada:<a class="anchor-link" href="#%F0%9F%93%82-Estructura-Estandarizada-Generada:">¶</a></h3><div class="highlight"><pre><span></span>PYTHON_CIENCIA_ABIERTA_2/
+<h3 id="%F0%9F%93%82-Estructura-Estandarizada-Generada:">📂 Estructura Estandarizada Generada:<a class="anchor-link" href="#%F0%9F%93%82-Estructura-Estandarizada-Generada:">¶</a></h3><div class="highlight"><pre><span></span>TUNOMBRE_PYTHON_CIENCIA_ABIERTA_2/
 ├── .gitignore
 ├── CHANGELOG.md
 ├── LICENSE
@@ -7938,7 +7959,7 @@ Pulsa ESC y ENTER</li>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="4.a:-Edita-el-archivo-pyproject.toml-y-a%C3%B1ade-pytesta-las-dependencias">4.a: Edita el archivo <code>pyproject.toml</code> y añade <code>pytest</code>a las dependencias<a class="anchor-link" href="#4.a:-Edita-el-archivo-pyproject.toml-y-a%C3%B1ade-pytesta-las-dependencias">¶</a></h2><ol>
-<li>Abre el archivo <strong><code>pyproject.toml</code></strong> ubicado en la raíz de tu paquete (<code>PYTHON_CIENCIA_ABIERTA_2/pyproject.toml</code>).</li>
+<li>Abre el archivo <strong><code>pyproject.toml</code></strong> ubicado en la raíz de tu paquete (<code>TUNOMBRE_PYTHON_CIENCIA_ABIERTA_2/pyproject.toml</code>).</li>
 <li>Localiza la sección <strong><code>[project]</code></strong> y busca el parámetro <strong><code>dependencies</code></strong>.</li>
 <li>Añade <code>"pytest"</code> a la lista de dependencias:</li>
 </ol>
@@ -8237,7 +8258,7 @@ En paquetes modernos (como el generado por <strong>pyOpenSci</strong>), las prue
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="7.a-Creamos-un-archivo-de-pruebas-para-la-funcion-factorial">7.a Creamos un archivo de pruebas para la funcion factorial<a class="anchor-link" href="#7.a-Creamos-un-archivo-de-pruebas-para-la-funcion-factorial">¶</a></h2><p>En la estructura estándar recomendada por <strong>pyOpenSci</strong>, los archivos de pruebas se guardan dentro de la carpeta <code>tests/</code> (o <code>tests/unit/</code>). Para que el motor de pruebas (<strong><code>pytest</code></strong>) reconozca automáticamente las funciones de test, <strong>el nombre del archivo debe comenzar siempre con el prefijo <code>test_</code></strong>.</p>
-<h3 id="7.a.1:-Navega-a">7.a.1: Navega a<a class="anchor-link" href="#7.a.1:-Navega-a">¶</a></h3><p><code>./NOTEBOOKS/PYTHON_CIENCIA_ABIERTA_2/tests/unit/</code>
+<h3 id="7.a.1:-Navega-a">7.a.1: Navega a<a class="anchor-link" href="#7.a.1:-Navega-a">¶</a></h3><p><code>./NOTEBOOKS/TUNOMBRE_PYTHON_CIENCIA_ABIERTA_2/tests/unit/</code>
 y borra el archivo por defecto <code>test_example.py</code></p>
 <h3 id="7.a.2:-Crea-el-archivo:">7.a.2: Crea el archivo:<a class="anchor-link" href="#7.a.2:-Crea-el-archivo:">¶</a></h3><p><code>test_my_factorial.py</code></p>
 <h3 id="7.a.3:-Copia-este-contenido-en-el-archivo:">7.a.3: Copia este contenido en el archivo:<a class="anchor-link" href="#7.a.3:-Copia-este-contenido-en-el-archivo:">¶</a></h3><div class="highlight"><pre><span></span><span class="sd">"""</span>
@@ -8264,7 +8285,7 @@ y borra el archivo por defecto <code>test_example.py</code></p>
     <span class="k">with</span> <span class="n">pytest</span><span class="o">.</span><span class="n">raises</span><span class="p">(</span><span class="ne">ValueError</span><span class="p">):</span>
         <span class="n">my_factorial</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">)</span>
 </pre></div>
-<h3 id="7.a.4:-Abre-un-terminal,-navega-a-la-carpeta-del-proyecto">7.a.4: Abre un terminal, navega a la carpeta del proyecto<a class="anchor-link" href="#7.a.4:-Abre-un-terminal,-navega-a-la-carpeta-del-proyecto">¶</a></h3><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>PYTHON_CIENCIA_ABIERTA_2
+<h3 id="7.a.4:-Abre-un-terminal,-navega-a-la-carpeta-del-proyecto">7.a.4: Abre un terminal, navega a la carpeta del proyecto<a class="anchor-link" href="#7.a.4:-Abre-un-terminal,-navega-a-la-carpeta-del-proyecto">¶</a></h3><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>TUNOMBRE_PYTHON_CIENCIA_ABIERTA_2
 </pre></div>
 <p>Ejecuta el shell de hatch</p>
 <div class="highlight"><pre><span></span>hatch<span class="w"> </span>shell
@@ -8304,8 +8325,8 @@ y borra el archivo por defecto <code>test_example.py</code></p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="7.b:-Pruebas-Unitarias-para-la-Clase-Persona-(test_persona.py)">7.b: Pruebas Unitarias para la Clase Persona (<code>test_persona.py</code>)<a class="anchor-link" href="#7.b:-Pruebas-Unitarias-para-la-Clase-Persona-(test_persona.py)">¶</a></h3><p>A continuación creamos un nuevo archivo de pruebas unitarias para validar de forma integral el comportamiento de la clase <strong><code>Persona</code></strong>, incluyendo la instanciación de investigadores, la ejecución de sus métodos (<code>saludar()</code>, <code>crecer()</code>), la actualización de propiedades con validación y la adición de nuevos centros del CSIC.</p>
-<h4 id="%F0%9F%93%81-7.b.1:-Navega-a">📁 7.b.1: Navega a<a class="anchor-link" href="#%F0%9F%93%81-7.b.1:-Navega-a">¶</a></h4><h2 id="./NOTEBOOKS/PYTHON_CIENCIA_ABIERTA_2/tests/unit/%0AY-crea-el-archivo:-test_persona.py"><code>./NOTEBOOKS/PYTHON_CIENCIA_ABIERTA_2/tests/unit/</code>
-Y crea el archivo: <code>test_persona.py</code><a class="anchor-link" href="#./NOTEBOOKS/PYTHON_CIENCIA_ABIERTA_2/tests/unit/%0AY-crea-el-archivo:-test_persona.py">¶</a></h2><h4 id="%F0%9F%92%BB-C%C3%B3digo-para-test_persona.py:">💻 Código para <code>test_persona.py</code>:<a class="anchor-link" href="#%F0%9F%92%BB-C%C3%B3digo-para-test_persona.py:">¶</a></h4><div class="highlight"><pre><span></span><span class="sd">"""</span>
+<h4 id="%F0%9F%93%81-7.b.1:-Navega-a">📁 7.b.1: Navega a<a class="anchor-link" href="#%F0%9F%93%81-7.b.1:-Navega-a">¶</a></h4><h2 id="./NOTEBOOKS/TUNOMBRE_PYTHON_CIENCIA_ABIERTA_2/tests/unit/%0AY-crea-el-archivo:-test_persona.py"><code>./NOTEBOOKS/TUNOMBRE_PYTHON_CIENCIA_ABIERTA_2/tests/unit/</code>
+Y crea el archivo: <code>test_persona.py</code><a class="anchor-link" href="#./NOTEBOOKS/TUNOMBRE_PYTHON_CIENCIA_ABIERTA_2/tests/unit/%0AY-crea-el-archivo:-test_persona.py">¶</a></h2><h4 id="%F0%9F%92%BB-C%C3%B3digo-para-test_persona.py:">💻 Código para <code>test_persona.py</code>:<a class="anchor-link" href="#%F0%9F%92%BB-C%C3%B3digo-para-test_persona.py:">¶</a></h4><div class="highlight"><pre><span></span><span class="sd">"""</span>
 <span class="sd">Módulo de pruebas unitarias para la clase Persona (adscripciones del CSIC).</span>
 <span class="sd">"""</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">pytest</span>

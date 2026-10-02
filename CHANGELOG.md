@@ -1,5 +1,20 @@
 # Changelog del Curso
 
+## [Optimización de Herramientas de Agentes OAI-PMH, Cuaderno 13 e Informes HTML/PDF] - 2026-10-02
+
+### Añadido y Actualizado
+- **Herramientas de Agentes de Ciencia Abierta (`lib/agent_tools.py`):**
+  - Implementada extracción y auditoría defensiva de metadatos `dc.rights` y `dc.rights.license` con mensajes de fallback exactos: `"dc.rights field identifier not found"` y `"dc.rights.license Not found"`.
+  - Añadida la herramienta `tool_generate_summary_report()` para generar informes estilizados en Markdown en `./doc/AGENT_REPORT/Agent_Summary_Report_YYYYMMDD_HHMMSS.md` con cabecera oficial y separadores.
+  - Sincronización completa con `.agents/skills/open-science-curator/scripts/agent_tools.py`.
+- **Refactorización de `NOTEBOOKS/13_DEMO_DESARROLLO_AGENTES_ANTIGRAVITY.ipynb`:**
+  - Incorporada aclaración didáctica destacada sobre la arquitectura en 3 capas (Reglas `.agents/rules/`, Habilidades `.agents/skills/` y Herramientas `lib/agent_tools.py`).
+  - Refactorizada la clase `OpenScienceAgent` para orquestar la llamadas a Gemini y delegar directamente en las herramientas puras de la librería.
+  - Validación programática mediante `nbclient` en `./venv` con 0 errores y celdas limpias de salidas de ejecución para el alumnado.
+- **Exportación Completa a HTML y PDF:**
+  - Exportados a HTML los 15 cuadernos del curso en `doc/HTML/`.
+  - Exportados a PDF los 15 cuadernos del curso en `doc/PDFS/` mediante renderizado vectorial con Google Chrome Headless.
+
 ## [Soporte Windows PowerShell y Verificación de Antigravity SDK] - 2026-10-02
 
 ### Añadido y Actualizado

@@ -7829,12 +7829,33 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img alt="Logo Curso" src="../../assets/LogoCurso_gemini.png"/></p>
+<p><img alt="Logo Curso" src="../assets/LogoCurso_gemini.png"/></p>
 <h1 id="M%C3%93DULO-09:-Introducci%C3%B3n-a-Google-Colaboratory-(Colab)-y-Computaci%C3%B3n-en-la-Nube">MÓDULO 09: Introducción a Google Colaboratory (Colab) y Computación en la Nube<a class="anchor-link" href="#M%C3%93DULO-09:-Introducci%C3%B3n-a-Google-Colaboratory-(Colab)-y-Computaci%C3%B3n-en-la-Nube">¶</a></h1><p><strong>Curso:</strong> Python para Ciencia Abierta (CSIC)<br/>
 <strong>Autor:</strong> Gustavo Liñán Cembrano<br/>
 <strong>Fechas:</strong> 5 a 8 de Octubre de 2026<br/>
 <strong>Tiempo Estimado de Impartición:</strong> 1 hora<br/>
 <strong>Módulo:</strong> 09 - Cloud Computing, Google Colab, Kaggle API Integration, GPU/TPU Hardware Acceleration &amp; Collaborative Data Science</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d167c002">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a href="../doc/PDFS/SLIDES/4_Intro_GoogleColab.pdf">Intro a Google Colab</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f34c2798">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <hr/>
 <h2 id="1.-Objetivos-de-Aprendizaje">1. Objetivos de Aprendizaje<a class="anchor-link" href="#1.-Objetivos-de-Aprendizaje">¶</a></h2><ul>
 <li><strong>Fundamentos de Computación en la Nube:</strong> Comprender qué es <strong>Google Colaboratory (Colab)</strong>, su arquitectura sobre máquinas virtuales Linux en la nube y su papel democratizador en la investigación científica.</li>
@@ -8357,7 +8378,7 @@ Para poder ejecutar y aprovechar al máximo las funcionalidades de este módulo 
 
 <span class="c1"># Histograma de Edad con Estimación de Densidad de Kernel (KDE)</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">histplot</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'Edad'</span><span class="p">],</span> <span class="n">bins</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">kde</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'steelblue'</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'Distribución Etaria de la Cohorte'</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'Distribución por edad'</span><span class="p">,</span> <span class="n">fontweight</span><span class="o">=</span><span class="s1">'bold'</span><span class="p">)</span>
 <span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">'Edad'</span><span class="p">)</span>
 <span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Frecuencia (Nº Pacientes)'</span><span class="p">)</span>
 
@@ -8371,6 +8392,25 @@ Para poder ejecutar y aprovechar al máximo las funcionalidades de este módulo 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4d52ba36">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Violin-plots">Violin plots<a class="anchor-link" href="#Violin-plots">¶</a></h2><p>🎻 ¿Qué es un Gráfico de Violín (Violin Plot)?
+Un Violin Plot es un gráfico estadístico avanzado que combina en una sola figura la información de un Boxplot (diagrama de caja) con una Estimación de Densidad del Núcleo (KDE) simétrica a ambos lados.</p>
+<p>Frente al Boxplot tradicional: No solo muestra los 5 estadísticos clave (mínimo, cuartil Q1, mediana, cuartil Q3 y máximo), sino que revela la forma real de la distribución de los datos (si es simétrica, bimodal, o si tiene sesgos y concentraciones específicas).</p>
+<ul>
+<li><p>Ancho de la silueta: Cuanto más ancha es la "barriga" del violín a una determinada altura, mayor es la densidad o cantidad de observaciones concentradas en ese valor.</p>
+</li>
+<li><p>Líneas interiores (inner='quartile'): Las tres líneas discontinuas dentro de cada violín marcan la mediana (línea central) y los cuartiles Q1 (25%) y Q3 (75%).</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8440,7 +8480,7 @@ Para poder ejecutar y aprovechar al máximo las funcionalidades de este módulo 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img alt="Logo Curso" src="../../assets/LogoCurso_gemini.png"/></p>
+<p><img alt="Logo Curso" src="../assets/LogoCurso_gemini.png"/></p>
 <h1 id="ANEXO-INTERACTIVO-(15-MIN):-Widgets-de-ipywidgets-y-Formularios-Din%C3%A1micos-en-Google-Colab">ANEXO INTERACTIVO (15 MIN): Widgets de <code>ipywidgets</code> y Formularios Dinámicos en Google Colab<a class="anchor-link" href="#ANEXO-INTERACTIVO-(15-MIN):-Widgets-de-ipywidgets-y-Formularios-Din%C3%A1micos-en-Google-Colab">¶</a></h1><p><strong>Curso:</strong> Python para Ciencia Abierta (CSIC)<br/>
 <strong>Autor:</strong> Gustavo Liñán Cembrano<br/>
 <strong>Fechas:</strong> 5 a 8 de Octubre de 2026<br/>

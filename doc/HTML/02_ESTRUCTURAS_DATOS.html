@@ -7802,7 +7802,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img alt="Logo Curso" src="../../assets/LogoCurso_gemini.png"/></p>
+<p><img alt="Logo Curso" src="../assets/LogoCurso_gemini.png"/></p>
 <h1 id="M%C3%93DULO-02:-Estructuras-de-Datos-en-Python-(Listas,-Tuplas,-Diccionarios-y-Conjuntos)">MÓDULO 02: Estructuras de Datos en Python (Listas, Tuplas, Diccionarios y Conjuntos)<a class="anchor-link" href="#M%C3%93DULO-02:-Estructuras-de-Datos-en-Python-(Listas,-Tuplas,-Diccionarios-y-Conjuntos)">¶</a></h1><p><strong>Curso:</strong> Python para Ciencia Abierta (CSIC)<br/>
 <strong>Autor:</strong> Gustavo Liñán Cembrano<br/>
 <strong>Fechas:</strong> 5 a 8 de Octubre de 2026<br/>
@@ -7826,7 +7826,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img alt="Cabecera del cuaderno" src="../../assets/LogoCurso_gemini.png"/></p>
+<p><img alt="Cabecera del cuaderno" src="../assets/LogoCurso_gemini.png"/></p>
 </div>
 </div>
 </div>
@@ -8257,8 +8257,11 @@ Esto se conoce como <strong>slicing</strong> o corte de secuencias. La sintaxis 
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Obtener una sublista del índice 2 al 5 (5 no incluido)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">numeros</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">5</span><span class="p">])</span>  <span class="c1"># salida: [2, 3, 4]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Obtener una sublista del índice 2 al 5 (6 no incluido)</span>
+<span class="n">numeros</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">34</span><span class="p">]</span>
+<span class="c1">#Indice.   0  1  2  3  4  5  6   7   8</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">numeros</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">6</span><span class="p">])</span>  <span class="c1"># salida: ??? </span>
 </pre></div>
 </div>
 </div>
@@ -8288,7 +8291,7 @@ Esto se conoce como <strong>slicing</strong> o corte de secuencias. La sintaxis 
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Desde el inicio hasta el índice 4</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">numeros</span><span class="p">[:</span><span class="mi">5</span><span class="p">])</span>   <span class="c1"># salida: [0, 1, 2, 3, 4]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numeros</span><span class="p">[:</span><span class="mi">5</span><span class="p">])</span>   
 </pre></div>
 </div>
 </div>
@@ -8303,7 +8306,7 @@ Esto se conoce como <strong>slicing</strong> o corte de secuencias. La sintaxis 
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Desde el índice 5 hasta el final</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">numeros</span><span class="p">[</span><span class="mi">5</span><span class="p">:])</span>   <span class="c1"># salida: [5, 6, 7, 8, 9]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numeros</span><span class="p">[</span><span class="mi">5</span><span class="p">:])</span>  
 </pre></div>
 </div>
 </div>
@@ -8334,7 +8337,7 @@ Esto se conoce como <strong>slicing</strong> o corte de secuencias. La sintaxis 
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Cada dos elementos</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">numeros</span><span class="p">[::</span><span class="mi">2</span><span class="p">])</span>  <span class="c1"># salida: [0, 2, 4, 6, 8]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numeros</span><span class="p">[::</span><span class="mi">2</span><span class="p">])</span>  <span class="c1"># salida ???</span>
 </pre></div>
 </div>
 </div>
@@ -8349,7 +8352,7 @@ Esto se conoce como <strong>slicing</strong> o corte de secuencias. La sintaxis 
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Sublista invertida de dos en dos</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">numeros</span><span class="p">[::</span><span class="o">-</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># salida: [9, 7, 5, 3, 1]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numeros</span><span class="p">[::</span><span class="o">-</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># salida ???</span>
 </pre></div>
 </div>
 </div>
@@ -9119,6 +9122,10 @@ Convierte la tupla <code>tupla</code> en una lista y muestra su tipo.</p>
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Obtener las claves del diccionario</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Claves del diccionario:"</span><span class="p">,</span> <span class="n">jugadores</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"---"</span> <span class="o">*</span><span class="mi">50</span><span class="p">)</span> <span class="c1">#Linea vacia</span>
+
+<span class="c1"># Si las queremos una a una</span>
+<span class="k">for</span> <span class="n">clave</span> <span class="ow">in</span> <span class="n">jugadores</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">clave</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>

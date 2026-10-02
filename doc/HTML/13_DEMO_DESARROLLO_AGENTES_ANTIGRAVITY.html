@@ -7893,12 +7893,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4449785c">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=4449785c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
@@ -7932,19 +7932,6 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>✅ PASO 1 Completado: Regla creada en la RAÍZ del proyecto: '/Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/.agents/rules/curacion_abierta.md'
-</pre>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=43e9b849">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7957,12 +7944,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=faa765a4">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=faa765a4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Definir la ruta en la raíz del proyecto: .agents/skills/open-science-curator/</span>
@@ -7995,19 +7982,6 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>✅ PASO 2 Completado: Habilidad de curación creada en la RAÍZ del proyecto: '/Users/linan/Desktop/RESEARCH/FORMACION/PYTHON_PARA_CIENCIA_ABIERTA_2/.agents/skills/open-science-curator/SKILL.md'
-</pre>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bbae5773">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -8028,42 +8002,90 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=38a4f235">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=38a4f235">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
-
-<span class="c1"># Importar las herramientas ejecutables formalizadas en lib/agent_tools.py</span>
-<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">(),</span> <span class="s2">".."</span><span class="p">)))</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">lib.mylib</span><span class="w"> </span><span class="kn">import</span> <span class="n">linea</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">lib.agent_tools</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
     <span class="n">tool_validate_identifier</span><span class="p">,</span>
     <span class="n">tool_fetch_digital_csic_real</span><span class="p">,</span>
-    <span class="n">tool_audit_open_access</span> <span class="k">as</span> <span class="n">tool_audit_open_license</span><span class="p">,</span>
-    <span class="n">tool_format_bibtex</span> <span class="k">as</span> <span class="n">tool_generate_bibtex</span>
+    <span class="n">tool_audit_open_access</span><span class="p">,</span>
+    <span class="n">tool_format_bibtex</span><span class="p">,</span>
+    <span class="n">tool_generate_summary_report</span>
 <span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"✅ PASO 3 Completado: 4 Herramientas ejecutables cargadas desde 'lib/agent_tools.py' para Function Calling con Gemini."</span><span class="p">)</span>
+<span class="n">current_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
+<span class="n">csv_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">current_dir</span><span class="p">,</span> <span class="s1">'..'</span><span class="p">,</span> <span class="s1">'DATASETS'</span><span class="p">,</span> <span class="s1">'asistentes_handles.csv'</span><span class="p">)</span> <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">current_dir</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'NOTEBOOKS'</span> <span class="k">else</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">current_dir</span><span class="p">,</span> <span class="s1">'DATASETS'</span><span class="p">,</span> <span class="s1">'asistentes_handles.csv'</span><span class="p">)</span>
+<span class="n">handles</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_path</span><span class="p">)[</span><span class="s1">'handle'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+
+<span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">linea</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"🚀 INICIANDO AUDITORÍA Y CURACIÓN BATCH CON EL AGENTE para digital.CSIC..."</span><span class="p">)</span>
+<span class="n">linea</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="n">handle</span> <span class="ow">in</span> <span class="n">handles</span><span class="p">[:</span><span class="mi">3</span><span class="p">]:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"🔎 PROCESANDO: </span><span class="si">{</span><span class="n">handle</span><span class="si">}</span><span class="s2">..."</span><span class="p">)</span>
+    
+    <span class="n">val</span> <span class="o">=</span> <span class="n">tool_validate_identifier</span><span class="p">(</span><span class="n">handle</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">val</span><span class="p">[</span><span class="s1">'valid'</span><span class="p">]:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"❌ Identificador inválido: </span><span class="si">{</span><span class="n">handle</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">continue</span>
+        
+    <span class="n">data</span> <span class="o">=</span> <span class="n">tool_fetch_digital_csic_real</span><span class="p">(</span><span class="n">handle</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">data</span><span class="p">[</span><span class="s1">'found'</span><span class="p">]:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"⚠️ No se encontraron metadatos para </span><span class="si">{</span><span class="n">handle</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">continue</span>
+        
+    <span class="n">audit</span> <span class="o">=</span> <span class="n">tool_audit_open_access</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">'rights'</span><span class="p">],</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'rights_license'</span><span class="p">))</span>
+    <span class="n">data</span><span class="p">[</span><span class="s1">'audit'</span><span class="p">]</span> <span class="o">=</span> <span class="n">audit</span>
+    
+    <span class="n">bibtex</span> <span class="o">=</span> <span class="n">tool_format_bibtex</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">'title'</span><span class="p">],</span> <span class="n">data</span><span class="p">[</span><span class="s1">'authors'</span><span class="p">],</span> <span class="n">data</span><span class="p">[</span><span class="s1">'year'</span><span class="p">],</span> <span class="n">data</span><span class="p">[</span><span class="s1">'handle'</span><span class="p">])</span>
+    <span class="n">data</span><span class="p">[</span><span class="s1">'bibtex'</span><span class="p">]</span> <span class="o">=</span> <span class="n">bibtex</span>
+    
+    <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   ✔ Título: </span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">'title'</span><span class="p">][:</span><span class="mi">60</span><span class="p">]</span><span class="si">}</span><span class="s2">..."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   ✔ Autores: </span><span class="si">{</span><span class="s1">', '</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">'authors'</span><span class="p">][:</span><span class="mi">2</span><span class="p">])</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   ✔ dc.rights: </span><span class="si">{</span><span class="n">audit</span><span class="p">[</span><span class="s1">'dc_rights'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   ✔ dc.rights.license: </span><span class="si">{</span><span class="n">audit</span><span class="p">[</span><span class="s1">'dc_rights_license'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   ✔ Estado Acceso Abierto: </span><span class="si">{</span><span class="n">audit</span><span class="p">[</span><span class="s1">'compliance_status'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.3</span><span class="p">)</span>
+
+<span class="n">linea</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"🎉 Demostración de herramientas completada: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">results</span><span class="p">)</span><span class="si">}</span><span class="s2"> registros procesados."</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>✅ PASO 3 Completado: 4 Herramientas ejecutable registradas para Function Calling con Gemini.
-</pre>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=duality_explanation_cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<blockquote>
+<p>💡 <strong>NOTA DIDÁCTICA: ¿POR QUÉ EXISTEN DOS UBICACIONES PARA <code>agent_tools.py</code>?</strong></p>
+<p>En este desarrollo observarás que los scripts ejecutables de las herramientas se guardan en dos ubicaciones dentro del repositorio:</p>
+<ol>
+<li><p><strong><code>lib/agent_tools.py</code> (Librería Estándar del Proyecto):</strong><br/>
+Permite una importación limpia y directa dentro del entorno Python del cuaderno mediante <code>from lib.agent_tools import ...</code>, aprovechando el paquete <code>lib</code> del proyecto sin necesidad de manipular rutas relativas complejas.</p>
+</li>
+<li><p><strong><code>.agents/skills/open-science-curator/scripts/agent_tools.py</code> (Empaquetado Autónomo de la Skill):</strong><br/>
+Cumple con el principio de <strong>Portabilidad de Habilidades (<em>Self-Contained Skills</em>)</strong> de Antigravity. Al incluir la lógica ejecutable dentro de la propia subcarpeta de la habilidad junto a su <code>SKILL.md</code>, la habilidad se vuelve <strong>100% autónoma</strong>. Esto permite copiar la carpeta <code>.agents/skills/open-science-curator/</code> a cualquier otro repositorio o centro del CSIC sin perder ninguna funcionalidad.</p>
+</li>
+</ol>
+</blockquote>
 </div>
 </div>
 </div>
@@ -8074,12 +8096,19 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="%F0%9F%93%8C-PASO-4:-Construir-la-Clase-OpenScienceAgent-con-el-SDK-de-Gemini-(google-genai)">📌 PASO 4: Construir la Clase <code>OpenScienceAgent</code> con el SDK de Gemini (<code>google-genai</code>)<a class="anchor-link" href="#%F0%9F%93%8C-PASO-4:-Construir-la-Clase-OpenScienceAgent-con-el-SDK-de-Gemini-(google-genai)">¶</a></h3><p>Ahora encapsularemos la lógica en la clase <strong><code>OpenScienceAgent</code></strong>, utilizando el SDK oficial <strong><code>google-genai</code></strong>:</p>
+<h3 id="%F0%9F%93%8C-PASO-4:-Implementaci%C3%B3n-de-la-Clase-OpenScienceAgent-(Orquestador-con-SDK-Gemini)">📌 PASO 4: Implementación de la Clase <code>OpenScienceAgent</code> (Orquestador con SDK Gemini)<a class="anchor-link" href="#%F0%9F%93%8C-PASO-4:-Implementaci%C3%B3n-de-la-Clase-OpenScienceAgent-(Orquestador-con-SDK-Gemini)">¶</a></h3><blockquote>
+<p>💡 <strong>ACLARACIÓN DIDÁCTICA: ¿POR QUÉ EXISTE LA CLASE <code>OpenScienceAgent</code> JUNTO A LAS HERRAMIENTAS <code>Tools</code>?</strong></p>
 <ol>
-<li><strong>Lectura de <code>.agents/</code>:</strong> El agente lee las directivas de <code>.agents/rules/curacion_abierta.md</code> y <code>.agents/skills/open-science-curator/SKILL.md</code>, configurándolas como <strong><code>system_instruction</code></strong> del modelo.</li>
-<li><strong>Registro de Herramientas:</strong> Pasa las funciones Python en la lista <strong><code>tools=[...]</code></strong> a <code>GenerateContentConfig</code>.</li>
-<li><strong>Llamadas a Gemini (<code>gemini-2.5-flash</code>):</strong> Gemini analiza el prompt del usuario, decide autónomamente qué herramientas invocar (<em>Function Calling</em>), recibe los resultados y compila el informe final.</li>
+<li><strong>Las Herramientas (<code>lib/agent_tools.py</code>)</strong>: Son funciones de Python puras, deterministas e independientes (<code>tool_fetch_digital_csic_real</code>, <code>tool_audit_open_access</code>, <code>tool_generate_summary_report</code>).</li>
+<li><strong>La Clase Agente (<code>OpenScienceAgent</code>)</strong>: Representa la entidad inteligente (el Agente autónomo). Su función es:<ul>
+<li>Cargar el contexto del proyecto (Reglas <code>.agents/rules/</code> y Habilidades <code>.agents/skills/</code>).</li>
+<li>Conectarse con el SDK de Gemini (<code>google.genai</code>).</li>
+<li>Ofrecer un método principal <code>process_publication_handle()</code> que envía el prompt y resuelve dinámicamente las herramientas mediante <strong>Function Calling</strong>.</li>
+<li>Ofrecer el método <code>generate_summary_report()</code>, el cual formatea la respuesta del agente e invoca a <code>tool_generate_summary_report()</code> cuando recibe un conjunto de publicaciones.</li>
+</ul>
+</li>
 </ol>
+</blockquote>
 </div>
 </div>
 </div>
@@ -8096,7 +8125,7 @@ a.anchor-link {
 <span class="kn">from</span><span class="w"> </span><span class="nn">google</span><span class="w"> </span><span class="kn">import</span> <span class="n">genai</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">google.genai</span><span class="w"> </span><span class="kn">import</span> <span class="n">types</span>
 
-<span class="c1"># 1. Cargar el archivo .env</span>
+<span class="c1"># 1. Cargar el archivo .env--&gt;Muy importante la gestion de SECRETOS!!!!!</span>
 <span class="n">env_loaded</span> <span class="o">=</span> <span class="n">load_dotenv</span><span class="p">()</span>
 <span class="c1"># 2. Verificar qué clave API específica se ha cargado</span>
 <span class="n">key_name</span> <span class="o">=</span> <span class="s2">"GEMINI_API_KEY"</span>
@@ -8132,16 +8161,26 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#El agente, creado como una clase que usa el SDK oficial de google-genai</span>
-
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Any</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Optional</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">google</span><span class="w"> </span><span class="kn">import</span> <span class="n">genai</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">google.genai</span><span class="w"> </span><span class="kn">import</span> <span class="n">types</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">lib.agent_tools</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
+    <span class="n">tool_validate_identifier</span><span class="p">,</span>
+    <span class="n">tool_fetch_digital_csic_real</span><span class="p">,</span>
+    <span class="n">tool_audit_open_access</span><span class="p">,</span>
+    <span class="n">tool_format_bibtex</span><span class="p">,</span>
+    <span class="n">tool_generate_summary_report</span>
+<span class="p">)</span>
 
 <span class="k">class</span><span class="w"> </span><span class="nc">OpenScienceAgent</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Agente Autónomo de Curación para Ciencia Abierta en el CSIC.</span>
-<span class="sd">    Realiza llamadas REALES al modelo Gemini utilizando el SDK oficial `google-genai`</span>
-<span class="sd">    y resolviendo Herramientas mediante Function Calling.</span>
+<span class="sd">    Orquesta el LLM Gemini (SDK `google-genai`), reglas `.agents/rules/`,</span>
+<span class="sd">    habilidades `.agents/skills/` y herramientas ejecutables (`lib/agent_tools.py`).</span>
+<span class="sd">    (c) Gustavo Liñán Cembrano</span>
 <span class="sd">    """</span>
-    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">agent_name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">"CSIC-Gemini-Agent"</span><span class="p">,</span> <span class="n">model_name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">"gemini-2.5-flash"</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">agent_name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">"CSIC-Gemini-Agent"</span><span class="p">,</span> <span class="n">model_name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">"gemini-3.6-flash"</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">agent_name</span> <span class="o">=</span> <span class="n">agent_name</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">model_name</span> <span class="o">=</span> <span class="n">model_name</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">history</span> <span class="o">=</span> <span class="p">[]</span>
@@ -8157,12 +8196,12 @@ a.anchor-link {
         <span class="c1"># Combinar Directivas y Habilidad como System Instruction para Gemini</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">system_instruction</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">rules_text</span><span class="si">}</span><span class="se">\n\n</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">skill_text</span><span class="si">}</span><span class="s2">"</span>
         
-        <span class="c1"># 3. Registrar Herramientas ejecutable para el LLM</span>
+        <span class="c1"># 3. Registrar Herramientas ejecutables para el LLM</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">tools</span> <span class="o">=</span> <span class="p">[</span>
             <span class="n">tool_validate_identifier</span><span class="p">,</span>
             <span class="n">tool_fetch_digital_csic_real</span><span class="p">,</span>
-            <span class="n">tool_audit_open_license</span><span class="p">,</span>
-            <span class="n">tool_generate_bibtex</span>
+            <span class="n">tool_audit_open_access</span><span class="p">,</span>
+            <span class="n">tool_format_bibtex</span>
         <span class="p">]</span>
         
         <span class="c1"># 4. Inicializar cliente Gemini si existe la API Key</span>
@@ -8191,7 +8230,7 @@ a.anchor-link {
 
     <span class="k">def</span><span class="w"> </span><span class="nf">process_publication_handle</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">handle_input</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
 <span class="w">        </span><span class="sd">"""</span>
-<span class="sd">        Ejecuta una llamada al LLM Gemini pasando las instrucciones del sistema y las Herramientas.</span>
+<span class="sd">        Ejecuta la orquestación del agente para un Handle dado.</span>
 <span class="sd">        """</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_log</span><span class="p">(</span><span class="sa">f</span><span class="s2">"=== INICIANDO TAREA: Curación Abierta para Handle '</span><span class="si">{</span><span class="n">handle_input</span><span class="si">}</span><span class="s2">' ==="</span><span class="p">)</span>
         
@@ -8228,55 +8267,40 @@ a.anchor-link {
             <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">_log</span><span class="p">(</span><span class="sa">f</span><span class="s2">"⚠️ Error en la llamada a la API de Gemini: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">. Pasando a respaldo directo."</span><span class="p">)</span>
 
-        <span class="c1"># Modo respaldo si no hay API Key o falla la llamada HTTP a Gemini</span>
+        <span class="c1"># Modo respaldo si no hay API Key o falla la llamada a Gemini</span>
         <span class="n">val_res</span> <span class="o">=</span> <span class="n">tool_validate_identifier</span><span class="p">(</span><span class="n">handle_input</span><span class="p">)</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">val_res</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"valid"</span><span class="p">):</span>
             <span class="k">return</span> <span class="p">{</span><span class="s2">"status"</span><span class="p">:</span> <span class="s2">"ERROR"</span><span class="p">,</span> <span class="s2">"reason"</span><span class="p">:</span> <span class="n">val_res</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"error"</span><span class="p">)}</span>
         <span class="n">fetch_res</span> <span class="o">=</span> <span class="n">tool_fetch_digital_csic_real</span><span class="p">(</span><span class="n">val_res</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"handle"</span><span class="p">,</span> <span class="n">handle_input</span><span class="p">))</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">fetch_res</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"found"</span><span class="p">):</span>
             <span class="k">return</span> <span class="p">{</span><span class="s2">"status"</span><span class="p">:</span> <span class="s2">"ERROR"</span><span class="p">,</span> <span class="s2">"reason"</span><span class="p">:</span> <span class="n">fetch_res</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"error"</span><span class="p">)}</span>
-        <span class="n">lic_res</span> <span class="o">=</span> <span class="n">tool_audit_open_license</span><span class="p">(</span><span class="n">fetch_res</span><span class="p">[</span><span class="s2">"data"</span><span class="p">][</span><span class="s2">"rights"</span><span class="p">])</span>
-        <span class="n">bib_code</span> <span class="o">=</span> <span class="n">tool_generate_bibtex</span><span class="p">(</span><span class="n">fetch_res</span><span class="p">[</span><span class="s2">"data"</span><span class="p">])</span>
+            
+        <span class="n">audit</span> <span class="o">=</span> <span class="n">tool_audit_open_access</span><span class="p">(</span><span class="n">fetch_res</span><span class="p">[</span><span class="s2">"rights"</span><span class="p">],</span> <span class="n">fetch_res</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"rights_license"</span><span class="p">))</span>
+        <span class="n">fetch_res</span><span class="p">[</span><span class="s2">"audit"</span><span class="p">]</span> <span class="o">=</span> <span class="n">audit</span>
+        <span class="n">fetch_res</span><span class="p">[</span><span class="s2">"bibtex"</span><span class="p">]</span> <span class="o">=</span> <span class="n">tool_format_bibtex</span><span class="p">(</span><span class="n">fetch_res</span><span class="p">[</span><span class="s2">"title"</span><span class="p">],</span> <span class="n">fetch_res</span><span class="p">[</span><span class="s2">"authors"</span><span class="p">],</span> <span class="n">fetch_res</span><span class="p">[</span><span class="s2">"year"</span><span class="p">],</span> <span class="n">fetch_res</span><span class="p">[</span><span class="s2">"handle"</span><span class="p">])</span>
         
-        <span class="k">return</span> <span class="p">{</span>
-            <span class="s2">"status"</span><span class="p">:</span> <span class="s2">"SUCCESS"</span><span class="p">,</span>
-            <span class="s2">"mode"</span><span class="p">:</span> <span class="s2">"DIRECT_TOOL_ORCHESTRATION"</span><span class="p">,</span>
-            <span class="s2">"applied_rule"</span><span class="p">:</span> <span class="s2">"curacion_abierta.md"</span><span class="p">,</span>
-            <span class="s2">"applied_skill"</span><span class="p">:</span> <span class="s2">"open-science-curator"</span><span class="p">,</span>
-            <span class="s2">"handle_info"</span><span class="p">:</span> <span class="n">val_res</span><span class="p">,</span>
-            <span class="s2">"metadata_real"</span><span class="p">:</span> <span class="n">fetch_res</span><span class="p">[</span><span class="s2">"data"</span><span class="p">],</span>
-            <span class="s2">"license_audit"</span><span class="p">:</span> <span class="n">lic_res</span><span class="p">,</span>
-            <span class="s2">"bibtex"</span><span class="p">:</span> <span class="n">bib_code</span>
-        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">fetch_res</span>
 
-    <span class="k">def</span><span class="w"> </span><span class="nf">generate_summary_report</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">result</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">generate_summary_report</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">result_or_results</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
 <span class="w">        </span><span class="sd">"""</span>
-<span class="sd">        Imprime el informe final de la tarea de curación.</span>
+<span class="sd">        Muestra la respuesta del agente o delega en `tool_generate_summary_report` si recibe un listado de publicaciones.</span>
 <span class="sd">        """</span>
-        <span class="k">if</span> <span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"status"</span><span class="p">)</span> <span class="o">!=</span> <span class="s2">"SUCCESS"</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">❌ ERROR EN LA TAREA DEL AGENTE: </span><span class="si">{</span><span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'reason'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-            <span class="k">return</span>
-
-        <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">--- INFORME FINAL GENERADO POR EL AGENTE ---"</span><span class="p">)</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"📋 Regla Aplicada: </span><span class="si">{</span><span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'applied_rule'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"💡 Habilidad Aplicada: </span><span class="si">{</span><span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'applied_skill'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"⚙️ Modo de Ejecución: </span><span class="si">{</span><span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'mode'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-        
-        <span class="k">if</span> <span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"mode"</span><span class="p">)</span> <span class="o">==</span> <span class="s2">"REAL_GEMINI_LLM"</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"🤖 Modelo Gemini Utilizado: </span><span class="si">{</span><span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'model'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">--- RESPUESTA AUTÓNOMA DE GEMINI (TOOL CALLING) ---"</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"llm_response"</span><span class="p">))</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">result_or_results</span><span class="p">,</span> <span class="nb">list</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">tool_generate_summary_report</span><span class="p">(</span><span class="n">result_or_results</span><span class="p">,</span> <span class="n">author_name</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">agent_name</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">result_or_results</span><span class="p">,</span> <span class="nb">dict</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">result_or_results</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"status"</span><span class="p">)</span> <span class="o">==</span> <span class="s2">"SUCCESS"</span> <span class="ow">and</span> <span class="s2">"llm_response"</span> <span class="ow">in</span> <span class="n">result_or_results</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">--- RESPUESTA AUTÓNOMA DEL AGENTE </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">agent_name</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">result_or_results</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'model'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Gemini'</span><span class="p">)</span><span class="si">}</span><span class="s2">) ---"</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="n">result_or_results</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"llm_response"</span><span class="p">))</span>
+                <span class="k">return</span> <span class="n">result_or_results</span>
+            <span class="k">elif</span> <span class="s2">"handle"</span> <span class="ow">in</span> <span class="n">result_or_results</span> <span class="ow">and</span> <span class="s2">"found"</span> <span class="ow">in</span> <span class="n">result_or_results</span> <span class="ow">and</span> <span class="n">result_or_results</span><span class="p">[</span><span class="s2">"found"</span><span class="p">]:</span>
+                <span class="k">return</span> <span class="n">tool_generate_summary_report</span><span class="p">([</span><span class="n">result_or_results</span><span class="p">],</span> <span class="n">author_name</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">agent_name</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">reason</span> <span class="o">=</span> <span class="n">result_or_results</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"reason"</span><span class="p">,</span> <span class="n">result_or_results</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"error"</span><span class="p">,</span> <span class="s2">"Resultado o identificador no procesable"</span><span class="p">))</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">⚠️ INFORME DEL AGENTE: </span><span class="si">{</span><span class="n">reason</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+                <span class="k">return</span> <span class="n">result_or_results</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="n">meta</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="s2">"metadata_real"</span><span class="p">]</span>
-            <span class="n">lic</span> <span class="o">=</span> <span class="n">result</span><span class="p">[</span><span class="s2">"license_audit"</span><span class="p">]</span>
-            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"📌 Handle Institucional: </span><span class="si">{</span><span class="n">meta</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'handle'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"🔗 Enlace Oficial: </span><span class="si">{</span><span class="n">meta</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'url'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"📖 Título Real: </span><span class="si">{</span><span class="n">meta</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'title'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"👥 Autores CSIC: </span><span class="si">{</span><span class="s1">', '</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'authors'</span><span class="p">,</span><span class="w"> </span><span class="p">[]))</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"📅 Año: </span><span class="si">{</span><span class="n">meta</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'year'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"📜 Licencia: </span><span class="si">{</span><span class="n">lic</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'status_summary'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">--- CITA BIBTEX COMPILADA ---"</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'bibtex'</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">ℹ️ Resultado del agente: </span><span class="si">{</span><span class="n">result_or_results</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+            <span class="k">return</span> <span class="p">{</span><span class="s2">"status"</span><span class="p">:</span> <span class="s2">"info"</span><span class="p">,</span> <span class="s2">"result"</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">result_or_results</span><span class="p">)}</span>
 </pre></div>
 </div>
 </div>
@@ -8303,7 +8327,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="%F0%9F%93%8C-PASO-5:-Pruebas-de-Ejecuci%C3%B3n-en-Vivo-con-Publicaciones-Reales-de-Digital.CSIC">📌 PASO 5: Pruebas de Ejecución en Vivo con Publicaciones Reales de Digital.CSIC<a class="anchor-link" href="#%F0%9F%93%8C-PASO-5:-Pruebas-de-Ejecuci%C3%B3n-en-Vivo-con-Publicaciones-Reales-de-Digital.CSIC">¶</a></h3><p>Ejecutaremos el agente con los Handles reales e imprimiremos el informe con <code>agent.generate_summary_report(result)</code>:</p>
+<h3 id="%F0%9F%93%8C-PASO-5:-Pruebas-de-Ejecuci%C3%B3n-en-Vivo-con-Publicaciones-Reales-de-Digital.CSIC">📌 PASO 5: Pruebas de Ejecución en Vivo con Publicaciones Reales de Digital.CSIC<a class="anchor-link" href="#%F0%9F%93%8C-PASO-5:-Pruebas-de-Ejecuci%C3%B3n-en-Vivo-con-Publicaciones-Reales-de-Digital.CSIC">¶</a></h3><p>Ejecutaremos el agente con los Handles reales e imprimiremos el informe con <code>agent.generate_summary_report(result)</code>. Vamos a leer algunos handles de digital.CSIC de los que sois autores o pertenecen a vuestro centro si no he encontrado publicaciones vuestras.</p>
 </div>
 </div>
 </div>
@@ -8315,10 +8339,19 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">handles</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s2">"10261/163587"</span><span class="p">,</span>
-    <span class="s2">"10261/187350"</span><span class="p">,</span>
-    <span class="s2">"10261/401353"</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+
+<span class="c1"># Cargar dinámicamente el archivo CSV de Handles de los asistentes y limpiar espacios (.str.strip())</span>
+<span class="n">current_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
+<span class="n">csv_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">current_dir</span><span class="p">,</span> <span class="s2">".."</span><span class="p">,</span> <span class="s2">"DATASETS"</span><span class="p">,</span> <span class="s2">"asistentes_handles.csv"</span><span class="p">)</span> <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">current_dir</span><span class="p">)</span> <span class="o">==</span> <span class="s2">"NOTEBOOKS"</span> <span class="k">else</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">current_dir</span><span class="p">,</span> <span class="s2">"DATASETS"</span><span class="p">,</span> <span class="s2">"asistentes_handles.csv"</span><span class="p">)</span>
+
+<span class="n">df_handles</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_path</span><span class="p">)</span>
+<span class="n">handles</span> <span class="o">=</span> <span class="n">df_handles</span><span class="p">[</span><span class="s1">'handle'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"✅ Se han cargado </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">handles</span><span class="p">)</span><span class="si">}</span><span class="s2"> identificadores Handle limpios desde '</span><span class="si">{</span><span class="n">csv_path</span><span class="si">}</span><span class="s2">':"</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">handle</span> <span class="ow">in</span> <span class="n">handles</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">handle</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8332,15 +8365,58 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">lib.mylib</span><span class="w"> </span><span class="kn">import</span> <span class="n">linea</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">lib.agent_tools</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
+    <span class="n">tool_validate_identifier</span><span class="p">,</span>
+    <span class="n">tool_fetch_digital_csic_real</span><span class="p">,</span>
+    <span class="n">tool_audit_open_access</span><span class="p">,</span>
+    <span class="n">tool_format_bibtex</span><span class="p">,</span>
+    <span class="n">tool_generate_summary_report</span>
+<span class="p">)</span>
+
+<span class="n">current_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
+<span class="n">csv_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">current_dir</span><span class="p">,</span> <span class="s1">'..'</span><span class="p">,</span> <span class="s1">'DATASETS'</span><span class="p">,</span> <span class="s1">'asistentes_handles.csv'</span><span class="p">)</span> <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">current_dir</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'NOTEBOOKS'</span> <span class="k">else</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">current_dir</span><span class="p">,</span> <span class="s1">'DATASETS'</span><span class="p">,</span> <span class="s1">'asistentes_handles.csv'</span><span class="p">)</span>
+<span class="n">handles</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_path</span><span class="p">)[</span><span class="s1">'handle'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+
+<span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">linea</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"🚀 INICIANDO AUDITORÍA Y CURACIÓN BATCH CON EL AGENTE para digital.CSIC..."</span><span class="p">)</span>
+<span class="n">linea</span><span class="p">()</span>
+
 <span class="k">for</span> <span class="n">handle</span> <span class="ow">in</span> <span class="n">handles</span><span class="p">:</span>
-    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="c1">#Le damos aire y no agobiamos al servidor ;)</span>
-    <span class="c1"># Petición REAL a Digital.CSIC</span>
-    <span class="n">linea</span><span class="p">(</span><span class="s2">"*"</span><span class="p">,</span><span class="mi">40</span><span class="p">)</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="n">agent</span><span class="o">.</span><span class="n">process_publication_handle</span><span class="p">(</span><span class="n">handle</span><span class="p">)</span>
-    <span class="n">agent</span><span class="o">.</span><span class="n">generate_summary_report</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-    <span class="n">linea</span><span class="p">(</span><span class="s2">"-"</span><span class="p">,</span><span class="mi">40</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"🔎 PROCESANDO: </span><span class="si">{</span><span class="n">handle</span><span class="si">}</span><span class="s2">..."</span><span class="p">)</span>
+    
+    <span class="n">val</span> <span class="o">=</span> <span class="n">tool_validate_identifier</span><span class="p">(</span><span class="n">handle</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">val</span><span class="p">[</span><span class="s1">'valid'</span><span class="p">]:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"❌ Identificador inválido: </span><span class="si">{</span><span class="n">handle</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">continue</span>
+        
+    <span class="n">data</span> <span class="o">=</span> <span class="n">tool_fetch_digital_csic_real</span><span class="p">(</span><span class="n">handle</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">data</span><span class="p">[</span><span class="s1">'found'</span><span class="p">]:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"⚠️ No se encontraron metadatos para </span><span class="si">{</span><span class="n">handle</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">continue</span>
+        
+    <span class="n">audit</span> <span class="o">=</span> <span class="n">tool_audit_open_access</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">'rights'</span><span class="p">],</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'rights_license'</span><span class="p">))</span>
+    <span class="n">data</span><span class="p">[</span><span class="s1">'audit'</span><span class="p">]</span> <span class="o">=</span> <span class="n">audit</span>
+    
+    <span class="n">bibtex</span> <span class="o">=</span> <span class="n">tool_format_bibtex</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">'title'</span><span class="p">],</span> <span class="n">data</span><span class="p">[</span><span class="s1">'authors'</span><span class="p">],</span> <span class="n">data</span><span class="p">[</span><span class="s1">'year'</span><span class="p">],</span> <span class="n">data</span><span class="p">[</span><span class="s1">'handle'</span><span class="p">])</span>
+    <span class="n">data</span><span class="p">[</span><span class="s1">'bibtex'</span><span class="p">]</span> <span class="o">=</span> <span class="n">bibtex</span>
+    
+    <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   ✔ Título: </span><span class="si">{</span><span class="n">data</span><span class="p">[</span><span class="s1">'title'</span><span class="p">][:</span><span class="mi">60</span><span class="p">]</span><span class="si">}</span><span class="s2">..."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   ✔ Autores: </span><span class="si">{</span><span class="s1">', '</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">'authors'</span><span class="p">][:</span><span class="mi">2</span><span class="p">])</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   ✔ dc.rights: </span><span class="si">{</span><span class="n">audit</span><span class="p">[</span><span class="s1">'dc_rights'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   ✔ dc.rights.license: </span><span class="si">{</span><span class="n">audit</span><span class="p">[</span><span class="s1">'dc_rights_license'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   ✔ Estado Acceso Abierto: </span><span class="si">{</span><span class="n">audit</span><span class="p">[</span><span class="s1">'compliance_status'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.3</span><span class="p">)</span>
+
+<span class="n">linea</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"🎉 Demostración de herramientas completada: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">results</span><span class="p">)</span><span class="si">}</span><span class="s2"> registros procesados."</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8429,7 +8505,7 @@ a.anchor-link {
 <hr/>
 <h3 id="%F0%9F%92%AC-Paso-2:-Interacci%C3%B3n-Directa-en-Lenguaje-Natural-(Chat-de-Antigravity-IDE)">💬 Paso 2: Interacción Directa en Lenguaje Natural (Chat de Antigravity-IDE)<a class="anchor-link" href="#%F0%9F%92%AC-Paso-2:-Interacci%C3%B3n-Directa-en-Lenguaje-Natural-(Chat-de-Antigravity-IDE)">¶</a></h3><p>Como investigador o desarrollador, <strong>no necesitas escribir código <code>requests</code> u <code>open()</code></strong>. Simplemente abres el panel de chat (<code>Cmd + L</code>) y le pides al Agente:</p>
 <p>💬 <strong>Prompt en el Chat de Antigravity-IDE</strong>:</p>
-<div class="highlight"><pre><span></span><span class="s2">"Agente, inspecciona la carpeta `DATASETS/FROM_DIGITALCSIC/`, lee el archivo `input_handles.csv` y muéstrame los Handles de Digital.CSIC registrados."</span>
+<div class="highlight"><pre><span></span><span class="s2">"Agente, inspecciona la carpeta `DATASETS/`, lee el archivo `asistentes_handles.csv` y muéstrame los Handles de Digital.CSIC registrados."</span>
 </pre></div>
 </div>
 </div>

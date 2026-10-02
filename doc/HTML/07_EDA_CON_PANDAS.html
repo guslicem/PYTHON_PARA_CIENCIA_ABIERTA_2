@@ -7802,7 +7802,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img alt="Logo Curso" src="../../assets/LogoCurso_gemini.png"/></p>
+<p><img alt="Logo Curso" src="../assets/LogoCurso_gemini.png"/></p>
 <h1 id="M%C3%93DULO-07:-An%C3%A1lisis-Exploratorio-de-Datos-(EDA)-y-Curaci%C3%B3n-de-Metadatos-Cient%C3%ADficos-de-Digital.CSIC">MÓDULO 07: Análisis Exploratorio de Datos (EDA) y Curación de Metadatos Científicos de Digital.CSIC<a class="anchor-link" href="#M%C3%93DULO-07:-An%C3%A1lisis-Exploratorio-de-Datos-(EDA)-y-Curaci%C3%B3n-de-Metadatos-Cient%C3%ADficos-de-Digital.CSIC">¶</a></h1><p><strong>Curso:</strong> Python para Ciencia Abierta (CSIC)<br/>
 <strong>Autor:</strong> Gustavo Liñán Cembrano<br/>
 <strong>Fechas:</strong> 5 a 8 de Octubre de 2026<br/>
@@ -7870,8 +7870,20 @@ a.anchor-link {
 <span class="n">root_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s2">".."</span><span class="p">)</span> <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="s2">"../lib"</span><span class="p">)</span> <span class="k">else</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s2">"."</span><span class="p">)</span>
 <span class="k">if</span> <span class="n">root_path</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="p">:</span>
     <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">root_path</span><span class="p">)</span>
-
-<span class="kn">import</span><span class="w"> </span><span class="nn">lib.digital_csic</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">dcsic</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=c400d7f5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">lib.digital_csic</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">dcsic</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">lib.mylib</span><span class="w"> </span><span class="kn">import</span> <span class="n">linea</span> <span class="k">as</span> <span class="n">linea</span>
 <span class="c1"># Ruta base flexible para el directorio DATASETS</span>
 <span class="n">datasets_dir</span> <span class="o">=</span> <span class="s2">"../DATASETS"</span> <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="s2">"../DATASETS"</span><span class="p">)</span> <span class="k">else</span> <span class="s2">"DATASETS"</span>
@@ -7882,6 +7894,23 @@ a.anchor-link {
 <span class="n">linea</span><span class="p">()</span>
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=aecba533">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="NOTA-PARA-EL-ALUMNADO-(PUNTOS-3-A-5):"><strong>NOTA PARA EL ALUMNADO (PUNTOS 3 A 5):</strong><a class="anchor-link" href="#NOTA-PARA-EL-ALUMNADO-(PUNTOS-3-A-5):">¶</a></h2><p>El código contenido en los puntos 3 a 5 se ejecuta exclusivamente para <strong>generar programáticamente una base de datos corrupta</strong> a partir de registros reales de <em>Digital.CSIC</em>.</p>
+<ul>
+<li><p><strong>No os preocupéis por la complejidad de este código generator:</strong> Es contenido avanzado fuera del alcance del curso.</p>
+</li>
+<li><p><strong>Su único propósito:</strong> Crear de forma automática un conjunto de datos "sucio" (con nulos, tipados erróneos, fechas incoherentes y duplicados) para que veamos las técnicas de exploración y limpieza con Pandas en este módulo.</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -7906,8 +7935,11 @@ a.anchor-link {
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Cargar lista completa de handles disponibles</span>
 <span class="n">handles_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">datasets_dir</span><span class="p">,</span> <span class="s2">"FROM_DIGITALCSIC"</span><span class="p">,</span> <span class="s2">"input_handles.csv"</span><span class="p">)</span>
+
 <span class="n">all_handles</span> <span class="o">=</span> <span class="n">dcsic</span><span class="o">.</span><span class="n">load_handles_from_file</span><span class="p">(</span><span class="n">handles_file</span><span class="p">)</span>
-<span class="n">NREGS</span><span class="o">=</span><span class="mi">100</span>
+
+<span class="n">NREGS</span><span class="o">=</span><span class="mi">50</span>
+
 <span class="n">linea</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Total de Handles disponibles en input_handles.csv: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">all_handles</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 
@@ -7961,8 +7993,7 @@ a.anchor-link {
 <h2 id="4.-Inyecci%C3%B3n-Controlada-de-Errores-(Corrupci%C3%B3n-del-Dataset)">4. Inyección Controlada de Errores (Corrupción del Dataset)<a class="anchor-link" href="#4.-Inyecci%C3%B3n-Controlada-de-Errores-(Corrupci%C3%B3n-del-Dataset)">¶</a></h2><p>En la práctica científica real, los datos frecuentemente sufren corrupciones durante la recolección, formateo o migración.</p>
 <p>Para aprender a detectar y reparar estos fallos, inyectaremos <strong>4 tipos de errores aleatorios</strong> sobre una copia de nuestro dataset:</p>
 <ol>
-<li><strong>Fechas Erróneas (5 dígitos):</strong> Multiplicar 5 años aleatorios por 10 (ej. <code>2021</code> $
-ightarrow$ <code>20210</code>).</li>
+<li><strong>Fechas Erróneas (5 dígitos):</strong> Multiplicar 5 años aleatorios por 10 (ej. <code>2021</code> --&gt; <code>20210</code>).</li>
 <li><strong>Filas Duplicadas:</strong> Duplicar aleatoriamente 5 registros mediante concatenación.</li>
 <li><strong>Handles Inexistentes:</strong> Sustituir 5 Handles por identificadores inexistentes en el servidor (ej. <code>10261/99999991</code>).</li>
 <li><strong>Resúmenes / Títulos Nulos:</strong> Inserción de 5 valores faltantes (<code>NaN</code> / <code>None</code>).</li>
@@ -8042,7 +8073,7 @@ ightarrow$ <code>20210</code>).</li>
     <span class="n">df_corrupted</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">idx</span><span class="p">,</span> <span class="s1">'handle'</span><span class="p">]</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"10261/9999999</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">"</span>
 
 <span class="n">linea</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"3. Inyectados 5 Handles inexistentes en el servidor (ej. 10261/99999990) en índices: </span><span class="si">{</span><span class="p">(</span><span class="n">indices_handle</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"3. Inyectados 5 Handles inexistentesen índices: </span><span class="si">{</span><span class="p">(</span><span class="n">indices_handle</span><span class="p">)</span><span class="si">}</span><span class="s2">.</span><span class="se">\n</span><span class="s2">Nuevo tamaño del dataset: </span><span class="si">{</span><span class="n">df_corrupted</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8113,7 +8144,8 @@ ightarrow$ <code>20210</code>).</li>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="5.-An%C3%A1lisis-Exploratorio-de-Datos-(EDA)-e-Inspecci%C3%B3n-Inicial">5. Análisis Exploratorio de Datos (EDA) e Inspección Inicial<a class="anchor-link" href="#5.-An%C3%A1lisis-Exploratorio-de-Datos-(EDA)-e-Inspecci%C3%B3n-Inicial">¶</a></h2><p>Comenzamos la fase de diagnóstico sobre el dataset corrompido <code>digital_csic_corrupted.csv</code> utilizando las funciones fundamentales de exploración en Pandas.</p>
+<h2 id="5.-An%C3%A1lisis-Exploratorio-de-Datos-(EDA)-e-Inspecci%C3%B3n-Inicial">5. Análisis Exploratorio de Datos (EDA) e Inspección Inicial<a class="anchor-link" href="#5.-An%C3%A1lisis-Exploratorio-de-Datos-(EDA)-e-Inspecci%C3%B3n-Inicial">¶</a></h2><p>Comenzamos la fase de diagnóstico sobre el dataset que hemos corrompido <code>digital_csic_corrupted.csv</code> utilizando las funciones fundamentales de exploración de datos en Pandas.</p>
+<hr/>
 </div>
 </div>
 </div>
@@ -8128,9 +8160,21 @@ ightarrow$ <code>20210</code>).</li>
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Cargar el dataset corrompido para iniciar la curación</span>
 <span class="n">corrupted_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">datasets_dir</span><span class="p">,</span> <span class="s2">"digital_csic_corrupted.csv"</span><span class="p">)</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">corrupted_file</span><span class="p">)</span>
-
-<span class="n">linea</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"1. Tamaño y forma del dataset (.shape): </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> filas, </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2"> columnas"</span><span class="p">)</span>
+<span class="n">linea</span><span class="p">(</span><span class="s1">'-'</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=d82ac1c5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"1. Tamaño y forma del dataset (.shape): </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> filas, </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2"> columnas"</span><span class="p">)</span>
 <span class="n">linea</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"2. Primeras 3 filas (.head(3)):"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">[[</span><span class="s1">'handle'</span><span class="p">,</span> <span class="s1">'year'</span><span class="p">,</span> <span class="s1">'title'</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
@@ -8272,6 +8316,9 @@ A menudo se utiliza la validación por <strong>expresiones regulares (Regex)</st
 <span class="c1"># a la columna handle</span>
 
 <span class="n">df_clean</span><span class="p">[</span><span class="s1">'valido'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_clean</span><span class="p">[</span><span class="s1">'handle'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">verificar_existencia_handle</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Registros tras verificar handle: </span><span class="si">{</span><span class="n">df_clean</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">linea</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>

@@ -7802,7 +7802,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img alt="Logo Curso" src="../../assets/LogoCurso_gemini.png"/></p>
+<p><img alt="Logo Curso" src="../assets/LogoCurso_gemini.png"/></p>
 <h1 id="M%C3%93DULO-06:-Introducci%C3%B3n-a-Pandas-para-el-An%C3%A1lisis-de-Datos-Cient%C3%ADficos">MÓDULO 06: Introducción a Pandas para el Análisis de Datos Científicos<a class="anchor-link" href="#M%C3%93DULO-06:-Introducci%C3%B3n-a-Pandas-para-el-An%C3%A1lisis-de-Datos-Cient%C3%ADficos">¶</a></h1><p><strong>Curso:</strong> Python para Ciencia Abierta (CSIC)<br/>
 <strong>Autor:</strong> Gustavo Liñán Cembrano<br/>
 <strong>Fechas:</strong> 5 a 8 de Octubre de 2026<br/>
@@ -7824,6 +7824,17 @@ a.anchor-link {
 <li><strong>Análisis Rápido de Relaciones:</strong> Calcular matrices de correlación lineal (<code>.corr()</code>) entre variables numéricas.</li>
 <li><strong>Exportación a Formatos Abiertos y Publicación:</strong> Exportar DataFrames a tablas LaTeX (<code>.to_latex()</code>), CSV (<code>.to_csv()</code>), Excel (<code>.to_excel()</code>), HTML (<code>.to_html()</code>) y JSON (<code>.to_json()</code>).</li>
 </ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9868484c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a href="../doc/PDFS/SLIDES/3_Trabajando_Con_Datos.pdf">Trabajando con Datos</a></p>
 </div>
 </div>
 </div>
@@ -7944,7 +7955,8 @@ a.anchor-link {
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Serie de Pandas resultante:"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">edades</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Tipo tras convertir: </span><span class="si">{</span><span class="nb">type</span><span class="p">(</span><span class="n">edades</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Segundo elemento (índice posicional 1): </span><span class="si">{</span><span class="n">edades</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">indice</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Segundo elemento (índice posicional [</span><span class="si">{</span><span class="n">indice</span><span class="si">}</span><span class="s2">]: </span><span class="si">{</span><span class="n">edades</span><span class="p">[</span><span class="n">indice</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="n">linea</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -8137,8 +8149,20 @@ En Pandas, la mayoría de los métodos devuelven una <strong>nueva copia</strong
 
 <span class="n">linea</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Tipo del objeto diccionario original: </span><span class="si">{</span><span class="nb">type</span><span class="p">(</span><span class="n">dataset_dict</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="c1"># Convertimos a DataFrame</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=bed16a0d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Convertimos a DataFrame</span>
 <span class="n">df_coches</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">dataset_dict</span><span class="p">)</span>
 
 <span class="n">linea</span><span class="p">()</span>
@@ -8290,11 +8314,25 @@ En Pandas, la mayoría de los métodos devuelven una <strong>nueva copia</strong
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Inspección del esquema técnico y tipos de datos</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Inspección del esquema técnico </span>
 <span class="n">linea</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Información del esquema (.info()):"</span><span class="p">)</span>
 <span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 <span class="n">linea</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=15af1e40">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Inspección de los tipos de datos </span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Tipos de datos por columna (.dtypes):"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span><span class="p">)</span>
@@ -8350,6 +8388,24 @@ En Pandas, la mayoría de los métodos devuelven una <strong>nueva copia</strong
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Registros originales: </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Valores nulos en 'precio': </span><span class="si">{</span><span class="n">df_simulado</span><span class="p">[</span><span class="s1">'precio'</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="n">linea</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=8ff4ac6f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># prueba a imprimir o ver qué tipo es df_simulado['precio'].isnull()</span>
+
+<span class="c1">#print(type(df_simulado['precio'].isnull()))</span>
+
+<span class="c1">#print(df_simulado['precio'].isnull())</span>
 </pre></div>
 </div>
 </div>
@@ -8466,8 +8522,47 @@ En Pandas, la mayoría de los métodos devuelven una <strong>nueva copia</strong
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Conversión a datetime con pd.to_datetime()</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">'fecha'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'year'</span><span class="p">],</span> <span class="nb">format</span><span class="o">=</span><span class="s1">'%Y-%m-</span><span class="si">%d</span><span class="s1">'</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">'coerce'</span><span class="p">)</span>
-
-<span class="c1"># Extracción de la componente de año (.dt.year)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6d7354b3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>NOTA: ¿Qué hace errors='coerce'?</strong></p>
+<p>El parámetro errors='coerce' le indica a Pandas que, si encuentra algún valor en la columna que no se pueda convertir a una fecha válida (por ejemplo, textos corruptos como "desconocido", formatos incorrectos como "31/02/2023", o valores nulos NaN), en lugar de detener la ejecución con un error (ValueError), fuerce la conversión transformando ese valor defectuoso en NaT (Not a Time).</p>
+<p>NaT es el equivalente a NaN en Pandas, pero específico para tipos de datos de fecha y hora (datetime64[ns]).</p>
+<p>Tienes 3 opciones de gestión de los errores:</p>
+<ul>
+<li><p>errors='raise' (Comportamiento por defecto):</p>
+<p>Si encuentra un solo dato inválido, detiene el programa y lanza un error ValueError.
+Ideal cuando necesitas garantizar que el 100% de los datos sean fechas perfectas.</p>
+</li>
+<li><p>errors='coerce' (Forzado defensivo / Recomendado en Ciencia Abierta):</p>
+<p>Convierte todos los valores problemáticos o no convertibles a NaT de forma silenciosa.
+Ideal para limpiar datasets sucios o del mundo real procedentes de repositorios abiertos.</p>
+</li>
+<li><p>errors='ignore' (Obsoleto en Pandas 2.0+):</p>
+<p>Si falla la conversión, devuelve la columna original sin modificar con su tipo previo (object).</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=fb6edeff">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Extracción de la componente de año (.dt.year)</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">'year_int'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'fecha'</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">year</span>
 
 <span class="n">linea</span><span class="p">()</span>
@@ -8490,12 +8585,12 @@ En Pandas, la mayoría de los métodos devuelven una <strong>nueva copia</strong
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=ffbe289a">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ffbe289a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Comparación directa de rangos en .loc vs .iloc</span>
@@ -8512,6 +8607,36 @@ En Pandas, la mayoría de los métodos devuelven una <strong>nueva copia</strong
 </div>
 </div>
 </div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>__________________________________________________
+Slicing con .loc[10:15] (incluye el índice 15):
+10    2005
+11    2005
+12    2006
+13    2006
+14    2006
+15    2006
+Name: year_int, dtype: int32
+__________________________________________________
+Slicing con .iloc[10:15] (excluye el extremo superior 15, muestra 10 a 14):
+10    2005
+11    2005
+12    2006
+13    2006
+14    2006
+Name: year_int, dtype: int32
+__________________________________________________
+</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9139b69c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -8523,12 +8648,12 @@ En Pandas, la mayoría de los métodos devuelven una <strong>nueva copia</strong
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=43333c16">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=43333c16">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Simulación de un dataset con duplicados</span>
@@ -8549,6 +8674,26 @@ En Pandas, la mayoría de los métodos devuelven una <strong>nueva copia</strong
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"¿Restaurado al estado original exacto? </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">equals</span><span class="p">(</span><span class="n">df_limpio</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="n">linea</span><span class="p">()</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>__________________________________________________
+Filas originales: 1386
+Filas con duplicados: 1391
+Filas duplicadas detectadas: 5
+__________________________________________________
+Filas tras .drop_duplicates(): 1386
+¿Restaurado al estado original exacto? True
+__________________________________________________
+</pre>
 </div>
 </div>
 </div>
@@ -8597,12 +8742,12 @@ En Pandas, la mayoría de los métodos devuelven una <strong>nueva copia</strong
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=ce5dc8cb">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ce5dc8cb">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
@@ -8619,6 +8764,56 @@ En Pandas, la mayoría de los métodos devuelven una <strong>nueva copia</strong
 <span class="n">linea</span><span class="p">()</span>
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>__________________________________________________
+Matriz de correlación (primeras 5 columnas):
+                  codigo_comunidad  precio   IPC  edad_media  mano_obra
+codigo_comunidad              1.00    0.12  0.03       -0.41       0.00
+precio                        0.12    1.00 -0.11       -0.26      -0.09
+IPC                           0.03   -0.11  1.00        0.30       0.99
+edad_media                   -0.41   -0.26  0.30        1.00       0.36
+mano_obra                     0.00   -0.09  0.99        0.36       1.00
+__________________________________________________
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=278be094">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Interpretaci%C3%B3n-del-Resultado-(Matriz-de-Correlaci%C3%B3n)">Interpretación del Resultado (Matriz de Correlación)<a class="anchor-link" href="#Interpretaci%C3%B3n-del-Resultado-(Matriz-de-Correlaci%C3%B3n)">¶</a></h3><p>La matriz obtenida muestra el coeficiente de correlación de Pearson ((r)) entre  5 variables numéricas del dataset. Este coeficiente mide el grado de asociación lineal entre pares de variables en un rango de -1.00 a +1.00:</p>
+<ol>
+<li><p>Diagonal Principal ((r = 1.00))
+Todos los elementos de la diagonal (codigo_comunidad, precio, IPC, etc.) son iguales a 1.00 porque miden la correlación de cada variable consigo misma (asociación lineal perfecta).</p>
+</li>
+<li><p>Relaciones Destacadas entre Variables:</p>
+<ul>
+<li><p>IPC vs. mano_obra ((r = 0.99)) — Correlación Positiva Casi Perfecta: Existe una relación lineal directa muy fuerte entre el Índice de Precios de Consumo (IPC) y la mano de obra. A medida que se incrementa el IPC, la variable de mano de obra crece en casi la misma proporción.</p>
+</li>
+<li><p>edad_media vs. mano_obra ((r = 0.36)) e IPC ((r = 0.30)) — Correlación Positiva Moderada: Muestra una tendencia débil-moderada en la que áreas con una edad media superior tienden a registrar valores ligeramente más altos en IPC y mano de obra.</p>
+</li>
+<li><p>precio vs. edad_media ((r = -0.26)) e IPC ((r = -0.11)) — Correlación Negativa Débil: Existe una ligera tendencia inversa: a mayor edad media de la población, se observa una pequeña reducción en el nivel de precios.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>MUCHO OJO!!!!!</strong></p>
+<p>Nota sobre codigo_comunidad ((r = -0.41) con edad_media):
+Aunque la matriz calcula una correlación de (-0.41) entre codigo_comunidad y edad_media, hay que recordar que codigo_comunidad es un identificador  numérico (ID de región), no una magnitud física continua. Calcular correlaciones de Pearson sobre códigos o IDs categóricos carece de sentido estadístico y no implica ninguna causalidad real.</p>
 </div>
 </div>
 </div>
