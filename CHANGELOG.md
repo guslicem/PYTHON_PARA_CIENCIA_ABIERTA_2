@@ -1,5 +1,14 @@
 # Changelog del Curso
 
+## [Soporte Windows PowerShell y Verificación de Antigravity SDK] - 2026-10-02
+
+### Añadido y Actualizado
+- **Actualización de `README.md`:**
+  - Añadida la solución explícita `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` para resolver los bloqueos de activación del entorno `venv` en Windows PowerShell.
+  - Añadido el comando directo de verificación del SDK de Antigravity/Gemini: `python -c "from google import genai; print('✔ Antigravity SDK instalado y listo.')"`.
+- **Actualización de `requirements.txt`:**
+  - Incorporado el paquete `google-antigravity>=0.1.0` bajo las dependencias del SDK de Inteligencia Artificial.
+
 ## [Exportación HTML de Cuadernos, PDFs de Cuestionarios y Actualización de README] - 2026-09-28
 
 ### Añadido y Actualizado

@@ -149,14 +149,23 @@ python3 -m venv venv
 # Activar el entorno virtual en macOS / Linux:
 source venv/bin/activate
 
-# Activar el entorno virtual en Windows:
-venv\Scripts\activate
+# Activar el entorno virtual en Windows (PowerShell):
+.\venv\Scripts\Activate.ps1
+
+# 💡 NOTA PARA WINDOWS: Si PowerShell bloquea la activación con un error de ExecutionPolicy, ejecuta:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# Alternativa en Windows mediante consola CMD tradicional:
+venv\Scripts\activate.bat
 ```
 
-### 3. Instalar Dependencias
+### 3. Instalar Dependencias y Verificar el SDK
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
+
+# Verificar que el SDK de Antigravity / Gemini está correctamente instalado:
+python -c "from google import genai; print('✔ Antigravity SDK instalado y listo.')"
 ```
 
 ### 4. Extensiones Recomendadas en Antigravity-IDE
