@@ -15,11 +15,15 @@ DOC_OFICIAL/
 # Carpetas de Trabajo Internas del Agente y del IDE
 .vscode/
 .agents/*
+!.agents/rules/
 !.agents/rules/curacion_abierta.md
 !.agents/rules/auditor_curso.md
+!.agents/skills/
+.agents/skills/*
 !.agents/skills/open-science-curator/
+!.agents/skills/open-science-curator/**
 !.agents/skills/course-content-auditor/
-
+!.agents/skills/course-content-auditor/**
 
 
 
