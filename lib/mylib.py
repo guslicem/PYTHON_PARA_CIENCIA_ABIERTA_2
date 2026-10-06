@@ -2,7 +2,6 @@
 
 import os
 
-
 from time import time,sleep
 
 def limpiar_pantalla():
@@ -34,11 +33,14 @@ def linea(caracter='*', longitud=100):
 if __name__ == "__main__":
     print("Probamos la funcion de limpiar pantalla, y la de imprimir linea")
     limpiar_pantalla()
-    help(limpiar_pantalla)
-    linea()
-    linea('@',25)
+  
     
+    linea()
+    sleep(5)
+    linea('--',25)
     print('Hola')
 
-    #limpiar_pantalla()
     linea('#', 30)
+
+    help(limpiar_pantalla)
+    print(limpiar_pantalla.__doc__)
